@@ -1,0 +1,44 @@
+{
+  "algorithm": "federated-prototype-budget-frontier",
+  "dataset": "sklearn-digits",
+  "dataset_generation_parameters": {
+    "alpha": 0.05,
+    "clients": 5,
+    "quantity_ratio_target": 5
+  },
+  "experiment_id": "v2fed-digits-c5-a005-s21",
+  "hyperparameters": {
+    "budget_fractions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "server_models": [
+      "nearest",
+      "logistic",
+      "mlp"
+    ],
+    "thresholds": [
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.v2_federated_digits:run",
+  "search": {
+    "campaign": "v2_federated_digits_v1",
+    "enabled": false
+  },
+  "seed": 21,
+  "study": "federated-risk-granularity-v2"
+}
