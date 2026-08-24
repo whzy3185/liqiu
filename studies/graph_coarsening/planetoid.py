@@ -8,8 +8,8 @@ def _read(path):
 def load_planetoid(root,name):
  root=Path(root);x,tx,allx,y,ty,ally,graph=[_read(root/f'ind.{name}.{part}') for part in ('x','tx','allx','y','ty','ally','graph')];test=np.array([int(x) for x in (root/f'ind.{name}.test.index').read_text().splitlines()]);test_sorted=np.sort(test)
  if name=='citeseer':
-  full=np.arange(test.min(),test.max()+1);extended=sp.lil_matrix((len(full),x.shape[1]));extended[test-full.min()]=tx;tx=extended;ey=np.zeros((len(full),y.shape[1]));ey[test-full.min()]=ty;ty=ey
- features=sp.vstack((allx,tx)).tolil();features[test,:]=features[test_sorted,:];labels=np.vstack((ally,ty));labels[test,:]=labels[test_sorted,:];n=labels.shape[0];rows=[];cols=[]
+  full=np.arange(test.min(),test.max()+1);extended=sp.lil_matrix((len(full),x.shape[1]));extended[test_sorted-full.min()]=tx;tx=extended;ey=np.zeros((len(full),y.shape[1]));ey[test_sorted-full.min()]=ty;ty=ey
+ features=sp.vstack((allx,tx)).tolil();features[test,:]=features[test_sorted,:].copy();labels=np.vstack((ally,ty));labels[test,:]=labels[test_sorted,:].copy();n=labels.shape[0];rows=[];cols=[]
  for i,neighbors in graph.items():
   for j in neighbors:
    if i<n and j<n:rows.append(i);cols.append(j)

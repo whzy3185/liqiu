@@ -1,0 +1,21 @@
+{
+  "algorithm": "gnn-heavy_edge-frontier",
+  "dataset": "planetoid-citeseer",
+  "dataset_generation_parameters": {
+    "dataset": "citeseer"
+  },
+  "experiment_id": "v2gnnfix-citeseer-heavy_edge-r25-s21",
+  "hyperparameters": {
+    "method": "heavy_edge",
+    "ratio": 0.25
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.v2_gnn_frontier:run",
+  "search": {
+    "campaign": "v2_gnn_frontier_citeseer_loader_fix",
+    "corrects": "Citeseer extended-matrix in-place reorder alias",
+    "enabled": false
+  },
+  "seed": 21,
+  "study": "gnn-risk-granularity-v2"
+}

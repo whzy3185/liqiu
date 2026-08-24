@@ -1,0 +1,21 @@
+{
+  "algorithm": "gnn-full-frontier",
+  "dataset": "planetoid-citeseer",
+  "dataset_generation_parameters": {
+    "dataset": "citeseer"
+  },
+  "experiment_id": "v2gnnfix-citeseer-full-r100-s21",
+  "hyperparameters": {
+    "method": "full",
+    "ratio": 1.0
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.v2_gnn_frontier:run",
+  "search": {
+    "campaign": "v2_gnn_frontier_citeseer_loader_fix",
+    "corrects": "Citeseer extended-matrix in-place reorder alias",
+    "enabled": false
+  },
+  "seed": 21,
+  "study": "gnn-risk-granularity-v2"
+}
