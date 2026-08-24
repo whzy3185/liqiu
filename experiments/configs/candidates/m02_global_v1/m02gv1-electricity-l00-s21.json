@@ -1,0 +1,20 @@
+{
+  "algorithm": "m02-global-validation-cost-control",
+  "dataset": "openml-151-electricity",
+  "dataset_generation_parameters": {
+    "max_samples": 5000,
+    "openml_data_id": 151
+  },
+  "experiment_id": "m02gv1-electricity-l00-s21",
+  "hyperparameters": {
+    "ball_cost_lambda": 0
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.m02_global_validation:run",
+  "search": {
+    "campaign": "m02_global_v1",
+    "enabled": false,
+    "role": "negative_control"
+  },
+  "seed": 21
+}

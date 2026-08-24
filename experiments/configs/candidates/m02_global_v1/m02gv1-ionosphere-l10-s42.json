@@ -1,0 +1,20 @@
+{
+  "algorithm": "m02-global-validation-cost-control",
+  "dataset": "openml-59-ionosphere",
+  "dataset_generation_parameters": {
+    "max_samples": 351,
+    "openml_data_id": 59
+  },
+  "experiment_id": "m02gv1-ionosphere-l10-s42",
+  "hyperparameters": {
+    "ball_cost_lambda": 0.1
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.m02_global_validation:run",
+  "search": {
+    "campaign": "m02_global_v1",
+    "enabled": false,
+    "role": "negative_control"
+  },
+  "seed": 42
+}
