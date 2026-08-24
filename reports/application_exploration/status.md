@@ -6,8 +6,7 @@ Updated: 2026-08-25.
 
 | Candidate | Status | Next cheap test |
 |---|---|---|
-| Hard-budget local regranulation | `P1` | concept/covariate/emerging streams; fixed bytes and update-time gate |
-| Batch active learning | `P1-low` | defer until the first two candidates are killed or promoted |
+| Batch active learning | `P1-low` | five small classification datasets; same-partition KMeans/coreset gate |
 
 ## P0
 
@@ -15,9 +14,7 @@ None.
 
 ## P1
 
-- Hard-budget local regranulation: the repository's sliding GBC rebuild is much
-  slower and less accurate than online SGD on concept drift. A local update can
-  continue only if it matches risk within 1 pp at less than 20% of rebuild time.
+No application is currently P1 after the first three kill tests.
 
 ## REJECTED
 
@@ -26,6 +23,8 @@ None.
 - Contextual cell-error cleaning: zero of 15 runs beat the strongest matched
   baseline by 3 pp AUPRC, and radius routing loses to the same-tree center-only
   ablation. Robust local statistics, not GB geometry, explain the useful signal.
+- Hard-budget local regranulation: only 5/9 runs meet the 1 pp risk gate, 3/9 meet
+  the update-time gate, and 0/9 show a 1 pp radius advantage over center-only.
 - Generic GB anomaly detection and time-series anomaly detection: directly
   occupied by multiple 2025-2026 methods, including AAAI 2026 GBOC/GVDD.
 - GB replay/prototype continual memory: BallIL, EG-CNN and strong non-GB compact
@@ -42,9 +41,9 @@ None.
 
 ## NEXT CHEAP TESTS
 
-1. Run the nine-cell hard-budget local regranulation test on concept, covariate
-   and emerging-class streams.
-2. Require risk within 1 pp of the best existing stream baseline, update time at
-   most 20% of sliding rebuild, and a fixed ball/byte cap in at least two shifts.
-3. If rejected, move to batch active learning. Do not return to anomaly, replay,
-   federated, open-world memory, generic drift sketches or cell cleaning.
+1. Run one matched batch-active-learning kill test. Query selection must use no
+   unseen labels and compare entropy, k-center and matched-K KMeans batches.
+2. Require label-budget Accuracy AUC improvement of at least .5 pp in at least
+   three datasets and a same-partition/radius attribution signal.
+3. If rejected, pause this exploration tranche: every remaining nearby role is
+   either directly occupied or has failed a matched non-GB baseline.

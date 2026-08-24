@@ -1,0 +1,21 @@
+{
+  "algorithm": "gb-hard-budget-local-online-memory",
+  "dataset": "synthetic-stream-emerging_class",
+  "dataset_generation_parameters": {
+    "stream_kind": "emerging_class"
+  },
+  "experiment_id": "apponline-emerging_class-s1",
+  "hyperparameters": {
+    "alpha": 0.35,
+    "expire_steps": 3,
+    "max_balls": 24
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_online_memory:run",
+  "search": {
+    "campaign": "app_online_memory_v1",
+    "enabled": false
+  },
+  "seed": 1,
+  "study": "granular-ball-application-online-memory"
+}

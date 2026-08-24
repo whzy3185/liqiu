@@ -1,0 +1,21 @@
+{
+  "algorithm": "gb-hard-budget-local-online-memory",
+  "dataset": "synthetic-stream-concept_drift",
+  "dataset_generation_parameters": {
+    "stream_kind": "concept_drift"
+  },
+  "experiment_id": "apponline-concept_drift-s21",
+  "hyperparameters": {
+    "alpha": 0.35,
+    "expire_steps": 3,
+    "max_balls": 24
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_online_memory:run",
+  "search": {
+    "campaign": "app_online_memory_v1",
+    "enabled": false
+  },
+  "seed": 21,
+  "study": "granular-ball-application-online-memory"
+}
