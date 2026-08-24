@@ -1,0 +1,20 @@
+{
+  "algorithm": "m04-global-brier-cost-control",
+  "dataset": "openml-151-electricity",
+  "dataset_generation_parameters": {
+    "max_samples": 5000,
+    "openml_data_id": 151
+  },
+  "experiment_id": "m04gv1-electricity-l02-s21",
+  "hyperparameters": {
+    "ball_cost_lambda": 0.02
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.m04_global_calibration:run",
+  "search": {
+    "campaign": "m04_global_v1",
+    "enabled": false,
+    "role": "negative_control"
+  },
+  "seed": 21
+}

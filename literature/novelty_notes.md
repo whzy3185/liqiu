@@ -48,10 +48,14 @@ only; Google Scholar/IEEE/ACM/Springer/ScienceDirect full-text checks remain.
 
 ### M04 — calibration-aware stop
 
-- NOVELTY_STATUS: `UNKNOWN` (no direct calibration/splitting title found).
+- NOVELTY_STATUS: `PARTIAL_COLLISION` (no direct GBC collision).
 - Closest: uncertainty-invariance 3WD and fuzzy granular-ball classifiers.
 - Difference to verify: held-out proper scoring rule/calibration controls split.
 - Reviewer objection: ECE-based tuning is statistically weak and may overfit.
+- Adjacent collision class: probability-estimation trees, including *Decision
+  Tree with Better Class Probability Estimation* (10.1142/S0218001409007296)
+  and improved class-probability tree estimators. A GBC result must connect
+  granulation decisions to proper-score/risk guarantees, not merely recalibrate.
 
 ### M08 — value-of-information split
 

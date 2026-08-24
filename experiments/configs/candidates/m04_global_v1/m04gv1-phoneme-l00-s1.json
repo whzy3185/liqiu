@@ -1,0 +1,20 @@
+{
+  "algorithm": "m04-global-brier-cost-control",
+  "dataset": "openml-1489-phoneme",
+  "dataset_generation_parameters": {
+    "max_samples": 5000,
+    "openml_data_id": 1489
+  },
+  "experiment_id": "m04gv1-phoneme-l00-s1",
+  "hyperparameters": {
+    "ball_cost_lambda": 0
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.m04_global_calibration:run",
+  "search": {
+    "campaign": "m04_global_v1",
+    "enabled": false,
+    "role": "negative_control"
+  },
+  "seed": 1
+}
