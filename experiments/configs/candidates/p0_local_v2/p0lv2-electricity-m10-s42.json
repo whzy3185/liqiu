@@ -1,0 +1,21 @@
+{
+  "algorithm": "p0-stable-local-pruning-sensitivity",
+  "dataset": "openml-151-electricity",
+  "dataset_generation_parameters": {
+    "max_samples": 5000,
+    "openml_data_id": 151
+  },
+  "experiment_id": "p0lv2-electricity-m10-s42",
+  "hyperparameters": {
+    "cost_per_leaf": 0,
+    "min_validation": 10
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.p0_local_pruning:run",
+  "search": {
+    "bounded_sensitivity": true,
+    "campaign": "p0_local_v2",
+    "enabled": false
+  },
+  "seed": 42
+}
