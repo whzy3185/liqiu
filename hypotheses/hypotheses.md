@@ -36,7 +36,7 @@ balls; ambient dimension and disconnected class regions alone are insufficient.
   author prediction, still not a
   research hypothesis because the causal statistic is unresolved.
 
-## Pre-hypothesis PH-003 — global purity creates incompatible local regimes
+## Research hypothesis H-003 — global purity creates incompatible regimes
 
 A single global purity stopping threshold cannot simultaneously avoid
 under-granulation, accuracy-neutral granule explosion, and harmful over-refinement
@@ -47,6 +47,8 @@ across heterogeneous data regions/datasets.
 - Observable regimes: Phoneme under-splitting phase transition; Electricity
   accuracy-neutral explosion; Ionosphere harmful over-refinement.
 - Counterpoint: Banknote benefits nearly monotonically from greater purity.
-- Status: cross-dataset replicated for original GBC, not yet cross-method.
-- Decisive next test: adaptive/GBG++/local-density generators and local-region
-  diagnostics under the same accuracy–granule-count objective.
+- Cross-method evidence: original purity-split GBC and author accelerated GBG
+  both reproduce incompatible regimes on real data.
+- Status: promoted research hypothesis; no repair mechanism selected.
+- Decisive next test: local-region diagnostics, then novelty-gated candidate
+  mechanisms under a joint accuracy–granule-count–calibration objective.

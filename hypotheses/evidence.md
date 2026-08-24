@@ -71,4 +71,16 @@ source. Contradictory evidence is never omitted from an aggregate conclusion.
 - Ionosphere exhibits non-monotonic accuracy and seed instability after p=0.80.
 - Banknote counterexample: greater purity improves accuracy monotonically to 1.0.
 - Conclusion: one global setting is not uniformly appropriate; cross-method
-  replication is still required before mechanism promotion.
+  replication was required before promotion.
+
+### H-003 accelerated-GB replication
+
+- A second 105-run scan uses author `gb_accelerate_upload.py` with full-dimensional
+  generation and boundary-distance prediction.
+- Phoneme again stays at one ball through p=0.70 and jumps to hundreds at p=0.80.
+- Electricity again grows from roughly one thousand balls at p=0.80 to roughly
+  1700 at p=1.00 for little accuracy gain.
+- Banknote favors high purity; Sonar's optimum occurs lower and is seed-sensitive;
+  Ionosphere has a different non-monotonic curve from original GBC.
+- H-003 is promoted as a cross-method real-data hypothesis. The evidence supports
+  adaptive/local stopping as a problem class, not any particular solution.

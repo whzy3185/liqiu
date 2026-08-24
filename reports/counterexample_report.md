@@ -120,6 +120,13 @@ O-004/PH-003 therefore concern a global-rule incompatibility, not a claim that
 high or low purity is universally preferable. Cross-method replication remains
 mandatory.
 
+The author accelerated-GB method then completed the same 105-run scan. It
+reproduces Phoneme's one-ball→hundreds-of-balls transition and Electricity's
+accuracy-neutral explosion. Dataset-specific best thresholds remain incompatible,
+although the exact Ionosphere/Sonar optima move with the generator. PH-003 is
+therefore promoted to H-003 as a cross-method, cross-real-dataset hypothesis.
+This promotes the problem—not “adaptive purity” or any other proposed solution.
+
 ## Next experiment
 
 Measure within-ball label mixing, boundary error and curvature/scale mismatch,

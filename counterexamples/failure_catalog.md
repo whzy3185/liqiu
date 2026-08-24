@@ -81,7 +81,8 @@ Status levels: `observation`, `replicated`, `cross-method`, `research-hypothesis
 
 ## O-004 — Global purity phase changes and incompatible optima
 
-- Status: `replicated` across five real datasets and three seeds; one GBC method.
+- Status: `research-hypothesis` evidence across two generation methods, five real
+  datasets, three seeds, and seven thresholds.
 - Evidence: 105-run purity scan over 0.60/0.70/0.80/0.85/0.90/0.95/1.00.
 - Phoneme: p=0.70 yields one ball and Accuracy 0.707; p=0.80 jumps to
   ~412 balls and Accuracy 0.848.
@@ -91,5 +92,7 @@ Status levels: `observation`, `replicated`, `cross-method`, `research-hypothesis
   refinement to p=1.00 (~71.7 balls) falls to 0.723.
 - Banknote favors p=1.00; Sonar favors p≈0.95–1.00. No global threshold is
   jointly optimal across datasets or across accuracy/structure cost.
-- Required cross-method test: GBG++, adaptive GBG, and local-density GBG under
-  the same purity/cost sweep.
+- Accelerated-GB cross-check reproduces the Phoneme under-splitting transition
+  and Electricity accuracy-neutral explosion. Dataset-specific best thresholds
+  and seed sensitivity persist, although exact optima differ by method.
+- Remaining scope test: GBG++, adaptive GBG, and local-density GBG.
