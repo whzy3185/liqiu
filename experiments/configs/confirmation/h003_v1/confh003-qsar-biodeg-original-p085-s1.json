@@ -1,0 +1,20 @@
+{
+  "algorithm": "confirmation-original-gbc-purity-path",
+  "claim_validation": true,
+  "confirmation_rationale": "Preregistered H-003 fixed-condition confirmation; no threshold selection or tuning.",
+  "dataset": "openml-1494-qsar-biodeg",
+  "dataset_generation_parameters": {
+    "max_samples": 1055,
+    "openml_data_id": 1494
+  },
+  "experiment_id": "confh003-qsar-biodeg-original-p085-s1",
+  "hyperparameters": {
+    "purity": 0.85
+  },
+  "pool": "confirmation",
+  "runner": "experiments.runners.real_gbc_trial:run",
+  "search": {
+    "enabled": false
+  },
+  "seed": 1
+}

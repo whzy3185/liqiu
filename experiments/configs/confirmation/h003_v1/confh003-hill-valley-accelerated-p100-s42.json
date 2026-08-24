@@ -1,0 +1,22 @@
+{
+  "algorithm": "confirmation-accelerated-gbc-purity-path",
+  "claim_validation": true,
+  "confirmation_rationale": "Preregistered H-003 fixed-condition confirmation; no threshold selection or tuning.",
+  "dataset": "openml-1479-hill-valley",
+  "dataset_generation_parameters": {
+    "max_samples": 1212,
+    "openml_data_id": 1479
+  },
+  "experiment_id": "confh003-hill-valley-accelerated-p100-s42",
+  "hyperparameters": {
+    "purity": 1.0
+  },
+  "pool": "confirmation",
+  "runner": "experiments.runners.real_accelerate_trial:run",
+  "search": {
+    "enabled": false
+  },
+  "seed": 42,
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_accelerate_upload.py"
+}

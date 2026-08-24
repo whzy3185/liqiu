@@ -1,0 +1,20 @@
+{
+  "algorithm": "confirmation-original-gbc-purity-path",
+  "claim_validation": true,
+  "confirmation_rationale": "Preregistered H-003 fixed-condition confirmation; no threshold selection or tuning.",
+  "dataset": "openml-44-spambase",
+  "dataset_generation_parameters": {
+    "max_samples": 4601,
+    "openml_data_id": 44
+  },
+  "experiment_id": "confh003-spambase-original-p100-s7",
+  "hyperparameters": {
+    "purity": 1.0
+  },
+  "pool": "confirmation",
+  "runner": "experiments.runners.real_gbc_trial:run",
+  "search": {
+    "enabled": false
+  },
+  "seed": 7
+}

@@ -1,0 +1,20 @@
+{
+  "algorithm": "confirmation-original-gbc-purity-path",
+  "claim_validation": true,
+  "confirmation_rationale": "Preregistered H-003 fixed-condition confirmation; no threshold selection or tuning.",
+  "dataset": "openml-1479-hill-valley",
+  "dataset_generation_parameters": {
+    "max_samples": 1212,
+    "openml_data_id": 1479
+  },
+  "experiment_id": "confh003-hill-valley-original-p070-s7",
+  "hyperparameters": {
+    "purity": 0.7
+  },
+  "pool": "confirmation",
+  "runner": "experiments.runners.real_gbc_trial:run",
+  "search": {
+    "enabled": false
+  },
+  "seed": 7
+}
