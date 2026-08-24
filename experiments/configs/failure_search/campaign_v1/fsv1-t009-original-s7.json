@@ -1,0 +1,34 @@
+{
+  "algorithm": "upstream-gbc-original-failure-trial",
+  "dataset": "failure-search-multimodal_class-v1",
+  "dataset_generation_parameters": {
+    "ambient_dimension": 100,
+    "curvature": 3.564025547447997,
+    "density_ratio": 1.1581285125668819,
+    "family": "multimodal_class",
+    "feature_noise": 0.0,
+    "imbalance_ratio": 1.7052574621532655,
+    "label_noise": "none",
+    "manifold_width": 0.238315424968655,
+    "n_samples": 400,
+    "noise_rate": 0.0,
+    "outlier_rate": 0.02,
+    "overlap": 0.26392373872953706,
+    "separation": 1.5460918427866033
+  },
+  "experiment_id": "fsv1-t009-original-s7",
+  "hyperparameters": {
+    "purity": 0.85
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.failure_trial:run",
+  "search": {
+    "campaign": "v1",
+    "enabled": true,
+    "trial": 9
+  },
+  "seed": 7,
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_origin.py",
+  "variant": "original"
+}

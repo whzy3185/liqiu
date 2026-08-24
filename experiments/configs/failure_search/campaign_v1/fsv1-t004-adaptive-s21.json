@@ -1,0 +1,32 @@
+{
+  "algorithm": "upstream-gbc-adaptive-failure-trial",
+  "dataset": "failure-search-checkerboard-v1",
+  "dataset_generation_parameters": {
+    "ambient_dimension": 2,
+    "curvature": 1.855271379837495,
+    "density_ratio": 6.010037824833724,
+    "family": "checkerboard",
+    "feature_noise": 0.0,
+    "imbalance_ratio": 1.9625162144063388,
+    "label_noise": "none",
+    "manifold_width": 0.13698089259707033,
+    "n_samples": 400,
+    "noise_rate": 0.0,
+    "outlier_rate": 0.0,
+    "overlap": 0.4876553051536516,
+    "separation": 2.2938019356672705
+  },
+  "experiment_id": "fsv1-t004-adaptive-s21",
+  "hyperparameters": {},
+  "pool": "exploration",
+  "runner": "experiments.runners.failure_trial:run",
+  "search": {
+    "campaign": "v1",
+    "enabled": true,
+    "trial": 4
+  },
+  "seed": 21,
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_adaptive_upload.py",
+  "variant": "adaptive"
+}

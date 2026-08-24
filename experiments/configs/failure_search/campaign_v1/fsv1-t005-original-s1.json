@@ -1,0 +1,34 @@
+{
+  "algorithm": "upstream-gbc-original-failure-trial",
+  "dataset": "failure-search-spirals-v1",
+  "dataset_generation_parameters": {
+    "ambient_dimension": 5,
+    "curvature": 1.2004337880331926,
+    "density_ratio": 2.781712493692058,
+    "family": "spirals",
+    "feature_noise": 0.1,
+    "imbalance_ratio": 8.759248563111361,
+    "label_noise": "symmetric",
+    "manifold_width": 0.1416846782410331,
+    "n_samples": 400,
+    "noise_rate": 0.2,
+    "outlier_rate": 0.02,
+    "overlap": 0.4369479552378716,
+    "separation": 2.7145789162162006
+  },
+  "experiment_id": "fsv1-t005-original-s1",
+  "hyperparameters": {
+    "purity": 0.85
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.failure_trial:run",
+  "search": {
+    "campaign": "v1",
+    "enabled": true,
+    "trial": 5
+  },
+  "seed": 1,
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_origin.py",
+  "variant": "original"
+}

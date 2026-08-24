@@ -1,0 +1,34 @@
+{
+  "algorithm": "upstream-gbc-original-failure-trial",
+  "dataset": "failure-search-anisotropic-v1",
+  "dataset_generation_parameters": {
+    "ambient_dimension": 2,
+    "curvature": 2.6900474107768533,
+    "density_ratio": 16.224438989870407,
+    "family": "anisotropic",
+    "feature_noise": 0.05,
+    "imbalance_ratio": 1.8407378512445658,
+    "label_noise": "boundary",
+    "manifold_width": 0.25953705012603784,
+    "n_samples": 400,
+    "noise_rate": 0.1,
+    "outlier_rate": 0.05,
+    "overlap": 0.41006311314173793,
+    "separation": 2.889572097101303
+  },
+  "experiment_id": "fsv1-t008-original-s1",
+  "hyperparameters": {
+    "purity": 0.85
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.failure_trial:run",
+  "search": {
+    "campaign": "v1",
+    "enabled": true,
+    "trial": 8
+  },
+  "seed": 1,
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_origin.py",
+  "variant": "original"
+}
