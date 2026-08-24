@@ -3,10 +3,10 @@
 Hypotheses remain falsifiable and specify affected method family, data region,
 observable outcome, competing explanation, and decisive experiment.
 
-## Pre-hypothesis PH-001 — high-dimensional XOR degradation
+## Refuted PH-001 — high-dimensional XOR degradation
 
-Not promoted to a research hypothesis. Campaign v1 suggests both original and
-adaptive GBC trail random forest on one d=100 XOR parameterization.
+Targeted replication rejects ambient dimension as the primary driver. Accuracy
+gaps do not worsen monotonically from d=2 to d=500.
 
 - Affected family: purity-split original GBC and adaptive split/overlap GBG.
 - Proposed region: XOR-like disconnected alternating labels after random
@@ -14,5 +14,16 @@ adaptive GBC trail random forest on one d=100 XOR parameterization.
 - Observable: negative held-out accuracy gap under shared preprocessing.
 - Competing explanations: RF-specific advantage, one projection, generator
   artifact, untuned purity, and distance concentration.
-- Decisive experiment: dimensions 2/5/10/20/50/100/500, rotation/projection and
-  overlap variants, seeds 1/7/21/42/2026, with RF/SVM/KNN references.
+- Decisive experiment: completed as XOR v1 (140 runs).
+
+## Pre-hypothesis PH-002 — overlap-driven alternating-label weakness
+
+Original and adaptive spherical GBC may systematically lose local alternating
+label structure as XOR overlap increases, independent of ambient dimension.
+
+- Evidence region: XOR overlap 0.25 across dimensions 2–500 and five seeds.
+- Observable: negative held-out accuracy gap against best RF/RBF-SVM/5-NN.
+- Current strength: 69/70 individual method/dimension/seed runs negative.
+- Missing: independent generator family, real-data analogue, clean-room method,
+  and mechanism measure connecting within-ball mixed labels to error.
+- Status: cross-method replicated observation, not research hypothesis.

@@ -2,13 +2,20 @@
 
 Status levels: `observation`, `replicated`, `cross-method`, `research-hypothesis`.
 
-## O-001 — High-dimensional XOR common weakness
+## O-001 — Overlap-driven XOR common weakness
 
-- Status: `observation` (cross-method within one generator/parameter draw; not yet `cross-method` catalog status)
-- Evidence: campaign v1 trial 003, experiments `fsv1-t003-*`, seeds 1/7/21.
-- Result: original gap −0.069; adaptive gap −0.050 versus random forest.
-- Alternative explanations: axis/projection interaction, reference inductive bias, hyperparameter mismatch, single generator draw.
-- Required replication: dimension/overlap grid, rotated XOR, five seeds, additional references.
+- Status: `cross-method` within one synthetic family; not a research hypothesis.
+- Evidence: 140-run XOR v1, dimensions 2/5/10/20/50/100/500,
+  overlaps 0.05/0.25, seeds 1/7/21/42/2026, original/adaptive author code,
+  and best-of RF/RBF-SVM/5-NN reference.
+- Result at overlap 0.25: original mean gap −0.090; adaptive mean gap
+  −0.069; 69/70 individual runs have a negative gap.
+- Falsified explanation: ambient dimension does not show monotonic degradation;
+  d=500 is not systematically worse than d=2.
+- Alternative explanations: nearest-center downstream choice, purity threshold,
+  synthetic XOR construction, and reference-model selection.
+- Required replication: alternate XOR/checkerboard generators, clean-room GBC
+  implementation, and a real dataset with alternating/disconnected local labels.
 
 ## O-002 — Method-specific split between moons and imbalanced density
 

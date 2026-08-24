@@ -31,6 +31,27 @@ The first bounded random search completed 72/72 runs: 12 parameter regions × tw
 
 No entry is promoted to a research hypothesis. High-dimensional XOR advances to targeted replication. Moons and imbalanced-density signals advance as method-specific red-team cases. Trial 009 is primarily a metric counterexample.
 
+## XOR targeted replication v1
+
+The decisive grid completed 140/140 runs over dimensions 2/5/10/20/50/100/500,
+overlaps 0.05/0.25, five seeds, and both original/adaptive author methods. Each
+run compares against RF, RBF-SVM, and 5-NN and uses the best reference accuracy.
+
+| Overlap | Original mean gap | Adaptive mean gap | Negative individual gaps |
+|---:|---:|---:|---:|
+| 0.05 | −0.025 | −0.035 | 62/70 |
+| 0.25 | −0.090 | −0.069 | 69/70 |
+
+The original high-dimensional explanation is refuted: d=500 is not
+systematically worse than d=2 and the dimension curve is non-monotonic. Overlap,
+not ambient dimension, is the stable control in this grid. O-001 is upgraded to
+a cross-method replicated observation, but it remains within one synthetic
+family and is not promoted to a research hypothesis.
+
 ## Next experiment
 
-Run a targeted grid over XOR ambient dimension {2,5,10,20,50,100,500}, overlap, rotation/projection, and five required seeds; add SVM/KNN and the S3WD structure where applicable. Rank by absolute accuracy gap first and use loss ratio only when reference loss exceeds a declared floor.
+Construct independent alternating-label generators (rotated/multi-cell XOR and
+controlled checkerboards), measure within-ball label mixing and boundary error,
+and repeat with a clean-room GBC implementation. Seek a real-data analogue before
+any mechanism proposal. Continue reporting absolute gaps; use loss ratio only
+when reference loss exceeds a declared floor.
