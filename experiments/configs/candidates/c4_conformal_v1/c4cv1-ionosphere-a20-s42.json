@@ -1,0 +1,20 @@
+{
+  "algorithm": "c4-gbc-split-conformal-audit",
+  "dataset": "openml-59-ionosphere",
+  "dataset_generation_parameters": {
+    "max_samples": 351,
+    "openml_data_id": 59
+  },
+  "experiment_id": "c4cv1-ionosphere-a20-s42",
+  "hyperparameters": {
+    "alpha": 0.2
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.c4_conformal_audit:run",
+  "search": {
+    "campaign": "c4_conformal_v1",
+    "enabled": false,
+    "role": "novelty_and_utility_audit"
+  },
+  "seed": 42
+}
