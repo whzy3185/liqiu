@@ -1,0 +1,21 @@
+{
+  "algorithm": "c2-sequential-three-way-purity-control",
+  "dataset": "openml-1489-phoneme",
+  "dataset_generation_parameters": {
+    "max_samples": 5000,
+    "openml_data_id": 1489
+  },
+  "experiment_id": "c2sv1-phoneme-d10-s1",
+  "hyperparameters": {
+    "ball_cost_lambda": 0.05,
+    "delta": 0.1
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.c2_sequential_global:run",
+  "search": {
+    "campaign": "c2_sequential_v1",
+    "enabled": false,
+    "role": "global_negative_control"
+  },
+  "seed": 1
+}

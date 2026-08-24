@@ -1,0 +1,21 @@
+{
+  "algorithm": "c2-sequential-three-way-purity-control",
+  "dataset": "openml-151-electricity",
+  "dataset_generation_parameters": {
+    "max_samples": 5000,
+    "openml_data_id": 151
+  },
+  "experiment_id": "c2sv1-electricity-d20-s1",
+  "hyperparameters": {
+    "ball_cost_lambda": 0.05,
+    "delta": 0.2
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.c2_sequential_global:run",
+  "search": {
+    "campaign": "c2_sequential_v1",
+    "enabled": false,
+    "role": "global_negative_control"
+  },
+  "seed": 1
+}
