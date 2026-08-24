@@ -1,0 +1,21 @@
+{
+  "algorithm": "author-accelerated-gbc-purity-scan",
+  "dataset": "openml-40-sonar",
+  "dataset_generation_parameters": {
+    "max_samples": 208,
+    "openml_data_id": 40
+  },
+  "experiment_id": "purav1-sonar-p080-s42",
+  "hyperparameters": {
+    "purity": 0.8
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.real_accelerate_trial:run",
+  "search": {
+    "campaign": "accelerate_purity_v1",
+    "enabled": true
+  },
+  "seed": 42,
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_accelerate_upload.py"
+}

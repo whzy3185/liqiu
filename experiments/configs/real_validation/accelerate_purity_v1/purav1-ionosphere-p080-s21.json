@@ -1,0 +1,21 @@
+{
+  "algorithm": "author-accelerated-gbc-purity-scan",
+  "dataset": "openml-59-ionosphere",
+  "dataset_generation_parameters": {
+    "max_samples": 351,
+    "openml_data_id": 59
+  },
+  "experiment_id": "purav1-ionosphere-p080-s21",
+  "hyperparameters": {
+    "purity": 0.8
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.real_accelerate_trial:run",
+  "search": {
+    "campaign": "accelerate_purity_v1",
+    "enabled": true
+  },
+  "seed": 21,
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_accelerate_upload.py"
+}

@@ -1,0 +1,21 @@
+{
+  "algorithm": "author-accelerated-gbc-purity-scan",
+  "dataset": "openml-1489-phoneme",
+  "dataset_generation_parameters": {
+    "max_samples": 5000,
+    "openml_data_id": 1489
+  },
+  "experiment_id": "purav1-phoneme-p090-s1",
+  "hyperparameters": {
+    "purity": 0.9
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.real_accelerate_trial:run",
+  "search": {
+    "campaign": "accelerate_purity_v1",
+    "enabled": true
+  },
+  "seed": 1,
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_accelerate_upload.py"
+}
