@@ -1,0 +1,21 @@
+{
+  "algorithm": "cleanroom-original-gbc-theory-construction",
+  "dataset": "h003-uninformative-q070",
+  "dataset_generation_parameters": {
+    "majority_probability": 0.7,
+    "n_test": 2000,
+    "n_train": 1000,
+    "regime": "uninformative"
+  },
+  "experiment_id": "th003v1-uninformative-p90-s2026",
+  "hyperparameters": {
+    "purity": 0.9
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.theory_h003_trial:run",
+  "search": {
+    "campaign": "theory_h003_v1",
+    "enabled": false
+  },
+  "seed": 2026
+}
