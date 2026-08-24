@@ -33,3 +33,10 @@ Knee, discrete-curvature and 1%-plateau rules were compared under nested
 validation. Their selected purity and held-out behavior disagree sharply; each
 has a catastrophic dataset/seed. M12 lacks a non-arbitrary statistical decision
 property and is removed from the candidate queue.
+
+### M02 local stable pruning — rejected
+
+A three-fold cross-fit local keep/split prototype reduced thousands of leaves to
+tens, but consistently lost Accuracy on Electricity and Phoneme. A bounded
+min-validation sensitivity check (5/10/20) did not rescue it. Sparse local
+validation is a structural limitation, not a tunable implementation detail.

@@ -39,3 +39,15 @@ failed experiment IDs, and any reusable insight.
 - Plateau helps Banknote/Phoneme but repeats Ionosphere over-refinement.
 - Conclusion: plausible knee definitions disagree across data and seeds. Without
   a derived risk property, “change point” is post-hoc hyperparameter selection.
+
+## 2026-08-24 — M02 local validation risk/cost pruning
+
+- Reason: mechanism failure plus generic cost-complexity/pruning collision.
+- Global control v2 helps some datasets but is unstable on Ionosphere/Sonar.
+- Local prototype: maximal-purity trees, three-fold cross-fit ensemble,
+  bottom-up keep/split validation, two-half stability guard and leaf cost.
+- Evidence: 45 runs across Electricity/Phoneme/Ionosphere (`p0lv1-*`,
+  `p0lv2-*`). Lowering min local validation from 20 to 5 does not remove held-out
+  Accuracy loss; Brier also usually worsens on Phoneme/Ionosphere.
+- Conclusion: validation data become too sparse exactly where local refinement
+  is needed. Ordinary local pruning is not a reliable H-003 repair.

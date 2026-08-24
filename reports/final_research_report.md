@@ -1,7 +1,7 @@
 # First Research Direction Ranking — 2026-08-24
 
 Eligibility evidence: 162 structured papers, five runnable core GBC/3WD author
-paths, 14 synthetic families, and 969 append-only experiment records. This is the
+paths, 14 synthetic families, and 1,014 append-only experiment records. This is the
 requested first Top 10, not the final 2–5 survivors. Only Candidate 1 currently
 has cross-method, cross-real-dataset evidence. MDL-based local construction is
 excluded after direct collision with arXiv:2605.11406.
@@ -22,7 +22,7 @@ H-003 经 original GBC 与 accelerated GBG、五个 OpenML 数据集、210 次 p
 
 ## Proposed Mechanism
 
-暂不锁定算法。候选核心是带重采样稳定保护的局部 split/keep/merge 决策，同时约束 held-out risk、proper score 和新增球成本。M01、M05、M12 已被淘汰。
+暂不锁定算法。局部 cross-fit pruning 也已失败；任何后续动作必须避免在小粒上耗尽验证样本，并同时约束 risk、proper score 和新增球成本。M01、M02、M05、M12 已被淘汰。
 
 ## Why Granular Computing?
 
@@ -42,7 +42,7 @@ MEDIUM–HIGH。局部验证和 cost-complexity 与决策树剪枝相邻，必�
 
 ## Result
 
-问题稳定存在。普通 global validation 有收益但在 Ionosphere 不稳定；单独优化 Brier 产生 Accuracy 冲突；confidence lower bound 加剧过分裂；膝点规则不稳定。
+问题稳定存在。普通 global validation、单目标 Brier、confidence bound、经验膝点和局部 cross-fit pruning 均在关键数据上失败。
 
 ## Theoretical Opportunity
 
@@ -58,7 +58,7 @@ CPU。局部 cross-fit/重采样可能增加 3–10 倍生成成本，需要 VOI
 
 ## Next Decisive Experiment
 
-实现最小的局部 cross-fit risk/cost action，先只在 Phoneme/Electricity/Ionosphere 上测试：必须同时减少 regret、球数和 seed sensitivity，否则放弃。
+转向 Candidate 2 的 sequential three-way/VOI 证据获取，或先完成 Candidate 6 的不可能性/样本复杂度分析；禁止继续调 local pruning 阈值。
 
 # Candidate 2
 
