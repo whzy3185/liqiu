@@ -98,6 +98,28 @@ configured 0.85 purity threshold in all 115 targeted runs, including runs with a
 the observed out-of-sample failure. Boundary stability and fragmentation need
 direct stress tests before a repair mechanism is proposed.
 
+## Public real data and purity sensitivity
+
+Five public OpenML datasets × five seeds all trail the best RF/RBF-SVM/5-NN
+reference at fixed purity 0.85. Mean gaps range from −0.047 (Banknote) to −0.240
+(Ionosphere). Electricity generates ~1637 balls from 3500 training samples and
+ECE 0.25; Ionosphere has only ~16 balls yet similarly poor calibration, so
+fragmentation is not a universal explanation.
+
+A separate 105-run purity scan exposes incompatible regimes:
+
+| Dataset | Key transition | Interpretation |
+|---|---|---|
+| Phoneme | p=.70: 1 ball/Acc .707 → p=.80: ~412 balls/Acc .848 | under-splitting phase change |
+| Electricity | p=.80: ~1277 balls/Acc .696 → p=1: ~1999/Acc .698 | accuracy-neutral explosion |
+| Ionosphere | p=.80: ~6.7 balls/Acc .770 → p=1: ~71.7/Acc .723 | harmful over-refinement |
+| Banknote | p=1 reaches Acc 1.000 | high purity beneficial |
+| Sonar | p≈.95–1 best | high purity beneficial but many small balls |
+
+O-004/PH-003 therefore concern a global-rule incompatibility, not a claim that
+high or low purity is universally preferable. Cross-method replication remains
+mandatory.
+
 ## Next experiment
 
 Measure within-ball label mixing, boundary error and curvature/scale mismatch,

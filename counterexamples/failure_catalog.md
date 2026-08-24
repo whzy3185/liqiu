@@ -67,3 +67,29 @@ Status levels: `observation`, `replicated`, `cross-method`, `research-hypothesis
   boundary-distance prediction, weakening the earlier fragmentation story.
 - Interpretation: purity-stop satisfaction is not evidence that a structure is
   reliable out of sample. Direct boundary/coverage stability measures are needed.
+
+### Public real-data update
+
+- Five OpenML datasets × five seeds all have negative GBC gaps against the best
+  of RF/RBF-SVM/5-NN under fixed purity 0.85.
+- Mean gaps: Banknote −0.047, Electricity −0.119, Ionosphere −0.240, Phoneme
+  −0.049, Sonar −0.089.
+- This supports a broad default-protocol weakness and purity-stop blindness, but
+  does not identify alternating boundaries as the cause.
+- Required controls: purity sensitivity, downstream/reference decomposition,
+  dataset-scale effects, and characterization of real local boundary mixing.
+
+## O-004 — Global purity phase changes and incompatible optima
+
+- Status: `replicated` across five real datasets and three seeds; one GBC method.
+- Evidence: 105-run purity scan over 0.60/0.70/0.80/0.85/0.90/0.95/1.00.
+- Phoneme: p=0.70 yields one ball and Accuracy 0.707; p=0.80 jumps to
+  ~412 balls and Accuracy 0.848.
+- Electricity: p=0.80→1.00 increases mean balls ~1277→1999 while mean Accuracy
+  stays approximately 0.696→0.698.
+- Ionosphere: best mean point is p=0.80 (~6.7 balls, Accuracy 0.770); further
+  refinement to p=1.00 (~71.7 balls) falls to 0.723.
+- Banknote favors p=1.00; Sonar favors p≈0.95–1.00. No global threshold is
+  jointly optimal across datasets or across accuracy/structure cost.
+- Required cross-method test: GBG++, adaptive GBG, and local-density GBG under
+  the same purity/cost sweep.

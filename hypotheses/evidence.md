@@ -54,3 +54,21 @@ source. Contradictory evidence is never omitted from an aggregate conclusion.
 - Sector-wheel corrected gaps remain negative in 29/30 runs across both methods.
 - V1 effect sizes were inflated by nearest-center prediction and are retained
   only as downstream-sensitivity evidence.
+
+### Public OpenML exploration
+
+- Ionosphere, Sonar, Banknote, Phoneme and Electricity each ran with five seeds.
+- All 25 fixed-purity GBC runs trail the best RF/RBF-SVM/5-NN reference.
+- Ionosphere has the largest mean gap (−0.240); Electricity follows (−0.119).
+- These are real-data failure observations but not PH-002 confirmation because
+  local interleaving/curvature has not been measured on the datasets.
+
+### PH-003 global-purity scan
+
+- 105/105 runs completed across five datasets, three seeds and seven thresholds.
+- Phoneme exhibits an under-splitting phase transition between p=0.70 and 0.80.
+- Electricity exhibits granule explosion with negligible post-0.80 accuracy gain.
+- Ionosphere exhibits non-monotonic accuracy and seed instability after p=0.80.
+- Banknote counterexample: greater purity improves accuracy monotonically to 1.0.
+- Conclusion: one global setting is not uniformly appropriate; cross-method
+  replication is still required before mechanism promotion.
