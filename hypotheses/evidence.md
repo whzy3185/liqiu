@@ -90,3 +90,14 @@ source. Contradictory evidence is never omitted from an aggregate conclusion.
 - `m02gv1-*` is invalid: the test matrix was transformed twice with incompatible
   scalers. The 45 records remain for audit but provide no hypothesis evidence.
 - Corrected `m02gv2-*` is required before drawing any conclusion.
+
+### Corrected M02 global control
+
+- `m02gv2-*` completes 45 runs with untouched test preprocessing.
+- Banknote gains about 0.023 Accuracy; Phoneme gains roughly 0.025–0.051
+  depending on λ.
+- Electricity λ=0.10 reduces hundreds of balls for near-zero mean Accuracy cost.
+- Ionosphere loses about 0.117 on average due to unstable high-purity selection;
+  Sonar has one degrading seed.
+- Conclusion: risk/cost information is useful, but single-split global validation
+  is not reliable. Any M02 continuation needs cross-fit/uncertainty stability.

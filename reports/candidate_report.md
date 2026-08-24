@@ -11,8 +11,10 @@ and three seeds. It improves Banknote/Sonar but exacerbates Electricity granule
 explosion and Ionosphere over-refinement. Because it also collides with generic
 small-sample tree-pruning principles, it is removed from the implementation queue.
 
-### M02 — v1 invalid; corrected v2 pending
+### M02 — mixed, lower priority
 
-The first 45-run global validation control double-scaled the test set after
-refitting preprocessing. All `m02gv1-*` records are retained as pipeline failures
-and excluded from evidence. M02 priority is unchanged until `m02gv2-*` completes.
+The first 45-run control (`m02gv1-*`) double-scaled test data and is invalid.
+Corrected `m02gv2-*` improves Banknote and Phoneme and finds a lower-cost
+Electricity setting, but catastrophically over-selects purity on one Ionosphere
+seed and slightly harms Sonar. M02 survives only as a local, resampling-stable
+risk/cost mechanism; ordinary single-split validation is an inadequate solution.
