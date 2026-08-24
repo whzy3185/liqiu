@@ -1,0 +1,21 @@
+{
+  "algorithm": "cleanroom-original-gbc-purity-scan",
+  "dataset": "openml-1462-banknote-authentication",
+  "dataset_generation_parameters": {
+    "max_samples": 1372,
+    "openml_data_id": 1462,
+    "subsampling": "stratified before split if source exceeds cap"
+  },
+  "experiment_id": "purv1-banknote-authentication-p060-s1",
+  "hyperparameters": {
+    "purity": 0.6
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.real_gbc_trial:run",
+  "search": {
+    "campaign": "real_purity_v1",
+    "enabled": true,
+    "purity": 0.6
+  },
+  "seed": 1
+}

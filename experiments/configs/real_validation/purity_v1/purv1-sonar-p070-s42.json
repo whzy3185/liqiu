@@ -1,0 +1,21 @@
+{
+  "algorithm": "cleanroom-original-gbc-purity-scan",
+  "dataset": "openml-40-sonar",
+  "dataset_generation_parameters": {
+    "max_samples": 208,
+    "openml_data_id": 40,
+    "subsampling": "stratified before split if source exceeds cap"
+  },
+  "experiment_id": "purv1-sonar-p070-s42",
+  "hyperparameters": {
+    "purity": 0.7
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.real_gbc_trial:run",
+  "search": {
+    "campaign": "real_purity_v1",
+    "enabled": true,
+    "purity": 0.7
+  },
+  "seed": 42
+}

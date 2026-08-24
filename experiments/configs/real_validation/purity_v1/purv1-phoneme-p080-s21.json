@@ -1,0 +1,21 @@
+{
+  "algorithm": "cleanroom-original-gbc-purity-scan",
+  "dataset": "openml-1489-phoneme",
+  "dataset_generation_parameters": {
+    "max_samples": 5000,
+    "openml_data_id": 1489,
+    "subsampling": "stratified before split if source exceeds cap"
+  },
+  "experiment_id": "purv1-phoneme-p080-s21",
+  "hyperparameters": {
+    "purity": 0.8
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.real_gbc_trial:run",
+  "search": {
+    "campaign": "real_purity_v1",
+    "enabled": true,
+    "purity": 0.8
+  },
+  "seed": 21
+}

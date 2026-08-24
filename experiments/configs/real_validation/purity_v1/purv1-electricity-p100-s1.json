@@ -1,0 +1,21 @@
+{
+  "algorithm": "cleanroom-original-gbc-purity-scan",
+  "dataset": "openml-151-electricity",
+  "dataset_generation_parameters": {
+    "max_samples": 5000,
+    "openml_data_id": 151,
+    "subsampling": "stratified before split if source exceeds cap"
+  },
+  "experiment_id": "purv1-electricity-p100-s1",
+  "hyperparameters": {
+    "purity": 1.0
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.real_gbc_trial:run",
+  "search": {
+    "campaign": "real_purity_v1",
+    "enabled": true,
+    "purity": 1.0
+  },
+  "seed": 1
+}
