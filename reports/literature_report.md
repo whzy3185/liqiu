@@ -19,9 +19,9 @@ claims or novelty decisions are made.
 |---:|---:|
 | 2026 | 33 |
 | 2025 | 41 |
-| 2024 | 18 |
-| 2023 | 13 |
-| 2022 | 18 |
+| 2024 | 20 |
+| 2023 | 12 |
+| 2022 | 17 |
 | 2021 | 10 |
 | 2020 | 12 |
 | 2019 | 9 |
@@ -35,7 +35,7 @@ claims or novelty decisions are made.
 
 | Venue | Papers |
 |---|---:|
-| Information Sciences | 22 |
+| Information Sciences | 23 |
 | Lecture Notes in Computer Science | 18 |
 | International Journal of Approximate Reasoning | 14 |
 | Applied Soft Computing | 11 |
@@ -47,9 +47,9 @@ claims or novelty decisions are made.
 | Symmetry | 3 |
 | Studies in Fuzziness and Soft Computing | 3 |
 | Applied Intelligence | 3 |
+| IEEE Transactions on Emerging Topics in Computational Intelligence | 2 |
 | Engineering Applications of Artificial Intelligence | 2 |
 | Mathematics | 2 |
-| Journal of Intelligent &amp; Fuzzy Systems | 2 |
 
 ## Evidence limitations
 

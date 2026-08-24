@@ -17,3 +17,9 @@ get_structure()
 `get_structure()` should expose granules, centers, radii, members, purity,
 labels, and uncertainty whenever the method defines them.
 
+## Upstream code policy
+
+`upstream_registry.csv` pins audited repository commits and license status.
+Unlicensed author code is cloned into ignored `work/upstreams/` and may be used
+for local research verification; it is not copied into this repository. A
+structure smoke test is not a paper-table reproduction.

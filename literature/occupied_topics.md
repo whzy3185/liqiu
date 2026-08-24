@@ -7,9 +7,9 @@ These clusters are discovery warnings, not final novelty verdicts.
 ### Granular-ball rough/neighborhood rough sets (35 records)
 
 - Constructing Three-Way Decision With Fuzzy Granular-Ball Rough Sets Based on Uncertainty Invariance (2025)
-- Three-Way Decision of Granular-Ball Rough Sets Based on Fuzziness (2024)
 - 3WC-GBNRS++: A Novel Three-Way Classifier With Granular-Ball Neighborhood Rough Sets Based on Uncertainty (2024)
 - GBRS: A Unified Granular-Ball Learning Model of Pawlak Rough Set and Neighborhood Rough Set (2025)
+- Three-Way Decision of Granular-Ball Rough Sets Based on Fuzziness (2024)
 - Granular ball-based fuzzy multineighborhood rough set for feature selection via label enhancement (2025)
 - Attribute Reduction Method Based on Improved Granular Ball Neighborhood Rough Set (2022)
 - Rule Inference Network based on Improved Granular Ball Neighborhood Rough Set (2024)
@@ -38,10 +38,10 @@ These clusters are discovery warnings, not final novelty verdicts.
 
 ### Granular-ball three-way decisions (19 records)
 
-- Granular-Ball Three-Way Decision (2023)
 - Constructing Three-Way Decision With Fuzzy Granular-Ball Rough Sets Based on Uncertainty Invariance (2025)
-- Three-Way Decision of Granular-Ball Rough Sets Based on Fuzziness (2024)
 - 3WC-GBNRS++: A Novel Three-Way Classifier With Granular-Ball Neighborhood Rough Sets Based on Uncertainty (2024)
+- Granular-Ball Three-Way Decision (2023)
+- Three-Way Decision of Granular-Ball Rough Sets Based on Fuzziness (2024)
 - Boundary-driven granular ball generation and classification via three-way decision (2026)
 - Granular-Ball Three-Way Decision for Robust Text Classification (2025)
 - A Granular-Ball SVM Based on Three-Way Decision (2025)
@@ -52,7 +52,7 @@ These clusters are discovery warnings, not final novelty verdicts.
 - Three-way granular-ball clustering based on density peaks (2025)
 - …and 7 more in `component_matrix.csv`.
 
-### Sequential three-way decisions (29 records)
+### Sequential three-way decisions (28 records)
 
 - MFGB-S3W Denoiser: Multi-scale Fuzzy Granular-Ball and Sequential Three-Way Decision for Remote Sensing Image Denoising (2026)
 - Sequential Three-Way Decision of Tolerance- Based Multi-Granularity Fuzzy-Rough Sets (2019)
@@ -66,7 +66,7 @@ These clusters are discovery warnings, not final novelty verdicts.
 - A Sequential Three-Way Decision Model With Intuitionistic Fuzzy Numbers (2021)
 - Mixed data-driven sequential three-way decision via subjective–objective dynamic fusion (2022)
 - Generalized multigranulation sequential three-way decision models for hierarchical classification (2022)
-- …and 17 more in `component_matrix.csv`.
+- …and 16 more in `component_matrix.csv`.
 
 ### Multigranulation rough sets (2 records)
 

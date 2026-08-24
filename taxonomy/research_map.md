@@ -11,11 +11,11 @@ mechanisms in the paper.
 
 | Component | Papers |
 |---|---:|
-| decision analysis | 92 |
-| classification | 35 |
+| decision analysis | 91 |
+| classification | 38 |
 | feature selection | 29 |
-| clustering | 18 |
-| anomaly/outlier detection | 12 |
+| clustering | 17 |
+| anomaly/outlier detection | 11 |
 | stream/online learning | 7 |
 | graph learning | 3 |
 | regression | 1 |
@@ -25,9 +25,9 @@ mechanisms in the paper.
 
 | Component | Papers |
 |---|---:|
-| granular ball | 75 |
+| granular ball | 76 |
 | rough-set approximation | 75 |
-| points/objects or not reported | 43 |
+| points/objects or not reported | 42 |
 | fuzzy granule | 22 |
 | rough-set neighborhood | 19 |
 | shadowed set | 6 |
@@ -38,11 +38,11 @@ mechanisms in the paper.
 
 | Component | Papers |
 |---|---:|
-| granular-ball generation | 75 |
+| granular-ball generation | 76 |
 | fuzzy | 22 |
 | neighborhood | 19 |
+| adaptive/dynamic | 6 |
 | multi-granulation | 6 |
-| adaptive/dynamic | 5 |
 | local-density | 4 |
 | hierarchical/multi-level | 3 |
 
@@ -50,7 +50,7 @@ mechanisms in the paper.
 
 | Component | Papers |
 |---|---:|
-| three-way boundary/defer region | 97 |
+| three-way boundary/defer region | 96 |
 | fuzzy membership | 17 |
 | probabilistic | 11 |
 | entropy | 10 |
@@ -60,10 +60,10 @@ mechanisms in the paper.
 
 | Component | Papers |
 |---|---:|
-| three-way accept/defer/reject | 88 |
-| classification decision | 35 |
+| three-way accept/defer/reject | 87 |
+| classification decision | 38 |
 | ranking/selection | 29 |
-| cluster assignment | 18 |
+| cluster assignment | 17 |
 
 ## Downstream
 
@@ -71,25 +71,25 @@ mechanisms in the paper.
 |---|---:|
 | rough-set reducer | 29 |
 | SVM | 4 |
+| kNN | 4 |
 | neural network | 3 |
-| kNN | 3 |
 | graph neural network | 2 |
 
 ## Noise
 
 | Component | Papers |
 |---|---:|
-| outliers | 8 |
+| outliers | 7 |
 | label noise | 2 |
 
 ## Repeated component signatures
 
 | Signature | Papers |
 |---|---:|
-| points/objects or not reported → unresolved → three-way accept/defer/reject → unresolved | 34 |
+| points/objects or not reported → unresolved → three-way accept/defer/reject → unresolved | 33 |
 | rough-set approximation → unresolved → three-way accept/defer/reject → unresolved | 15 |
-| granular ball → granular-ball generation → cluster assignment → unresolved | 7 |
 | rough-set approximation + fuzzy granule → fuzzy → three-way accept/defer/reject → unresolved | 6 |
+| granular ball → granular-ball generation → cluster assignment → unresolved | 6 |
 | granular ball → granular-ball generation → unresolved → unresolved | 6 |
 | granular ball + rough-set approximation → granular-ball generation → ranking/selection → rough-set reducer | 5 |
 | granular ball + rough-set neighborhood + rough-set approximation → granular-ball generation + neighborhood → classification decision + ranking/selection → rough-set reducer | 4 |
@@ -100,7 +100,7 @@ mechanisms in the paper.
 | granular ball + rough-set approximation → granular-ball generation → unresolved → unresolved | 3 |
 | rough-set neighborhood + rough-set approximation → neighborhood → unresolved → unresolved | 3 |
 | points/objects or not reported → unresolved → three-way accept/defer/reject + classification decision → unresolved | 3 |
-| granular ball → granular-ball generation → three-way accept/defer/reject → unresolved | 2 |
+| granular ball + rough-set approximation + fuzzy granule → granular-ball generation + fuzzy → three-way accept/defer/reject + classification decision → unresolved | 2 |
 
 ## What can already be said
 

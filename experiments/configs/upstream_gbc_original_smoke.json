@@ -1,0 +1,13 @@
+{
+  "algorithm": "upstream-gbc-original-generation",
+  "dataset": "moons-upstream-smoke-v1",
+  "dataset_generation_parameters": {"n_samples": 300, "noise": 0.12},
+  "pool": "exploration",
+  "seed": 42,
+  "runner": "experiments.runners.upstream_gbc_smoke:run",
+  "variant": "original",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_origin.py",
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "hyperparameters": {"purity": 0.85},
+  "search": {"enabled": false}
+}

@@ -47,6 +47,15 @@ FOUNDATIONAL_QUERIES = [
     "granular computing", "rough sets Pawlak", "three-way decisions Yao",
     "justifiable granularity Pedrycz", "shadowed sets Pedrycz",
 ]
+MUST_INCLUDE_DOIS = {
+    "10.1016/j.ins.2019.01.010",   # Original GBC classifiers
+    "10.1109/tnnls.2022.3203381", # Efficient/adaptive GB generation
+    "10.1109/tetci.2024.3359091", # GBG++
+    "10.1016/j.ins.2025.122295",  # Local-density GB generation
+    "10.1109/tnnls.2023.3325199", # Unified GBRS
+    "10.1109/tfuzz.2024.3397697", # 3WC-GBNRS++
+    "10.1109/tfuzz.2025.3536564", # Fuzzy GBRS three-way decision
+}
 
 PAPER_FIELDS = [
     "paper_id", "title", "year", "venue", "doi", "openalex_id", "url",
@@ -536,7 +545,15 @@ def main() -> int:
         )
         print(f"Cached {len(discovered)} Crossref candidates.", flush=True)
     discovered = _dedupe_versions(discovered)
-    relevant = [item for item in discovered if _is_relevant(item)][:args.limit]
+    relevant_all = [item for item in discovered if _is_relevant(item)]
+    pinned = [item for item in relevant_all if str(item.get("DOI", "")).lower() in MUST_INCLUDE_DOIS]
+    missing_pins = MUST_INCLUDE_DOIS.difference(str(item.get("DOI", "")).lower() for item in pinned)
+    if missing_pins:
+        raise SystemExit(f"core DOI records missing from discovery cache: {sorted(missing_pins)}")
+    pinned_dois = {str(item.get("DOI", "")).lower() for item in pinned}
+    relevant = pinned + [
+        item for item in relevant_all if str(item.get("DOI", "")).lower() not in pinned_dois
+    ][:max(0, args.limit - len(pinned))]
     if len(relevant) < 100:
         raise SystemExit(f"precision filter retained only {len(relevant)} records; need at least 100")
     for item in relevant:

@@ -31,6 +31,9 @@ follow this order:
 ## Quick start
 
 ```bash
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements-research.txt
 python3 -m experiments.runners.run_experiment \
   --config experiments/configs/smoke.json
 python3 scripts/check_task0.py
@@ -49,4 +52,3 @@ python3 -m experiments.runners.run_experiment \
 TASK 0 infrastructure is established. TASK 1–2 populate the literature map and
 component matrix. Baseline implementations and counterexample search begin only
 after enough primary sources have been mapped to choose representative methods.
-

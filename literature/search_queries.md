@@ -1,6 +1,6 @@
 # Search queries and coverage log
 
-Generated at `2026-08-24T09:44:56.017091+00:00`. Discovery uses Crossref publisher-deposited metadata;
+Generated at `2026-08-24T09:54:11.062767+00:00`. Discovery uses Crossref publisher-deposited metadata;
 Semantic Scholar enrichment is used for abstract availability and controlled in-memory
 coding. Abstract text is not redistributed. Search ranking is not treated as relevance
 proof, and full-text-dependent fields remain explicitly unverified.
