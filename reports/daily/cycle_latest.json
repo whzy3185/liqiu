@@ -1,608 +1,308 @@
 {
-  "date_utc": "2026-08-24T13:01:37.234096+00:00",
-  "records_before": 1486,
-  "pending_before": 120,
-  "budget": 120,
+  "date_utc": "2026-08-24T13:17:09.097017+00:00",
+  "records_before": 1606,
+  "pending_before": 60,
+  "budget": 60,
   "executed": [
     {
-      "experiment_id": "v2thym2-A00-s1",
+      "experiment_id": "v2fed-digits-c10-a005-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A00-s1.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a005-s1.json"
     },
     {
-      "experiment_id": "v2thym2-A00-s2026",
+      "experiment_id": "v2fed-digits-c10-a005-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A00-s2026.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a005-s2026.json"
     },
     {
-      "experiment_id": "v2thym2-A00-s21",
+      "experiment_id": "v2fed-digits-c10-a005-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A00-s21.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a005-s21.json"
     },
     {
-      "experiment_id": "v2thym2-A00-s42",
+      "experiment_id": "v2fed-digits-c10-a005-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A00-s42.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a005-s42.json"
     },
     {
-      "experiment_id": "v2thym2-A00-s7",
+      "experiment_id": "v2fed-digits-c10-a005-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A00-s7.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a005-s7.json"
     },
     {
-      "experiment_id": "v2thym2-A01-s1",
+      "experiment_id": "v2fed-digits-c10-a010-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A01-s1.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a010-s1.json"
     },
     {
-      "experiment_id": "v2thym2-A01-s2026",
+      "experiment_id": "v2fed-digits-c10-a010-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A01-s2026.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a010-s2026.json"
     },
     {
-      "experiment_id": "v2thym2-A01-s21",
+      "experiment_id": "v2fed-digits-c10-a010-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A01-s21.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a010-s21.json"
     },
     {
-      "experiment_id": "v2thym2-A01-s42",
+      "experiment_id": "v2fed-digits-c10-a010-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A01-s42.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a010-s42.json"
     },
     {
-      "experiment_id": "v2thym2-A01-s7",
+      "experiment_id": "v2fed-digits-c10-a010-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A01-s7.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a010-s7.json"
     },
     {
-      "experiment_id": "v2thym2-A02-s1",
+      "experiment_id": "v2fed-digits-c10-a030-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A02-s1.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a030-s1.json"
     },
     {
-      "experiment_id": "v2thym2-A02-s2026",
+      "experiment_id": "v2fed-digits-c10-a030-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A02-s2026.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a030-s2026.json"
     },
     {
-      "experiment_id": "v2thym2-A02-s21",
+      "experiment_id": "v2fed-digits-c10-a030-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A02-s21.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a030-s21.json"
     },
     {
-      "experiment_id": "v2thym2-A02-s42",
+      "experiment_id": "v2fed-digits-c10-a030-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A02-s42.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a030-s42.json"
     },
     {
-      "experiment_id": "v2thym2-A02-s7",
+      "experiment_id": "v2fed-digits-c10-a030-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A02-s7.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a030-s7.json"
     },
     {
-      "experiment_id": "v2thym2-A03-s1",
+      "experiment_id": "v2fed-digits-c10-a100-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A03-s1.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a100-s1.json"
     },
     {
-      "experiment_id": "v2thym2-A03-s2026",
+      "experiment_id": "v2fed-digits-c10-a100-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A03-s2026.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a100-s2026.json"
     },
     {
-      "experiment_id": "v2thym2-A03-s21",
+      "experiment_id": "v2fed-digits-c10-a100-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A03-s21.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a100-s21.json"
     },
     {
-      "experiment_id": "v2thym2-A03-s42",
+      "experiment_id": "v2fed-digits-c10-a100-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A03-s42.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a100-s42.json"
     },
     {
-      "experiment_id": "v2thym2-A03-s7",
+      "experiment_id": "v2fed-digits-c10-a100-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A03-s7.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c10-a100-s7.json"
     },
     {
-      "experiment_id": "v2thym2-A04-s1",
+      "experiment_id": "v2fed-digits-c20-a005-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A04-s1.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a005-s1.json"
     },
     {
-      "experiment_id": "v2thym2-A04-s2026",
+      "experiment_id": "v2fed-digits-c20-a005-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A04-s2026.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a005-s2026.json"
     },
     {
-      "experiment_id": "v2thym2-A04-s21",
+      "experiment_id": "v2fed-digits-c20-a005-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A04-s21.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a005-s21.json"
     },
     {
-      "experiment_id": "v2thym2-A04-s42",
+      "experiment_id": "v2fed-digits-c20-a005-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A04-s42.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a005-s42.json"
     },
     {
-      "experiment_id": "v2thym2-A04-s7",
+      "experiment_id": "v2fed-digits-c20-a005-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A04-s7.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a005-s7.json"
     },
     {
-      "experiment_id": "v2thym2-A05-s1",
+      "experiment_id": "v2fed-digits-c20-a010-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A05-s1.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a010-s1.json"
     },
     {
-      "experiment_id": "v2thym2-A05-s2026",
+      "experiment_id": "v2fed-digits-c20-a010-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A05-s2026.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a010-s2026.json"
     },
     {
-      "experiment_id": "v2thym2-A05-s21",
+      "experiment_id": "v2fed-digits-c20-a010-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A05-s21.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a010-s21.json"
     },
     {
-      "experiment_id": "v2thym2-A05-s42",
+      "experiment_id": "v2fed-digits-c20-a010-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A05-s42.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a010-s42.json"
     },
     {
-      "experiment_id": "v2thym2-A05-s7",
+      "experiment_id": "v2fed-digits-c20-a010-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-A05-s7.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a010-s7.json"
     },
     {
-      "experiment_id": "v2thym2-B00-s1",
+      "experiment_id": "v2fed-digits-c20-a030-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B00-s1.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a030-s1.json"
     },
     {
-      "experiment_id": "v2thym2-B00-s2026",
+      "experiment_id": "v2fed-digits-c20-a030-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B00-s2026.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a030-s2026.json"
     },
     {
-      "experiment_id": "v2thym2-B00-s21",
+      "experiment_id": "v2fed-digits-c20-a030-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B00-s21.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a030-s21.json"
     },
     {
-      "experiment_id": "v2thym2-B00-s42",
+      "experiment_id": "v2fed-digits-c20-a030-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B00-s42.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a030-s42.json"
     },
     {
-      "experiment_id": "v2thym2-B00-s7",
+      "experiment_id": "v2fed-digits-c20-a030-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B00-s7.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a030-s7.json"
     },
     {
-      "experiment_id": "v2thym2-B01-s1",
+      "experiment_id": "v2fed-digits-c20-a100-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B01-s1.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a100-s1.json"
     },
     {
-      "experiment_id": "v2thym2-B01-s2026",
+      "experiment_id": "v2fed-digits-c20-a100-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B01-s2026.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a100-s2026.json"
     },
     {
-      "experiment_id": "v2thym2-B01-s21",
+      "experiment_id": "v2fed-digits-c20-a100-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B01-s21.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a100-s21.json"
     },
     {
-      "experiment_id": "v2thym2-B01-s42",
+      "experiment_id": "v2fed-digits-c20-a100-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B01-s42.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a100-s42.json"
     },
     {
-      "experiment_id": "v2thym2-B01-s7",
+      "experiment_id": "v2fed-digits-c20-a100-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B01-s7.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c20-a100-s7.json"
     },
     {
-      "experiment_id": "v2thym2-B02-s1",
+      "experiment_id": "v2fed-digits-c5-a005-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B02-s1.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a005-s1.json"
     },
     {
-      "experiment_id": "v2thym2-B02-s2026",
+      "experiment_id": "v2fed-digits-c5-a005-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B02-s2026.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a005-s2026.json"
     },
     {
-      "experiment_id": "v2thym2-B02-s21",
+      "experiment_id": "v2fed-digits-c5-a005-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B02-s21.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a005-s21.json"
     },
     {
-      "experiment_id": "v2thym2-B02-s42",
+      "experiment_id": "v2fed-digits-c5-a005-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B02-s42.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a005-s42.json"
     },
     {
-      "experiment_id": "v2thym2-B02-s7",
+      "experiment_id": "v2fed-digits-c5-a005-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B02-s7.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a005-s7.json"
     },
     {
-      "experiment_id": "v2thym2-B03-s1",
+      "experiment_id": "v2fed-digits-c5-a010-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B03-s1.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a010-s1.json"
     },
     {
-      "experiment_id": "v2thym2-B03-s2026",
+      "experiment_id": "v2fed-digits-c5-a010-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B03-s2026.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a010-s2026.json"
     },
     {
-      "experiment_id": "v2thym2-B03-s21",
+      "experiment_id": "v2fed-digits-c5-a010-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B03-s21.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a010-s21.json"
     },
     {
-      "experiment_id": "v2thym2-B03-s42",
+      "experiment_id": "v2fed-digits-c5-a010-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B03-s42.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a010-s42.json"
     },
     {
-      "experiment_id": "v2thym2-B03-s7",
+      "experiment_id": "v2fed-digits-c5-a010-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B03-s7.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a010-s7.json"
     },
     {
-      "experiment_id": "v2thym2-B04-s1",
+      "experiment_id": "v2fed-digits-c5-a030-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B04-s1.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a030-s1.json"
     },
     {
-      "experiment_id": "v2thym2-B04-s2026",
+      "experiment_id": "v2fed-digits-c5-a030-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B04-s2026.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a030-s2026.json"
     },
     {
-      "experiment_id": "v2thym2-B04-s21",
+      "experiment_id": "v2fed-digits-c5-a030-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B04-s21.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a030-s21.json"
     },
     {
-      "experiment_id": "v2thym2-B04-s42",
+      "experiment_id": "v2fed-digits-c5-a030-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B04-s42.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a030-s42.json"
     },
     {
-      "experiment_id": "v2thym2-B04-s7",
+      "experiment_id": "v2fed-digits-c5-a030-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B04-s7.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a030-s7.json"
     },
     {
-      "experiment_id": "v2thym2-B05-s1",
+      "experiment_id": "v2fed-digits-c5-a100-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B05-s1.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a100-s1.json"
     },
     {
-      "experiment_id": "v2thym2-B05-s2026",
+      "experiment_id": "v2fed-digits-c5-a100-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B05-s2026.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a100-s2026.json"
     },
     {
-      "experiment_id": "v2thym2-B05-s21",
+      "experiment_id": "v2fed-digits-c5-a100-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B05-s21.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a100-s21.json"
     },
     {
-      "experiment_id": "v2thym2-B05-s42",
+      "experiment_id": "v2fed-digits-c5-a100-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B05-s42.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a100-s42.json"
     },
     {
-      "experiment_id": "v2thym2-B05-s7",
+      "experiment_id": "v2fed-digits-c5-a100-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-B05-s7.json"
-    },
-    {
-      "experiment_id": "v2thym2-C00-s1",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C00-s1.json"
-    },
-    {
-      "experiment_id": "v2thym2-C00-s2026",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C00-s2026.json"
-    },
-    {
-      "experiment_id": "v2thym2-C00-s21",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C00-s21.json"
-    },
-    {
-      "experiment_id": "v2thym2-C00-s42",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C00-s42.json"
-    },
-    {
-      "experiment_id": "v2thym2-C00-s7",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C00-s7.json"
-    },
-    {
-      "experiment_id": "v2thym2-C01-s1",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C01-s1.json"
-    },
-    {
-      "experiment_id": "v2thym2-C01-s2026",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C01-s2026.json"
-    },
-    {
-      "experiment_id": "v2thym2-C01-s21",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C01-s21.json"
-    },
-    {
-      "experiment_id": "v2thym2-C01-s42",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C01-s42.json"
-    },
-    {
-      "experiment_id": "v2thym2-C01-s7",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C01-s7.json"
-    },
-    {
-      "experiment_id": "v2thym2-C02-s1",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C02-s1.json"
-    },
-    {
-      "experiment_id": "v2thym2-C02-s2026",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C02-s2026.json"
-    },
-    {
-      "experiment_id": "v2thym2-C02-s21",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C02-s21.json"
-    },
-    {
-      "experiment_id": "v2thym2-C02-s42",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C02-s42.json"
-    },
-    {
-      "experiment_id": "v2thym2-C02-s7",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C02-s7.json"
-    },
-    {
-      "experiment_id": "v2thym2-C03-s1",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C03-s1.json"
-    },
-    {
-      "experiment_id": "v2thym2-C03-s2026",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C03-s2026.json"
-    },
-    {
-      "experiment_id": "v2thym2-C03-s21",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C03-s21.json"
-    },
-    {
-      "experiment_id": "v2thym2-C03-s42",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C03-s42.json"
-    },
-    {
-      "experiment_id": "v2thym2-C03-s7",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C03-s7.json"
-    },
-    {
-      "experiment_id": "v2thym2-C04-s1",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C04-s1.json"
-    },
-    {
-      "experiment_id": "v2thym2-C04-s2026",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C04-s2026.json"
-    },
-    {
-      "experiment_id": "v2thym2-C04-s21",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C04-s21.json"
-    },
-    {
-      "experiment_id": "v2thym2-C04-s42",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C04-s42.json"
-    },
-    {
-      "experiment_id": "v2thym2-C04-s7",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C04-s7.json"
-    },
-    {
-      "experiment_id": "v2thym2-C05-s1",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C05-s1.json"
-    },
-    {
-      "experiment_id": "v2thym2-C05-s2026",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C05-s2026.json"
-    },
-    {
-      "experiment_id": "v2thym2-C05-s21",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C05-s21.json"
-    },
-    {
-      "experiment_id": "v2thym2-C05-s42",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C05-s42.json"
-    },
-    {
-      "experiment_id": "v2thym2-C05-s7",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-C05-s7.json"
-    },
-    {
-      "experiment_id": "v2thym2-D00-s1",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D00-s1.json"
-    },
-    {
-      "experiment_id": "v2thym2-D00-s2026",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D00-s2026.json"
-    },
-    {
-      "experiment_id": "v2thym2-D00-s21",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D00-s21.json"
-    },
-    {
-      "experiment_id": "v2thym2-D00-s42",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D00-s42.json"
-    },
-    {
-      "experiment_id": "v2thym2-D00-s7",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D00-s7.json"
-    },
-    {
-      "experiment_id": "v2thym2-D01-s1",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D01-s1.json"
-    },
-    {
-      "experiment_id": "v2thym2-D01-s2026",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D01-s2026.json"
-    },
-    {
-      "experiment_id": "v2thym2-D01-s21",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D01-s21.json"
-    },
-    {
-      "experiment_id": "v2thym2-D01-s42",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D01-s42.json"
-    },
-    {
-      "experiment_id": "v2thym2-D01-s7",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D01-s7.json"
-    },
-    {
-      "experiment_id": "v2thym2-D02-s1",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D02-s1.json"
-    },
-    {
-      "experiment_id": "v2thym2-D02-s2026",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D02-s2026.json"
-    },
-    {
-      "experiment_id": "v2thym2-D02-s21",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D02-s21.json"
-    },
-    {
-      "experiment_id": "v2thym2-D02-s42",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D02-s42.json"
-    },
-    {
-      "experiment_id": "v2thym2-D02-s7",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D02-s7.json"
-    },
-    {
-      "experiment_id": "v2thym2-D03-s1",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D03-s1.json"
-    },
-    {
-      "experiment_id": "v2thym2-D03-s2026",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D03-s2026.json"
-    },
-    {
-      "experiment_id": "v2thym2-D03-s21",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D03-s21.json"
-    },
-    {
-      "experiment_id": "v2thym2-D03-s42",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D03-s42.json"
-    },
-    {
-      "experiment_id": "v2thym2-D03-s7",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D03-s7.json"
-    },
-    {
-      "experiment_id": "v2thym2-D04-s1",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D04-s1.json"
-    },
-    {
-      "experiment_id": "v2thym2-D04-s2026",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D04-s2026.json"
-    },
-    {
-      "experiment_id": "v2thym2-D04-s21",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D04-s21.json"
-    },
-    {
-      "experiment_id": "v2thym2-D04-s42",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D04-s42.json"
-    },
-    {
-      "experiment_id": "v2thym2-D04-s7",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D04-s7.json"
-    },
-    {
-      "experiment_id": "v2thym2-D05-s1",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D05-s1.json"
-    },
-    {
-      "experiment_id": "v2thym2-D05-s2026",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D05-s2026.json"
-    },
-    {
-      "experiment_id": "v2thym2-D05-s21",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D05-s21.json"
-    },
-    {
-      "experiment_id": "v2thym2-D05-s42",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D05-s42.json"
-    },
-    {
-      "experiment_id": "v2thym2-D05-s7",
-      "outcome": "success",
-      "config": "experiments/configs/v2/theory_method2/v2thym2-D05-s7.json"
+      "config": "experiments/configs/v2/federated/v2fed-digits-c5-a100-s7.json"
     }
   ],
   "post_commands": [
@@ -641,10 +341,10 @@
         "-v"
       ],
       "returncode": 0,
-      "output_tail": "test_classifier_interfaces (test_classical_adapters.ClassicalAdapterTests.test_classifier_interfaces) ... ok\ntest_cluster_interfaces (test_classical_adapters.ClassicalAdapterTests.test_cluster_interfaces) ... ok\ntest_confidence_lower_bound_is_no_less_conservative (test_cleanroom_gbc.CleanRoomGBCTests.test_confidence_lower_bound_is_no_less_conservative) ... ok\ntest_interface_and_probabilities (test_cleanroom_gbc.CleanRoomGBCTests.test_interface_and_probabilities) ... ok\ntest_all_families_shape_and_labels (test_generators.GeneratorTests.test_all_families_shape_and_labels) ... ok\ntest_deterministic_and_high_dimensional (test_generators.GeneratorTests.test_deterministic_and_high_dimensional) ... ok\ntest_pruned_interface (test_local_pruning.LocalPruningTests.test_pruned_interface) ... ok\ntest_confirmation_rejects_search (test_protocol.ProtocolTests.test_confirmation_rejects_search) ... ok\ntest_initial_seed_is_valid (test_protocol.ProtocolTests.test_initial_seed_is_valid) ... ok\ntest_all_existing_configs_have_unique_completed_ids_or_are_pending (test_research_cycle.ResearchCycleTests.test_all_existing_configs_have_unique_completed_ids_or_are_pending) ... ok\ntest_all_streams_and_replay (test_stream_generators.StreamGeneratorTests.test_all_streams_and_replay) ... ok\ntest_emerging_class_appears_late (test_stream_generators.StreamGeneratorTests.test_emerging_class_appears_late) ... ok\ntest_pareto (test_v2_frontier.V2FrontierTests.test_pareto) ... ok\ntest_small_harness (test_v2_frontier.V2FrontierTests.test_small_harness) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.476s\n\nOK\n"
+      "output_tail": "test_classifier_interfaces (test_classical_adapters.ClassicalAdapterTests.test_classifier_interfaces) ... ok\ntest_cluster_interfaces (test_classical_adapters.ClassicalAdapterTests.test_cluster_interfaces) ... ok\ntest_confidence_lower_bound_is_no_less_conservative (test_cleanroom_gbc.CleanRoomGBCTests.test_confidence_lower_bound_is_no_less_conservative) ... ok\ntest_interface_and_probabilities (test_cleanroom_gbc.CleanRoomGBCTests.test_interface_and_probabilities) ... ok\ntest_all_families_shape_and_labels (test_generators.GeneratorTests.test_all_families_shape_and_labels) ... ok\ntest_deterministic_and_high_dimensional (test_generators.GeneratorTests.test_deterministic_and_high_dimensional) ... ok\ntest_pruned_interface (test_local_pruning.LocalPruningTests.test_pruned_interface) ... ok\ntest_confirmation_rejects_search (test_protocol.ProtocolTests.test_confirmation_rejects_search) ... ok\ntest_initial_seed_is_valid (test_protocol.ProtocolTests.test_initial_seed_is_valid) ... ok\ntest_all_existing_configs_have_unique_completed_ids_or_are_pending (test_research_cycle.ResearchCycleTests.test_all_existing_configs_have_unique_completed_ids_or_are_pending) ... ok\ntest_all_streams_and_replay (test_stream_generators.StreamGeneratorTests.test_all_streams_and_replay) ... ok\ntest_emerging_class_appears_late (test_stream_generators.StreamGeneratorTests.test_emerging_class_appears_late) ... ok\ntest_partition_and_bytes (test_v2_federated.V2FederatedTests.test_partition_and_bytes) ... ok\ntest_pareto (test_v2_frontier.V2FrontierTests.test_pareto) ... ok\ntest_small_harness (test_v2_frontier.V2FrontierTests.test_small_harness) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.457s\n\nOK\n"
     }
   ],
   "status": "ok",
-  "records_after": 1606,
+  "records_after": 1666,
   "pending_after": 0
 }

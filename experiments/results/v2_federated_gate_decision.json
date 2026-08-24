@@ -1,0 +1,67 @@
+{
+  "alpha_summary": [
+    {
+      "alpha": 0.05,
+      "estimated_to_oracle_nearest_mean_regret": 0.010740740740740745,
+      "runs": 15,
+      "uniform_to_oracle_mean_regret": 0.01183950617283951
+    },
+    {
+      "alpha": 0.1,
+      "estimated_to_oracle_nearest_mean_regret": 0.0142962962962963,
+      "runs": 15,
+      "uniform_to_oracle_mean_regret": 0.01290123456790124
+    },
+    {
+      "alpha": 0.3,
+      "estimated_to_oracle_nearest_mean_regret": 0.018444444444444447,
+      "runs": 15,
+      "uniform_to_oracle_mean_regret": 0.010135802469135802
+    },
+    {
+      "alpha": 1.0,
+      "estimated_to_oracle_nearest_mean_regret": 0.01877777777777777,
+      "runs": 15,
+      "uniform_to_oracle_mean_regret": 0.009999999999999997
+    }
+  ],
+  "continue_to_mnist_fashion": false,
+  "estimated_to_observed_oracle_nearest_mean_regret": 0.015564814814814816,
+  "mean_marginal_value_variance": 6.590260584757484e-08,
+  "model_summary": [
+    {
+      "condition_a_point_fraction": 0.14666666666666667,
+      "condition_b_point_fraction": 0.04040404040404041,
+      "condition_c_point_fraction": 0.17333333333333334,
+      "mean_accuracy_advantage_same_cost": -0.0008055555555555564,
+      "mean_worst_client_advantage": 0.0015409263802782503,
+      "median_resource_ratio_same_accuracy": 1.0784313725490196,
+      "points": 300,
+      "server_model": "nearest"
+    },
+    {
+      "condition_a_point_fraction": 0.13333333333333333,
+      "condition_b_point_fraction": 0.027210884353741496,
+      "condition_c_point_fraction": 0.15333333333333332,
+      "mean_accuracy_advantage_same_cost": -0.001777777777777774,
+      "mean_worst_client_advantage": 0.0028536077388212275,
+      "median_resource_ratio_same_accuracy": 1.129689560110272,
+      "points": 300,
+      "server_model": "logistic"
+    },
+    {
+      "condition_a_point_fraction": 0.15666666666666668,
+      "condition_b_point_fraction": 0.07903780068728522,
+      "condition_c_point_fraction": 0.20333333333333334,
+      "mean_accuracy_advantage_same_cost": -0.013277777777777779,
+      "mean_worst_client_advantage": -0.02192926754849775,
+      "median_resource_ratio_same_accuracy": 1.2027027027027026,
+      "points": 300,
+      "server_model": "mlp"
+    }
+  ],
+  "reason": "F5 does not beat uniform/equal/proportional at equal bytes and does not close the observed-oracle gap on Digits.",
+  "status": "P1_PROBLEM_METHOD_REJECTED",
+  "uniform_gap_positive_run_fraction": 1.0,
+  "uniform_to_observed_oracle_mean_regret": 0.011219135802469136
+}
