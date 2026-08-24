@@ -13,6 +13,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, f1_score
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.svm import SVC
 
@@ -54,6 +55,11 @@ def _predict(balls, X):
     distances=np.linalg.norm(X[:,None,:]-centers[None,:,:],axis=2)-radii[None,:]
     return np.asarray(labels)[np.argmin(distances,axis=1)]
 
+def _knn_mixing(X,y,k=5):
+    if len(y)<2:return 0.0
+    neighbors=NearestNeighbors(n_neighbors=min(k+1,len(y))).fit(X).kneighbors(X,return_distance=False)[:,1:]
+    return float(np.mean(y[neighbors]!=y[:,None])) if neighbors.shape[1] else 0.0
+
 def run(config: Mapping[str,Any]):
     seed=int(config["seed"]); params=dict(config["dataset_generation_parameters"]); family=params.pop("family")
     n=int(params.pop("n_samples")); ambient=int(params.pop("ambient_dimension"))
@@ -82,10 +88,16 @@ def run(config: Mapping[str,Any]):
     eps=1e-3; failure_score=(1-accuracy+eps)/(1-ref_accuracy+eps)
     purities=[_purity(b) for b in balls]; sizes=[len(b) for b in balls]
     uncertain=float(sum(s for s,p in zip(sizes,purities) if p < .85)/sum(sizes))
+    within_edges=sum(_knn_mixing(b[:,1:],b[:,0])*len(b) for b in balls if len(b)>1)/sum(sizes)
+    mixed_sample_ratio=sum(len(b) for b,purity in zip(balls,purities) if purity<1)/sum(sizes)
+    weighted_impurity=sum(s*(1-p) for s,p in zip(sizes,purities))/sum(sizes)
     return {"metrics":{"accuracy":accuracy,"macro_f1":macro,"auroc":None,"calibration_error":None,
                        "additional":{"reference":reference_name,"reference_accuracy":ref_accuracy,
                                      "reference_macro_f1":ref_macro,"accuracy_gap":accuracy-ref_accuracy,
-                                     "failure_score":float(failure_score),"all_references":reference_metrics}},
+                                     "failure_score":float(failure_score),"all_references":reference_metrics,
+                                     "global_knn_label_mixing":_knn_mixing(X_train,y_train)}},
             "structure":{"granule_count":len(balls),"average_granule_size":float(np.mean(sizes)),
-                         "uncertain_sample_ratio":uncertain,"additional":{"ball_sizes":sizes,"ball_purities":purities}},
+                         "uncertain_sample_ratio":uncertain,"additional":{"ball_sizes":sizes,"ball_purities":purities,
+                           "within_ball_knn_mixing":float(within_edges),"mixed_ball_sample_ratio":float(mixed_sample_ratio),
+                           "weighted_impurity":float(weighted_impurity),"fragmentation_ratio":len(balls)/len(y_train)}},
             "outcome":"success","notes":"Exploration-pool failure-search trial; three references use identical split/scaling and the best held-out accuracy defines the gap."}

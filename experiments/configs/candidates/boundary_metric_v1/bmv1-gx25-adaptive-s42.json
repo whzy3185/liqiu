@@ -1,0 +1,27 @@
+{
+  "algorithm": "upstream-gbc-adaptive-boundary-metric",
+  "dataset": "boundary-metric-audit-v1",
+  "dataset_generation_parameters": {
+    "ambient_dimension": 2,
+    "family": "gaussian_xor",
+    "feature_noise": 0,
+    "label_noise": "none",
+    "n_samples": 600,
+    "noise_rate": 0,
+    "outlier_rate": 0,
+    "overlap": 0.25
+  },
+  "experiment_id": "bmv1-gx25-adaptive-s42",
+  "hyperparameters": {},
+  "pool": "exploration",
+  "runner": "experiments.runners.failure_trial:run",
+  "search": {
+    "campaign": "boundary_metric_v1",
+    "case": "gx25",
+    "enabled": false
+  },
+  "seed": 42,
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_adaptive_upload.py",
+  "variant": "adaptive"
+}
