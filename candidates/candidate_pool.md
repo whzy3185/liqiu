@@ -24,7 +24,7 @@ retained paper topic. Scores are 0–5; collision is dangerous when high.
 | M11 | Multi-scale prediction ensemble | threshold selection unstable | average predictions over purity path with complexity weights | 3 | 4 | 3 | 3 | 3 | 4 | 4 | 2 | 3 | 30 |
 | M12 | Change-point detection on purity–cost curve | phase transitions | REJECTED: knee/curvature/plateau disagree and fail | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 2 | 4 | 25 |
 | M13 | Local intrinsic-dimension-conditioned stop | heterogeneous regions need different scale | regress split gain on local dimension and sample count | 3 | 4 | 3 | 3 | 3 | 4 | 3 | 4 | 3 | 31 |
-| M14 | Boundary-mixing-conditioned stop | interleaved boundary failure | estimate cross-label neighbor edges inside each ball | 3 | 5 | 4 | 4 | 4 | 5 | 4 | 3 | 2 | 40 |
+| M14 | Boundary-mixing-conditioned stop | interleaved boundary failure | REJECTED: metrics fail leave-case-out prediction | 2 | 5 | 2 | 4 | 2 | 2 | 2 | 2 | 4 | 22 |
 | M15 | Label-noise posterior purity correction | high p chases noisy labels | infer local noise rate before purity calculation | 3 | 4 | 4 | 3 | 4 | 4 | 4 | 2 | 3 | 33 |
 | M16 | Conformal local miscoverage stop | fixed p lacks risk meaning | refine until local prediction-set coverage target is met | 4 | 3 | 5 | 3 | 5 | 5 | 5 | 3 | 2 | 41 |
 | M17 | Bayesian hierarchical local purity | sparse balls overfit purity | partial-pool region purities across hierarchy | 4 | 4 | 5 | 2 | 5 | 5 | 5 | 2 | 2 | 41 |

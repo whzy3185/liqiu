@@ -49,3 +49,11 @@ levels it consumed every validation sample, accepted no alternative, and always
 fell back to p=.85. It is safe but provides no adaptation or VOI savings. Less
 conservative variants lose the claimed distribution-free protection; the result
 is redirected to Candidate 6 sample-complexity analysis.
+
+### Candidate 3 / M14 boundary metrics — failed decisive test
+
+Five predeclared structure/mixing metrics were tested across 90 runs. Their
+leave-case-out prediction is worse than a constant baseline. Candidate 3 is
+demoted to P2; M14 is rejected. A future attempt must introduce independently
+motivated curvature/scale/topology statistics and clear the boundary-aware
+MDL-GBC collision.

@@ -1,7 +1,7 @@
 # First Research Direction Ranking — 2026-08-24
 
 Eligibility evidence: 162 structured papers, five runnable core GBC/3WD author
-paths, 14 synthetic families, and 1,084 append-only experiment records. This is the
+paths, 14 synthetic families, and 1,174 append-only experiment records. This is the
 requested first Top 10, not the final 2–5 survivors. Only Candidate 1 currently
 has cross-method, cross-real-dataset evidence. MDL-based local construction is
 excluded after direct collision with arXiv:2605.11406.
@@ -150,7 +150,7 @@ XOR v2 140 runs；alternating v2 90 runs；sector wheel 29/30 negative gaps。V1
 
 ## Result
 
-现象跨方法/生成器，但尚无真实数据几何对应和可预测统计量。
+现象跨方法/生成器，但五个预定义 mixing/impurity/fragmentation 指标的 leave-case-out R² 为负；M14 已淘汰，尚无可预测机制量。
 
 ## Theoretical Opportunity
 
@@ -166,7 +166,7 @@ CPU。
 
 ## Next Decisive Experiment
 
-验证一个预先定义的 boundary-mixing/curvature 指标能否跨 XOR、wheel、checkerboard 和真实数据预测 gap；预测失败即降级。
+boundary-mixing 决定性实验已失败。仅允许一次独立的曲率/尺度/拓扑量尝试；若仍不能 leave-case-out 预测，淘汰整个方向。
 
 # Candidate 4
 
@@ -550,8 +550,8 @@ CPU。
 
 1. Candidate 1 — P0 problem, mechanism unresolved.
 2. Candidate 6 — P1 theory track for Candidate 1.
-3. Candidate 3 — P1, boundary-aware collision risk.
-4. Candidate 4 — P1, theory-dependent.
+3. Candidate 4 — P1, theory-dependent.
+4. Candidate 3 — P2 after metric failure and boundary-aware collision risk.
 5. Candidate 2 — negative practical result; theory merged into Candidate 6.
 6. Candidate 5 — P2 replication needed.
 7. Candidate 8 — P2 analysis/artifact.

@@ -1,0 +1,13 @@
+{
+  "constant_baseline_mae": 0.022888888888888886,
+  "leave_case_out_mae": 0.026790088396916156,
+  "leave_case_out_r2": -0.544146677068285,
+  "runs": 90,
+  "spearman": {
+    "fragmentation_ratio": -0.11402679339552144,
+    "global_knn_mixing": -0.09439409544546931,
+    "mixed_ball_ratio": -0.18788722373934977,
+    "weighted_impurity": -0.41015657361093055,
+    "within_ball_knn_mixing": -0.3892749273761183
+  }
+}

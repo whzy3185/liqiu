@@ -51,3 +51,17 @@ failed experiment IDs, and any reusable insight.
   Accuracy loss; Brier also usually worsens on Phoneme/Ionosphere.
 - Conclusion: validation data become too sparse exactly where local refinement
   is needed. Ordinary local pruning is not a reliable H-003 repair.
+
+## 2026-08-24 — M14 boundary-mixing-conditioned stop
+
+- Reason: mechanism metric failure.
+- Evidence: 90 runs across nine XOR/Gaussian-XOR/checkerboard/sector settings,
+  two generation methods and five seeds (`bmv1-*`).
+- Global kNN label mixing has Spearman −0.09 with held-out gap; within-ball
+  mixing and weighted impurity reach only about −0.39/−0.41.
+- A five-metric Ridge model evaluated by leave-one-case-out has R² −0.54 and MAE
+  worse than a constant predictor.
+- Counterexample: checkerboard-6 has very high global mixing but original GBC
+  outperforms the reference.
+- Conclusion: common mixing/purity/fragmentation statistics do not predict the
+  failure region across generators. Curvature/scale/topology require new evidence.
