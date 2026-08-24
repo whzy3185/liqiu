@@ -1,7 +1,7 @@
 # First Research Direction Ranking — 2026-08-24
 
 Eligibility evidence: 162 structured papers, five runnable core GBC/3WD author
-paths, 14 synthetic families, and 1,294 append-only experiment records. This is the
+paths, 14 static plus six streaming synthetic families, and 1,366 append-only experiment records. This is the
 requested first Top 10, not the final 2–5 survivors. Only Candidate 1 currently
 has cross-method, cross-real-dataset evidence. MDL-based local construction is
 excluded after direct collision with arXiv:2605.11406.
@@ -504,7 +504,7 @@ H-003 的全局规则不兼容在 concept/density/class drift 下是否进一步
 
 ## Existing Failure
 
-目前没有流式实验；仅静态 H-003 提供动机。
+72 条 prequential rebuild/window/no-update/SGD 流式对照已完成；尚无 incremental granular method。
 
 ## Proposed Mechanism
 
@@ -528,7 +528,7 @@ HIGH。
 
 ## Result
 
-仅为待证问题，排名最低。
+Sliding GBC 在 concept/covariate drift 优于 full-history rebuild，但通常低于 SGD；未发现粒计算独特优势，方向不进入 survivors。
 
 ## Theoretical Opportunity
 
@@ -544,7 +544,7 @@ CPU。
 
 ## Next Decisive Experiment
 
-实现 4 类 drift 与 full rebuild baseline；若 incremental GBC 文献已覆盖同一问题或无独特 failure，直接淘汰。
+基础 stress test 已完成并未显示独特优势。除非出现更新成本显著低于 sliding rebuild 且风险接近 SGD 的机制，否则保持淘汰。
 
 ## Ranking summary
 

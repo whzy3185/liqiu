@@ -24,7 +24,7 @@ evidence exists but the requested scope is not met; `NOT STARTED` is explicit.
 | 15 Agent memory/RAG | NOT STARTED | none | full route remains |
 | 16 three-way Agent | NOT STARTED | only granular S3WD smoke | no tool-cost Agent environment |
 | 17 calibrated uncertainty | COMPLETE diagnostic / PARTIAL mechanism | ECE/Brier/conformal audits | no GBC-specific guarantee retained |
-| 18 shift/streaming | PARTIAL | six drift generators and frozen protocol | no incremental granule update vs rebuild run |
+| 18 shift/streaming | COMPLETE controls / PARTIAL incremental method | six drift generators, 72 prequential no-update/rebuild/window/SGD runs | no incremental granular update method |
 | 19 cross-domain exploration | PARTIAL | selected OOD/graph/stream terms in corpus | broad list not experimentally exhausted |
 | 20 theory Agent | COMPLETE first track | `hypotheses/theory_h003.md`, 40 verification runs | recursive ball-count bound/full novelty review pending |
 | 21 automatic loop | COMPLETE bounded implementation | `research_cycle.py`, zero pending, post-checks pass | literature novelty decisions remain human/audit gated |

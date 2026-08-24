@@ -56,7 +56,7 @@ failure regions. It is an artifact/analysis line, not a new classifier.
 
 ### Evidence
 
-- 1,294 append-only records, including invalid v1/v2 pipelines and author-code
+- 1,366 append-only records, including invalid v1/v2 pipelines and author-code
   failures rather than deleted results.
 - 162-paper component matrix, 14 synthetic families, five runnable core paths,
   confirmation-pool protocol and automated verifiers.
