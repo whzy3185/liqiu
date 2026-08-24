@@ -6,7 +6,7 @@ Updated: 2026-08-25.
 
 | Candidate | Status | Next cheap test |
 |---|---|---|
-| Batch active learning | `P1-low` | five small classification datasets; same-partition KMeans/coreset gate |
+No active candidate survives this tranche.
 
 ## P0
 
@@ -25,6 +25,8 @@ No application is currently P1 after the first three kill tests.
   ablation. Robust local statistics, not GB geometry, explain the useful signal.
 - Hard-budget local regranulation: only 5/9 runs meet the 1 pp risk gate, 3/9 meet
   the update-time gate, and 0/9 show a 1 pp radius advantage over center-only.
+- Batch active learning: only 4/25 runs beat the strongest selector by .5 pp;
+  radius weighting loses to the same partition without radius on average.
 - Generic GB anomaly detection and time-series anomaly detection: directly
   occupied by multiple 2025-2026 methods, including AAAI 2026 GBOC/GVDD.
 - GB replay/prototype continual memory: BallIL, EG-CNN and strong non-GB compact
@@ -41,9 +43,9 @@ No application is currently P1 after the first three kill tests.
 
 ## NEXT CHEAP TESTS
 
-1. Run one matched batch-active-learning kill test. Query selection must use no
-   unseen labels and compare entropy, k-center and matched-K KMeans batches.
-2. Require label-budget Accuracy AUC improvement of at least .5 pp in at least
-   three datasets and a same-partition/radius attribution signal.
-3. If rejected, pause this exploration tranche: every remaining nearby role is
-   either directly occupied or has failed a matched non-GB baseline.
+Pause this exploration tranche. Four new application roles failed matched
+non-GB or same-partition attribution gates, while anomaly detection, time-series
+anomaly, replay/continual memory, federated cache and open-world memory are
+directly occupied by recent granular-ball work. Reopening requires a new
+application pain point or a materially different GB role, not another score or
+downstream model.

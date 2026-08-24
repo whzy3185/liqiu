@@ -1,0 +1,25 @@
+{
+  "algorithm": "gb-radius-aware-batch-active-learning",
+  "dataset": "sklearn-wine-active-learning",
+  "dataset_generation_parameters": {
+    "dataset": "wine"
+  },
+  "experiment_id": "appactive-wine-s2026",
+  "hyperparameters": {
+    "fractions": [
+      0.02,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "initial_per_class": 2
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_active_learning:run",
+  "search": {
+    "campaign": "app_active_learning_v1",
+    "enabled": false
+  },
+  "seed": 2026,
+  "study": "granular-ball-application-active-learning"
+}
