@@ -1,0 +1,20 @@
+{
+  "algorithm": "m12-purity-path-change-point",
+  "dataset": "openml-59-ionosphere",
+  "dataset_generation_parameters": {
+    "max_samples": 351,
+    "openml_data_id": 59
+  },
+  "experiment_id": "m12v1-ionosphere-knee-s42",
+  "hyperparameters": {
+    "change_rule": "knee"
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.m12_change_point:run",
+  "search": {
+    "campaign": "m12_v1",
+    "enabled": false,
+    "role": "heuristic_red_team"
+  },
+  "seed": 42
+}

@@ -1,0 +1,20 @@
+{
+  "algorithm": "m12-purity-path-change-point",
+  "dataset": "openml-1462-banknote-authentication",
+  "dataset_generation_parameters": {
+    "max_samples": 1372,
+    "openml_data_id": 1462
+  },
+  "experiment_id": "m12v1-banknote-authentication-knee-s21",
+  "hyperparameters": {
+    "change_rule": "knee"
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.m12_change_point:run",
+  "search": {
+    "campaign": "m12_v1",
+    "enabled": false,
+    "role": "heuristic_red_team"
+  },
+  "seed": 21
+}
