@@ -32,3 +32,25 @@ source. Contradictory evidence is never omitted from an aggregate conclusion.
 - Checkerboard-6: original mean gap +0.012, adaptive −0.026.
 - Interpretation: alternation count alone is not monotone; within-ball label
   mixing, curvature, and local scale need to be measured directly.
+
+### Mechanism-signal audit
+
+- V1 used nearest-center prediction and is deprecated for official-classifier
+  claims. Corrected v2 uses center distance minus mean radius.
+- Across 230 v2 runs, weighted ball impurity vs accuracy gap has Pearson
+  correlation −0.30 overall and −0.42 for original; it remains insufficient.
+- Granule count vs gap is −0.22 and mean ball size vs gap is +0.32, weakening
+  the initial fragmentation explanation.
+- Original GBC's below-threshold uncertainty ratio is identically zero in all
+  115 targeted runs despite held-out failures. Purity-based stopping is therefore
+  blind to these observed generalization gaps under the current protocol.
+
+### Corrected classifier replication
+
+- Clean-room original GBC matches author code on ball sizes and 43 fixed
+  boundary-distance predictions.
+- XOR overlap 0.25 corrected gaps: −0.038 original, −0.038 adaptive; 65/70
+  negative individual runs.
+- Sector-wheel corrected gaps remain negative in 29/30 runs across both methods.
+- V1 effect sizes were inflated by nearest-center prediction and are retained
+  only as downstream-sensitivity evidence.

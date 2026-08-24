@@ -24,12 +24,14 @@ balls; ambient dimension and disconnected class regions alone are insufficient.
 
 - Evidence region: XOR overlap 0.25 across dimensions 2–500 and five seeds.
 - Observable: negative held-out accuracy gap against best RF/RBF-SVM/5-NN.
-- Current strength: 69/70 individual method/dimension/seed runs negative.
+- Corrected strength: with author boundary-distance classification, 65/70
+  overlap-0.25 XOR runs are negative; sector wheels reproduce in 29/30 runs.
 - Independent support: continuous XOR overlap, checkerboard-4, and sector wheels
   with 4/8/12 sectors.
 - Counterexamples: Gaussian XOR with well-separated compact clusters is solved;
   checkerboard-6 does not degrade original GBC.
 - Missing: real-data analogue, clean-room method, and a mechanism measure
   connecting within-ball mixed labels/boundary curvature to error.
-- Status: cross-method and cross-generator replicated observation, still not a
+- Status: cross-method and cross-generator replicated observation under faithful
+  author prediction, still not a
   research hypothesis because the causal statistic is unresolved.

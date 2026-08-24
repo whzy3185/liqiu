@@ -4,8 +4,9 @@ Status levels: `observation`, `replicated`, `cross-method`, `research-hypothesis
 
 ## O-001 — Overlap-driven XOR common weakness
 
-- Status: `provisional`; v1 used nearest-center rather than the author's
-  center-distance-minus-radius classifier. Corrected v2 pending.
+- Status: `cross-method`, `cross-generator`; no real-data replication yet.
+- Corrected evidence: v2 uses the author's center-distance-minus-mean-radius
+  classifier and a clean-room implementation verified against author code.
 - Evidence: 140-run XOR v1, dimensions 2/5/10/20/50/100/500,
   overlaps 0.05/0.25, seeds 1/7/21/42/2026, original/adaptive author code,
   and best-of RF/RBF-SVM/5-NN reference.
@@ -31,6 +32,16 @@ Status levels: `observation`, `replicated`, `cross-method`, `research-hypothesis
   local interleaving/curvature plus overlap is a better descriptor, but the
   governing geometric statistic remains unknown.
 
+### Corrected v2 effect
+
+- XOR overlap 0.25: original/adaptive mean gaps −0.038/−0.038; 65/70 runs
+  negative. V1 overstated the effect (−0.090/−0.069).
+- Sector wheels 4/8/12: all original runs and 14/15 adaptive runs negative;
+  method mean gaps range from −0.031 to −0.058.
+- Checkerboard-4: original/adaptive −0.024/−0.046.
+- The effect survives faithful boundary-distance classification but is materially
+  smaller; v2 supersedes v1 for all classifier claims.
+
 ## O-002 — Method-specific split between moons and imbalanced density
 
 - Status: `observation`.
@@ -47,12 +58,12 @@ Status levels: `observation`, `replicated`, `cross-method`, `research-hypothesis
 ## O-003 — Purity blindness and possible fragmentation signal
 
 - Status: `observation`; causal interpretation unresolved.
-- Evidence: 230 XOR/alternating targeted runs with recorded structures.
+- Evidence: 230 corrected-v2 XOR/alternating runs with recorded structures.
 - Original GBC has zero samples in balls below the configured 0.85 purity
   threshold in all 115 runs, yet held-out gaps reach −0.16.
-- Weighted training-ball impurity correlates only moderately with gap
-  (Pearson −0.28 overall).
-- Ball count correlates −0.34 and mean ball size +0.50 with gap, suggesting
-  fragmentation may matter, but family/parameter confounding is not removed.
+- Weighted training-ball impurity correlates moderately with gap (Pearson −0.30
+  overall; −0.42 for original).
+- Ball count/mean size correlations shrink to −0.22/+0.32 under faithful
+  boundary-distance prediction, weakening the earlier fragmentation story.
 - Interpretation: purity-stop satisfaction is not evidence that a structure is
   reliable out of sample. Direct boundary/coverage stability measures are needed.

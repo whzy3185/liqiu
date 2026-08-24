@@ -39,6 +39,10 @@ showed the official classifier minimizes center distance minus mean radius. V1
 remains useful as a downstream-sensitivity record but must not support GBC
 classifier conclusions; corrected v2 is required.
 
+Corrected XOR v2 completed 140/140 runs. At overlap 0.25, original and adaptive
+both have mean gap −0.038 and 65/70 individual runs are negative. The effect
+survives faithful classification but is roughly half the v1 estimate.
+
 The decisive grid completed 140/140 runs over dimensions 2/5/10/20/50/100/500,
 overlaps 0.05/0.25, five seeds, and both original/adaptive author methods. Each
 run compares against RF, RBF-SVM, and 5-NN and uses the best reference accuracy.
@@ -58,6 +62,10 @@ family and is not promoted to a research hypothesis.
 
 Evidence status: **deprecated for official-classifier claims** for the same
 nearest-center discrepancy. Generator contrasts remain descriptive only until v2.
+
+Corrected alternating v2 completed 90/90 runs. Sector wheels remain negative in
+29/30 method/seed runs; corrected mean gaps range −0.031 to −0.058. Gaussian XOR
+still ties at compact settings, and checkerboard-6 remains counterevidence.
 
 Alternating v1 completed 90/90 runs using five seeds and three generator
 families. Mean held-out gaps versus the best RF/RBF-SVM/5-NN reference are:
@@ -79,10 +87,10 @@ a simple monotonic “more alternation is worse” claim.
 
 ## Mechanism-signal audit
 
-Across the 230 XOR and alternating-label targeted runs, sample-weighted training
-ball impurity correlates only moderately with held-out gap (Pearson −0.28).
-Granule count correlates −0.34 and mean granule size +0.50, with stronger values
-for original GBC (−0.46/+0.57). These are observational and generator-confounded.
+Across the 230 corrected-v2 targeted runs, sample-weighted training ball impurity
+correlates only moderately with held-out gap (Pearson −0.30; original −0.42).
+Granule count/mean-size correlations shrink to −0.22/+0.32, weakening the v1
+fragmentation story. These remain observational and generator-confounded.
 
 The sharper negative result is that original GBC has zero samples below its
 configured 0.85 purity threshold in all 115 targeted runs, including runs with a

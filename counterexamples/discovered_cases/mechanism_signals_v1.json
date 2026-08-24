@@ -1,0 +1,65 @@
+{
+  "all": {
+    "granules": {
+      "pearson": -0.33502397995384203,
+      "spearman": -0.44457767541792015
+    },
+    "low_purity_coverage": {
+      "pearson": -0.16443204272483555,
+      "spearman": -0.21421058794743209
+    },
+    "mean_size": {
+      "pearson": 0.504987556524855,
+      "spearman": 0.4606882579251603
+    },
+    "runs": 230,
+    "weighted_impurity": {
+      "pearson": -0.28253940664694777,
+      "spearman": -0.36895072838699466
+    },
+    "zero_low_purity_runs": 138
+  },
+  "by_method": {
+    "adaptive": {
+      "granules": {
+        "pearson": -0.2363915532677657,
+        "spearman": -0.31237487297502237
+      },
+      "low_purity_coverage": {
+        "pearson": -0.23272115957263484,
+        "spearman": -0.3841449663907884
+      },
+      "mean_size": {
+        "pearson": 0.42610962798071506,
+        "spearman": 0.3072951917371433
+      },
+      "runs": 115,
+      "weighted_impurity": {
+        "pearson": -0.2951161818071754,
+        "spearman": -0.42207131493657457
+      },
+      "zero_low_purity_runs": 23
+    },
+    "original": {
+      "granules": {
+        "pearson": -0.45526583201020243,
+        "spearman": -0.529396825757821
+      },
+      "low_purity_coverage": {
+        "pearson": null,
+        "spearman": null
+      },
+      "mean_size": {
+        "pearson": 0.5650176759717379,
+        "spearman": 0.5548348278226871
+      },
+      "runs": 115,
+      "weighted_impurity": {
+        "pearson": -0.30245332904630834,
+        "spearman": -0.3331597229617166
+      },
+      "zero_low_purity_runs": 115
+    }
+  },
+  "runs": 230
+}
