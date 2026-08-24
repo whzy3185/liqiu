@@ -101,3 +101,13 @@ source. Contradictory evidence is never omitted from an aggregate conclusion.
   Sonar has one degrading seed.
 - Conclusion: risk/cost information is useful, but single-split global validation
   is not reliable. Any M02 continuation needs cross-fit/uncertainty stability.
+
+### M04 global calibration control
+
+- 45 runs select global purity by validation Brier + λ·ball ratio.
+- Electricity: Brier improves by about 0.065 and ball count collapses, but
+  Accuracy drops about 0.048.
+- Banknote and several Phoneme runs improve both probability score and Accuracy.
+- Ionosphere has a catastrophic seed; Sonar mostly worsens Brier/Accuracy.
+- Conclusion: calibration exposes a real axis of H-003 but cannot be optimized
+  alone. Future mechanisms need explicit accuracy, calibration and cost constraints.

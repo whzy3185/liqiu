@@ -18,3 +18,11 @@ Corrected `m02gv2-*` improves Banknote and Phoneme and finds a lower-cost
 Electricity setting, but catastrophically over-selects purity on one Ionosphere
 seed and slightly harms Sonar. M02 survives only as a local, resampling-stable
 risk/cost mechanism; ordinary single-split validation is an inadequate solution.
+
+### M04 — not viable as a single-objective mechanism
+
+The 45-run global Brier/ball-cost control produces strong Brier and efficiency
+gains on Electricity but loses about 0.048 Accuracy, helps Banknote/Phoneme, and
+is unstable or harmful on Ionosphere/Sonar. Calibration is a necessary outcome
+constraint, not a standalone split objective. M04 is removed from the leading
+queue and may only participate in a multi-objective mechanism.

@@ -14,7 +14,7 @@ retained paper topic. Scores are 0–5; collision is dangerous when high.
 | M01 | Binomial/Beta lower-confidence-bound purity stop | small balls appear pure by chance; global p phase changes | REJECTED: 15-run Cheap Test worsens explosion/over-refinement | 2 | 5 | 2 | 5 | 3 | 3 | 2 | 2 | 3 | 27 |
 | M02 | Cross-fitted local risk + granule-cost stop | accuracy-neutral explosion and harmful refinement | global control helps 3 regimes but fails Ionosphere stability | 3 | 5 | 4 | 3 | 3 | 4 | 4 | 3 | 3 | 35 |
 | M03 | Bootstrap/perturbation stability stop | seed-sensitive structure and unstable refinement | resample members and reject unstable child assignments | 3 | 5 | 4 | 3 | 4 | 5 | 4 | 3 | 3 | 37 |
-| M04 | Calibration-aware split/stop | purity confidence is uncalibrated on Electricity/Ionosphere | split only when held-out Brier/ECE improves under cost constraint | 4 | 4 | 4 | 4 | 3 | 5 | 5 | 3 | 1 | 42 |
+| M04 | Calibration-aware split/stop | purity confidence is uncalibrated on Electricity/Ionosphere | global Brier control exposes accuracy/calibration conflict | 3 | 4 | 3 | 3 | 3 | 4 | 4 | 3 | 3 | 31 |
 | M05 | Local MDL code-length stop | hundreds of low-value balls | REJECTED: direct 2026 MDL-GBC collision | 1 | 5 | 5 | 4 | 5 | 5 | 2 | 2 | 5 | 30 |
 | M06 | Pareto risk–balls–calibration frontier | no scalar purity suits all regimes | retain nondominated local actions then select by budget | 3 | 5 | 3 | 4 | 3 | 5 | 4 | 3 | 3 | 35 |
 | M07 | Sequential probability-ratio split test | abrupt Phoneme phase transition | accumulate split evidence until accept/reject boundary | 4 | 4 | 4 | 4 | 5 | 4 | 4 | 2 | 1 | 41 |
@@ -38,5 +38,5 @@ scores are triage judgments and do not override collision evidence.
 ## First implementation queue
 
 M05 is rejected after a direct collision; M01 is rejected after its Cheap Test.
-M12, M04, M08 and M16 lead the queue; M02 is retained at lower priority with a
-mandatory resampling-stability guard.
+M12, M08, M16 and M17 lead the queue. M02 requires resampling stability; M04 is
+retained only as a calibration constraint within a joint objective.
