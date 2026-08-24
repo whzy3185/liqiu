@@ -95,6 +95,18 @@ source. Contradictory evidence is never omitted from an aggregate conclusion.
   regimes. Proposition 2 gives a worst-case local validation sample requirement
   proportional to `1/Δ²`, explaining failed sequential/local controls.
 
+### H-003 confirmation pool decision
+
+- Frozen datasets: Spambase, QSAR biodegradation, Hill-Valley; 90 configurations,
+  two methods, p=.70/.85/1.00 and five seeds.
+- Criterion 1 passed: QSAR (and Spambase through p=.85) benefits materially from
+  higher purity for both methods.
+- Criterion 2 failed: Hill-Valley is accuracy-neutral/harmful but granules rise
+  only about 1.7×, below the preregistered 5× requirement.
+- Criterion 3 and overall confirmation therefore fail.
+- Five accelerated-Spambase p=1 runs crash on empty generated balls. This is a
+  secondary implementation failure and is not substituted for the primary gate.
+
 ### Global validation negative control
 
 - `m02gv1-*` is invalid: the test matrix was transformed twice with incompatible

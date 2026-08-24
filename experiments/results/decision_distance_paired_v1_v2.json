@@ -1,0 +1,9 @@
+{
+  "center_minus_radius_mean_gap": -0.02673429951690821,
+  "failure_threshold_flips": 71,
+  "gap_correlation": 0.7140419882736945,
+  "mean_absolute_gap_shift": 0.02416908212560387,
+  "nearest_center_mean_gap": -0.04733816425120773,
+  "pairs": 230,
+  "sign_flips": 24
+}

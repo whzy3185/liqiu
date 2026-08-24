@@ -1,7 +1,7 @@
 # First Research Direction Ranking — 2026-08-24
 
 Eligibility evidence: 162 structured papers, five runnable core GBC/3WD author
-paths, 14 synthetic families, and 1,204 append-only experiment records. This is the
+paths, 14 synthetic families, and 1,294 append-only experiment records. This is the
 requested first Top 10, not the final 2–5 survivors. Only Candidate 1 currently
 has cross-method, cross-real-dataset evidence. MDL-based local construction is
 excluded after direct collision with arXiv:2605.11406.
@@ -42,7 +42,7 @@ MEDIUM–HIGH。局部验证和 cost-complexity 与决策树剪枝相邻，必�
 
 ## Result
 
-问题稳定存在。普通 global validation、单目标 Brier、confidence bound、经验膝点和局部 cross-fit pruning 均在关键数据上失败。
+探索池问题稳定存在，但预注册 Confirmation Pool 只通过 3 项标准中的第 1 项，总体 `NOT_CONFIRMED`。普通 global validation、单目标 Brier、confidence bound、经验膝点和局部 cross-fit pruning 均在关键数据上失败。
 
 ## Theoretical Opportunity
 
@@ -54,7 +54,7 @@ CPU。局部 cross-fit/重采样可能增加 3–10 倍生成成本，需要 VOI
 
 ## Target Venue Level
 
-若有统计性质和跨方法实验，可冲击高水平 fuzzy/AI journal；当前未到投稿阶段。
+因严格确认未通过，当前仅为 P1 理论/机制问题；不得按已确认普遍规律投稿。
 
 ## Next Decisive Experiment
 
@@ -548,16 +548,17 @@ CPU。
 
 ## Ranking summary
 
-1. Candidate 1 — P0 problem, mechanism unresolved.
-2. Candidate 6 — P1 theory track for Candidate 1.
-3. Candidate 3 — P2 after metric failure and boundary-aware collision risk.
-4. Candidate 4 — P2 calibration analysis; conformal task migration demoted.
+1. Candidates 1/6 — P1 theory/problem line; strict confirmation not passed.
+2. Candidates 8/9 — P1 component-controlled benchmark/artifact line.
+3. Candidate 3 — demoted after metric failure and boundary-aware collision risk.
+4. Candidate 4 — demoted calibration analysis; conformal task migration.
 5. Candidate 2 — negative practical result; theory merged into Candidate 6.
-6. Candidate 5 — P2 replication needed.
-7. Candidate 8 — P2 analysis/artifact.
-8. Candidate 7 — P2, no shift evidence.
-9. Candidate 9 — infrastructure, not main paper.
-10. Candidate 10 — speculative, lowest priority.
+6. Candidate 5 — replication needed; not retained.
+7. Candidate 7 — no shift evidence; not retained.
+8. Candidate 10 — speculative; not retained.
+9. M05 MDL — direct collision; rejected.
+10. M01/M02/M12/M14 — failed mechanisms; rejected.
 
-No entry is added to `candidates/survivors.md` yet. Second-round validation and
-deeper novelty checks must reduce this list to 2–5.
+Second-round validation reduced the list to exactly two P1 lines and no P0. See
+`candidates/survivors.md`: S1 combines Candidates 1/6 under strict confirmation
+limits; S2 combines Candidates 8/9 as an artifact/analysis benchmark.

@@ -65,3 +65,10 @@ Both can obtain marginal coverage, but GBC sets are frequently much larger on
 Electricity/Ionosphere and generally less efficient on Phoneme/Sonar. Generic
 conformal prediction solves coverage without a granular mechanism. Candidate 4
 remains useful as a purity-calibration audit, not as “GBC + conformal”.
+
+## Second-round survivor decision
+
+Two P1 lines remain and no P0: S1 global-purity incompatibility/theory with a
+failed strict confirmation gate, and S2 the component-controlled reproducibility
+benchmark. All proposed algorithmic repairs tested so far are rejected or
+demoted. See `candidates/survivors.md` for retention and kill criteria.

@@ -112,3 +112,19 @@ already material. Semantic Scholar was rate-limited; DBLP exposed M05.
   calculation may be mathematically correct but too elementary. A nontrivial
   recursive ball-count/risk lower bound or selective-partition result is needed.
 - Gate decision: retain as P1 theory track; do not claim `CLEAR`.
+
+## Candidate 8 component-benchmark gate — 2026-08-24
+
+- NOVELTY_STATUS: `UNKNOWN`; DBLP/Crossref title queries found no direct
+  granular-ball component-controlled benchmark, radius-vs-center decision audit,
+  or reproducibility study.
+- Closest work consists of individual GBC classifiers, natural-neighbor GBC,
+  GBKTSVC/GBTSVM and 3WC-GBNRS++; these propose methods rather than isolate
+  representation/generation/decision components under fixed structures.
+- Difference: paired experiments change only the decision distance, retain the
+  same 230 configurations, and quantify failure-sign/ranking changes; author code
+  consistency and invalid-result retention are part of the artifact.
+- Potential reviewer objection: this is engineering/reproduction rather than a
+  research mechanism. It needs independent implementations and more decision
+  rules to justify a standalone benchmark contribution.
+- Gate decision: retain as P1 artifact/analysis line, not an algorithm paper.

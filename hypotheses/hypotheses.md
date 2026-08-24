@@ -49,6 +49,10 @@ across heterogeneous data regions/datasets.
 - Counterpoint: Banknote benefits nearly monotonically from greater purity.
 - Cross-method evidence: original purity-split GBC and author accelerated GBG
   both reproduce incompatible regimes on real data.
-- Status: promoted research hypothesis; no repair mechanism selected.
+- Status: exploration-supported but strict confirmation `NOT_CONFIRMED`.
+- Confirmation update: preregistered benefit criterion passed, but the required
+  separate >=5× accuracy-neutral/harmful explosion did not occur. H-003 loses P0
+  status; the minimal theoretical incompatibility remains valid under its stated
+  construction.
 - Decisive next test: local-region diagnostics, then novelty-gated candidate
   mechanisms under a joint accuracy–granule-count–calibration objective.

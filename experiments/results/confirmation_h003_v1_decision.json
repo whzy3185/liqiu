@@ -1,0 +1,8 @@
+{
+  "criterion_1_beneficial_high_purity": true,
+  "criterion_2_accuracy_neutral_or_harmful_5x_explosion": false,
+  "criterion_3_cross_method_incompatibility": false,
+  "note": "Secondary failures are not substituted for preregistered primary criteria.",
+  "overall": "NOT_CONFIRMED",
+  "secondary_accelerated_spambase_p100_failures": 5
+}
