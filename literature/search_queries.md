@@ -57,3 +57,11 @@ IEEE/ACM/Springer/ScienceDirect full-text fields and GitHub code availability re
 separate verification. Chinese-only databases and records without Crossref deposits are
 under-covered. Agent/RAG intersections may be absent because title-level relevance filtering
 rejects generic retrieval papers; they will receive a dedicated collision search later.
+
+## H-003 novelty extension — 2026-08-24
+
+DBLP queries for `granular ball description length`, confidence/purity,
+validation risk, calibration and adaptive granulation found a direct MDL-GBC
+collision (arXiv:2605.11406) and MDL granular-ball tree work
+(arXiv:2605.22410). Semantic Scholar search was rate-limited. Both arXiv primary
+abstracts were verified and added as P0161/P0162.

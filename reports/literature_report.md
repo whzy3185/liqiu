@@ -2,10 +2,10 @@
 
 ## First-pass structured corpus
 
-- Retained records: **160**
-- 2019–2026 records: **154**
+- Retained records: **162**
+- 2019–2026 records: **156**
 - Pre-2019 theory/method records: **6**
-- Abstract-coded records: **73**
+- Abstract-coded records: **75**
 - Metadata-only records: **87**
 
 This is a discovery corpus, not a claim that every paper has been read in full. The
@@ -17,7 +17,7 @@ claims or novelty decisions are made.
 
 | Year | Papers |
 |---:|---:|
-| 2026 | 33 |
+| 2026 | 35 |
 | 2025 | 41 |
 | 2024 | 20 |
 | 2023 | 12 |

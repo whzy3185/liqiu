@@ -49,11 +49,14 @@ only; Google Scholar/IEEE/ACM/Springer/ScienceDirect full-text checks remain.
 
 ### M05 — local MDL stop
 
-- NOVELTY_STATUS: `UNKNOWN` (no granular-ball MDL title collision found).
-- Closest: general MDL literature; GBG++; multi-objective granular-ball methods.
-- Difference to verify: a derived local code for features, labels and ball count
-  whose split decision explains the observed phase regimes.
-- Reviewer objection: arbitrary coding choices can recreate a hand-tuned penalty.
+- NOVELTY_STATUS: `HIGH_COLLISION` → rejected.
+- Direct collision: *A Boundary-Aware Non-parametric Granular-Ball Classifier
+  Based on Minimum Description Length* (arXiv:2605.11406). It performs local MDL
+  selection among single-ball, two-ball and core-boundary models.
+- Additional collision: *Minimum Description Length based Granular-Ball Tree
+  Regularization for Spectral Clustering* (arXiv:2605.22410).
+- Reviewer objection is decisive: local MDL granular-ball construction is
+  already explicit, current, and classification-specific.
 
 ### M06 — Pareto multi-objective stop
 
@@ -64,5 +67,6 @@ only; Google Scholar/IEEE/ACM/Springer/ScienceDirect full-text checks remain.
 
 ## Gate decision
 
-No candidate is `CLEAR`. Deeper checks prioritize M05/M01/M12/M04/M02. M03 and
-M06 are deprioritized because collision risk is already material.
+No candidate is `CLEAR`. M05 is rejected. Deeper checks prioritize
+M01/M12/M04/M02/M08. M03 and M06 are deprioritized because collision risk is
+already material. Semantic Scholar was rate-limited; DBLP exposed M05.

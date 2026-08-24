@@ -15,7 +15,7 @@ retained paper topic. Scores are 0–5; collision is dangerous when high.
 | M02 | Cross-fitted local risk + granule-cost stop | accuracy-neutral explosion and harmful refinement | reserve folds inside each candidate region; accept split only on risk-cost gain | 4 | 5 | 4 | 4 | 3 | 5 | 5 | 3 | 2 | 42 |
 | M03 | Bootstrap/perturbation stability stop | seed-sensitive structure and unstable refinement | resample members and reject unstable child assignments | 3 | 5 | 4 | 3 | 4 | 5 | 4 | 3 | 3 | 37 |
 | M04 | Calibration-aware split/stop | purity confidence is uncalibrated on Electricity/Ionosphere | split only when held-out Brier/ECE improves under cost constraint | 4 | 4 | 4 | 4 | 3 | 5 | 5 | 3 | 1 | 42 |
-| M05 | Local MDL code-length stop | hundreds of low-value balls | compare label+feature residual code length before/after split | 4 | 5 | 5 | 4 | 5 | 5 | 5 | 2 | 1 | 47 |
+| M05 | Local MDL code-length stop | hundreds of low-value balls | REJECTED: direct 2026 MDL-GBC collision | 1 | 5 | 5 | 4 | 5 | 5 | 2 | 2 | 5 | 30 |
 | M06 | Pareto risk–balls–calibration frontier | no scalar purity suits all regimes | retain nondominated local actions then select by budget | 3 | 5 | 3 | 4 | 3 | 5 | 4 | 3 | 3 | 35 |
 | M07 | Sequential probability-ratio split test | abrupt Phoneme phase transition | accumulate split evidence until accept/reject boundary | 4 | 4 | 4 | 4 | 5 | 4 | 4 | 2 | 1 | 41 |
 | M08 | Value-of-information split | many splits add negligible accuracy | expected risk reduction divided by compute/granule cost | 4 | 4 | 4 | 3 | 4 | 5 | 5 | 5 | 2 | 42 |
@@ -37,5 +37,5 @@ scores are triage judgments and do not override collision evidence.
 
 ## First implementation queue
 
-M05, M01, M12, M04 and M02 rank highest. Novelty Gate remains `UNKNOWN` or
-`PARTIAL_COLLISION`; no implementation begins until deeper source checks.
+M05 is rejected after a direct MDL-GBC collision. M01, M12, M04, M02 and M08
+form the revised deep-search queue. No implementation begins until deeper checks.

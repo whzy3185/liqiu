@@ -2,7 +2,7 @@
 
 ## Scope and evidence boundary
 
-This first-pass map covers **160** deduplicated papers: **73** abstract-coded and **87** metadata-only.
+This first-pass map covers **162** deduplicated papers: **75** abstract-coded and **87** metadata-only.
 Counts reflect controlled title/abstract tags, not completed full-text reviews. In
 particular, missing split/merge/stop criteria must not be interpreted as absence of those
 mechanisms in the paper.
@@ -12,9 +12,9 @@ mechanisms in the paper.
 | Component | Papers |
 |---|---:|
 | decision analysis | 91 |
-| classification | 38 |
+| classification | 39 |
 | feature selection | 29 |
-| clustering | 17 |
+| clustering | 18 |
 | anomaly/outlier detection | 11 |
 | stream/online learning | 7 |
 | graph learning | 3 |
@@ -25,13 +25,13 @@ mechanisms in the paper.
 
 | Component | Papers |
 |---|---:|
-| granular ball | 76 |
+| granular ball | 78 |
 | rough-set approximation | 75 |
 | points/objects or not reported | 42 |
 | fuzzy granule | 22 |
 | rough-set neighborhood | 19 |
 | shadowed set | 6 |
-| graph | 4 |
+| graph | 5 |
 | interval granule | 1 |
 
 ## Granulation
@@ -45,6 +45,8 @@ mechanisms in the paper.
 | multi-granulation | 6 |
 | local-density | 4 |
 | hierarchical/multi-level | 3 |
+| local MDL model selection | 1 |
+| local MDL tree model selection | 1 |
 
 ## Uncertainty
 
@@ -55,15 +57,17 @@ mechanisms in the paper.
 | probabilistic | 11 |
 | entropy | 10 |
 | purity proxy | 3 |
+| boundary evidence | 1 |
+| local connectivity uncertainty | 1 |
 
 ## Decision
 
 | Component | Papers |
 |---|---:|
 | three-way accept/defer/reject | 87 |
-| classification decision | 38 |
+| classification decision | 39 |
 | ranking/selection | 29 |
-| cluster assignment | 17 |
+| cluster assignment | 18 |
 
 ## Downstream
 
@@ -74,6 +78,8 @@ mechanisms in the paper.
 | kNN | 4 |
 | neural network | 3 |
 | graph neural network | 2 |
+| MDL class-level mixture coding | 1 |
+| spectral clustering | 1 |
 
 ## Noise
 
