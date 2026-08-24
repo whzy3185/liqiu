@@ -1,4 +1,5 @@
 {
+  "collision_risk": "HIGH_STANDALONE",
   "estimated_mechanism_note": "epsilon=.01 test-risk regret is small, but >=30% resource savings is not stable across all families/methods",
   "families_passed": [
     "A",
@@ -13,6 +14,6 @@
     "kmeans"
   ],
   "region_value_mean_variance": 0.0004089184773711936,
-  "status": "P1_PENDING_COLLISION",
+  "status": "P1_APPLICATION_EXPLANATION",
   "theory3_condition_c_pass": true
 }

@@ -1,0 +1,75 @@
+{
+  "adaptive_gbgc_pareto_fraction": 1,
+  "adaptive_points": [
+    {
+      "accuracy": 0.679,
+      "dataset": "planetoid-citeseer",
+      "dominated": false,
+      "ratio": 0.4220018034265104,
+      "seed": 1
+    },
+    {
+      "accuracy": 0.685,
+      "dataset": "planetoid-citeseer",
+      "dominated": false,
+      "ratio": 0.4220018034265104,
+      "seed": 7
+    },
+    {
+      "accuracy": 0.677,
+      "dataset": "planetoid-citeseer",
+      "dominated": false,
+      "ratio": 0.4220018034265104,
+      "seed": 21
+    },
+    {
+      "accuracy": 0.526,
+      "dataset": "planetoid-cora",
+      "dominated": false,
+      "ratio": 0.32680945347119644,
+      "seed": 1
+    },
+    {
+      "accuracy": 0.609,
+      "dataset": "planetoid-cora",
+      "dominated": false,
+      "ratio": 0.32680945347119644,
+      "seed": 7
+    },
+    {
+      "accuracy": 0.755,
+      "dataset": "planetoid-cora",
+      "dominated": false,
+      "ratio": 0.32680945347119644,
+      "seed": 21
+    },
+    {
+      "accuracy": 0.766,
+      "dataset": "planetoid-pubmed",
+      "dominated": false,
+      "ratio": 0.43181011310037026,
+      "seed": 1
+    },
+    {
+      "accuracy": 0.767,
+      "dataset": "planetoid-pubmed",
+      "dominated": false,
+      "ratio": 0.43181011310037026,
+      "seed": 7
+    },
+    {
+      "accuracy": 0.772,
+      "dataset": "planetoid-pubmed",
+      "dominated": false,
+      "ratio": 0.43181011310037026,
+      "seed": 21
+    }
+  ],
+  "all_cleanroom_gbgc_dominated_fraction": 0.3055555555555556,
+  "continue_to_gnn3": false,
+  "continue_to_heterophily_or_scale": false,
+  "invalid_citeseer_runs_retained": 33,
+  "reason": "Clean-room adaptive GBGC is node-risk Pareto-nondominated on all 3 datasets and 3 seeds; the assumed allocation waste is absent. Preprocessing cost is high but does not justify a new nonuniform cut without a mechanism.",
+  "status": "REJECT_NONUNIFORM_GNN_PROTOTYPE",
+  "valid_runs": 99
+}
