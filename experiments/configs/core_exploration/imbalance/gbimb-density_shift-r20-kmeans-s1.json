@@ -1,0 +1,27 @@
+{
+  "algorithm": "gb-kmeans-imbalance-frontier",
+  "dataset": "synthetic-density_shift-balanced-test",
+  "dataset_generation_parameters": {
+    "family": "density_shift",
+    "generation_method": "kmeans",
+    "imbalance_ratio": 20
+  },
+  "experiment_id": "gbimb-density_shift-r20-kmeans-s1",
+  "hyperparameters": {
+    "taus": [
+      0.6,
+      0.75,
+      0.85,
+      0.95,
+      1.0
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.core_imbalance_stress:run",
+  "search": {
+    "campaign": "gb_core_imbalance_v1",
+    "enabled": false
+  },
+  "seed": 1,
+  "study": "granular-ball-core-imbalance"
+}

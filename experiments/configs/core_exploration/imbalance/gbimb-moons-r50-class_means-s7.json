@@ -1,0 +1,27 @@
+{
+  "algorithm": "gb-class_means-imbalance-frontier",
+  "dataset": "synthetic-moons-balanced-test",
+  "dataset_generation_parameters": {
+    "family": "moons",
+    "generation_method": "class_means",
+    "imbalance_ratio": 50
+  },
+  "experiment_id": "gbimb-moons-r50-class_means-s7",
+  "hyperparameters": {
+    "taus": [
+      0.6,
+      0.75,
+      0.85,
+      0.95,
+      1.0
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.core_imbalance_stress:run",
+  "search": {
+    "campaign": "gb_core_imbalance_v1",
+    "enabled": false
+  },
+  "seed": 7,
+  "study": "granular-ball-core-imbalance"
+}

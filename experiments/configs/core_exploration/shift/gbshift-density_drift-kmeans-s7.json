@@ -1,0 +1,26 @@
+{
+  "algorithm": "gb-kmeans-shift-confidence-frontier",
+  "dataset": "synthetic-stream-density_drift",
+  "dataset_generation_parameters": {
+    "generation_method": "kmeans",
+    "shift_kind": "density_drift"
+  },
+  "experiment_id": "gbshift-density_drift-kmeans-s7",
+  "hyperparameters": {
+    "taus": [
+      0.6,
+      0.75,
+      0.85,
+      0.95,
+      1.0
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.core_shift_stress:run",
+  "search": {
+    "campaign": "gb_core_shift_v1",
+    "enabled": false
+  },
+  "seed": 7,
+  "study": "granular-ball-core-shift"
+}

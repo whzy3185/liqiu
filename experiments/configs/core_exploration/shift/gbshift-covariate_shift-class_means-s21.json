@@ -1,0 +1,26 @@
+{
+  "algorithm": "gb-class_means-shift-confidence-frontier",
+  "dataset": "synthetic-stream-covariate_shift",
+  "dataset_generation_parameters": {
+    "generation_method": "class_means",
+    "shift_kind": "covariate_shift"
+  },
+  "experiment_id": "gbshift-covariate_shift-class_means-s21",
+  "hyperparameters": {
+    "taus": [
+      0.6,
+      0.75,
+      0.85,
+      0.95,
+      1.0
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.core_shift_stress:run",
+  "search": {
+    "campaign": "gb_core_shift_v1",
+    "enabled": false
+  },
+  "seed": 21,
+  "study": "granular-ball-core-shift"
+}

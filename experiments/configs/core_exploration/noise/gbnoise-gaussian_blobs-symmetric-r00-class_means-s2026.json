@@ -1,0 +1,28 @@
+{
+  "algorithm": "gb-class_means-noise-frontier",
+  "dataset": "synthetic-gaussian_blobs-clean-test",
+  "dataset_generation_parameters": {
+    "family": "gaussian_blobs",
+    "generation_method": "class_means",
+    "noise_kind": "symmetric",
+    "noise_rate": 0
+  },
+  "experiment_id": "gbnoise-gaussian_blobs-symmetric-r00-class_means-s2026",
+  "hyperparameters": {
+    "taus": [
+      0.6,
+      0.75,
+      0.85,
+      0.95,
+      1.0
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.core_noise_stress:run",
+  "search": {
+    "campaign": "gb_core_noise_v1",
+    "enabled": false
+  },
+  "seed": 2026,
+  "study": "granular-ball-core-noise"
+}
