@@ -3,8 +3,8 @@
 ## Status
 
 The first author-code audit covers seven core GBC/3WD entries plus one optional
-clustering comparator. Two generation variants have passed a structure smoke
-test. No paper-level result has yet been claimed reproduced.
+clustering comparator. Five distinct author-code paths now run through the
+common experiment-record schema. No paper-level result has yet been claimed reproduced.
 
 | Baseline | Paper | Upstream | License | Current result |
 |---|---|---|---|---|
@@ -12,10 +12,10 @@ test. No paper-level result has yet been claimed reproduced.
 | Adaptive GBG | 10.1109/tnnls.2022.3203381 | `syxiaa/GBC@5986bea` | no license | structure smoke passed |
 | GBG++ | 10.1109/tetci.2024.3359091 | no public repository found | unknown | code search pending |
 | Local-density GBG | 10.1016/j.ins.2025.122295 | no public repository found | unknown | code search pending |
-| GBRS | 10.1109/tnnls.2023.3325199 | `syxiaa/GBRS@e7d92e7` | no license | source/artifacts audited |
-| GBFRS | 10.1016/j.knosys.2023.110898 | `AldrinLake/GBFRS@25a8bc2` | MIT | source audited |
+| GBRS | 10.1109/tnnls.2023.3325199 | `syxiaa/GBRS@e7d92e7` | no license | feature-reduction smoke passed |
+| GBFRS | 10.1016/j.knosys.2023.110898 | `AldrinLake/GBFRS@25a8bc2` | MIT | feature-ranking smoke passed after retained failure |
 | 3WC-GBNRS++ | 10.1109/tfuzz.2024.3397697 | `xiaodiaolingyun/3WCGBNRS-@085dfa7` | no license | source/supplement audited |
-| S3WD-GBRS | 10.1109/tfuzz.2025.3536564 | `xiaodiaolingyun/S3WD-GBRS@48d1938` | no license | source/supplement audited |
+| S3WD-GBRS | 10.1109/tfuzz.2025.3536564 | `xiaodiaolingyun/S3WD-GBRS@48d1938` | no license | three-way smoke passed |
 
 Exact URLs and commits are machine-readable in `baselines/upstream_registry.csv`.
 
@@ -33,6 +33,20 @@ These accuracies are nearest-center predictions on the same data used to build
 the balls; they test structural usability only. The original run's wall time
 includes one-time Matplotlib font-cache construction, so the times are not a
 valid algorithm comparison.
+
+Three additional synthetic train/test paths were completed:
+
+| Experiment ID | Method | Main result |
+|---|---|---|
+| `20260824T100435Z-fd1a9b697c37` | GBRS + 5-NN | 2 selected features; Accuracy 0.8472; Macro-F1 0.8458 |
+| `20260824T100445Z-4298458ae2a0` | GBFRS | failed: NumPy-shadowed built-in `max`; retained |
+| `20260824T100518Z-4298458ae2a0` | GBFRS + 5-NN | compatibility-shim success; Accuracy 0.8148; Macro-F1 0.8138 |
+| `20260824T100524Z-2e665f7c56ec` | S3WD-GBRS | coverage 0.6296; selective Accuracy 0.9706; defer-as-error Accuracy 0.6111 |
+
+The GBFRS shims replace a GUI progress call, provide the removed
+`numpy.distutils.fcompiler.none` symbol, and restore Python's scalar `max` where
+`from numpy import *` shadowed it. Algorithm equations and selection logic are
+unchanged, but the deviation is material and must remain disclosed.
 
 ## Reproducibility findings
 
