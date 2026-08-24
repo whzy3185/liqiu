@@ -1,0 +1,29 @@
+{
+  "algorithm": "upstream-gbc-original-alternating-replication",
+  "dataset": "alternating-label-replication-v1",
+  "dataset_generation_parameters": {
+    "ambient_dimension": 2,
+    "family": "gaussian_xor",
+    "feature_noise": 0,
+    "label_noise": "none",
+    "n_samples": 600,
+    "noise_rate": 0,
+    "outlier_rate": 0,
+    "overlap": 0.25
+  },
+  "experiment_id": "altv1-gx25-original-s21",
+  "hyperparameters": {
+    "purity": 0.85
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.failure_trial:run",
+  "search": {
+    "campaign": "alternating_v1",
+    "case": "gx25",
+    "enabled": true
+  },
+  "seed": 21,
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_origin.py",
+  "variant": "original"
+}

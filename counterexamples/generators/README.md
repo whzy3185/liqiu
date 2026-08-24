@@ -5,10 +5,10 @@ ground-truth metadata when available, and be serializable from an experiment
 configuration. The initial suite targets geometry, noise, drift, imbalance, and
 ambient/intrinsic dimensionality.
 
-`synthetic.py` currently implements 12 deterministic binary families: Gaussian
+`synthetic.py` currently implements 14 deterministic binary families: Gaussian
 blobs, moons, circles, XOR, checkerboard, spirals, thin manifold, nested
 clusters, anisotropic clusters, multimodal classes, varying density, and
-imbalanced density. Shared transforms add symmetric/asymmetric/boundary/
+imbalanced density, four-cluster Gaussian XOR, and alternating sector wheels. Shared transforms add symmetric/asymmetric/boundary/
 cluster-specific label noise, feature noise, outliers, and ambient-dimension
 embedding.
 

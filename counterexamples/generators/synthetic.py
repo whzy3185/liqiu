@@ -11,7 +11,7 @@ from sklearn.datasets import make_blobs, make_circles, make_moons
 FAMILIES = (
     "gaussian_blobs", "moons", "circles", "xor", "checkerboard", "spirals",
     "thin_manifold", "nested_clusters", "anisotropic", "multimodal_class",
-    "varying_density", "imbalanced_density",
+    "varying_density", "imbalanced_density", "gaussian_xor", "sector_wheel",
 )
 
 
@@ -49,6 +49,15 @@ def _base(family: str, n: int, rng: np.random.Generator, seed: int, p: Dict[str,
     if family == "xor":
         X = rng.uniform(-1, 1, size=(n, 2)); y = ((X[:, 0] >= 0) ^ (X[:, 1] >= 0)).astype(int)
         X += rng.normal(scale=overlap, size=X.shape); return X, y
+    if family == "gaussian_xor":
+        centers=[(-1,-1),(-1,1),(1,-1),(1,1)]
+        X,component=make_blobs(n_samples=n,centers=centers,cluster_std=max(overlap,.01),random_state=seed)
+        return X, np.isin(component,[1,2]).astype(int)
+    if family == "sector_wheel":
+        sectors=int(p.get("sectors",8)); angle=rng.uniform(0,2*np.pi,n); radius=np.sqrt(rng.uniform(0,1,n))
+        y=(np.floor(sectors*angle/(2*np.pi))%2).astype(int)
+        X=np.column_stack([radius*np.cos(angle),radius*np.sin(angle)])
+        X+=rng.normal(scale=width,size=X.shape); return X,y
     if family == "checkerboard":
         cells = int(p.get("cells", 4)); X = rng.uniform(0, cells, size=(n, 2))
         y = ((np.floor(X[:, 0]) + np.floor(X[:, 1])) % 2).astype(int)
@@ -123,4 +132,3 @@ def generate(family: str, n_samples: int = 500, seed: int = 42, ambient_dimensio
                 "ambient_dimension": ambient_dimension, "parameters": parameters,
                 "label_flips": flipped, "outlier_indices": outlier_indices}
     return X.astype(float), y.astype(int), metadata
-
