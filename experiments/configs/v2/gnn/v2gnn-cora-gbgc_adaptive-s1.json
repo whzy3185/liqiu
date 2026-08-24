@@ -1,0 +1,20 @@
+{
+  "algorithm": "gnn-gbgc_adaptive-frontier",
+  "dataset": "planetoid-cora",
+  "dataset_generation_parameters": {
+    "dataset": "cora"
+  },
+  "experiment_id": "v2gnn-cora-gbgc_adaptive-s1",
+  "hyperparameters": {
+    "method": "gbgc_adaptive",
+    "ratio": null
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.v2_gnn_frontier:run",
+  "search": {
+    "campaign": "v2_gnn_frontier_v1",
+    "enabled": false
+  },
+  "seed": 1,
+  "study": "gnn-risk-granularity-v2"
+}

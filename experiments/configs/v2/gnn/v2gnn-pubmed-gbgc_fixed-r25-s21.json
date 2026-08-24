@@ -1,0 +1,20 @@
+{
+  "algorithm": "gnn-gbgc_fixed-frontier",
+  "dataset": "planetoid-pubmed",
+  "dataset_generation_parameters": {
+    "dataset": "pubmed"
+  },
+  "experiment_id": "v2gnn-pubmed-gbgc_fixed-r25-s21",
+  "hyperparameters": {
+    "method": "gbgc_fixed",
+    "ratio": 0.25
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.v2_gnn_frontier:run",
+  "search": {
+    "campaign": "v2_gnn_frontier_v1",
+    "enabled": false
+  },
+  "seed": 21,
+  "study": "gnn-risk-granularity-v2"
+}
