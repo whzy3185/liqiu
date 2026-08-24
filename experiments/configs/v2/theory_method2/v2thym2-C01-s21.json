@@ -1,0 +1,44 @@
+{
+  "algorithm": "v2-class-mean-risk-budget-tree-cut",
+  "dataset": "v2-heterogeneous-family-C",
+  "dataset_generation_parameters": {
+    "base_config": "C01",
+    "dimension": 2,
+    "family": "C",
+    "generation_method": "class_means",
+    "mixture_weight": 0.5,
+    "n": 500,
+    "noise": 0.0,
+    "q": 0.7
+  },
+  "experiment_id": "v2thym2-C01-s21",
+  "hyperparameters": {
+    "epsilons": [
+      0,
+      0.005,
+      0.01,
+      0.02,
+      0.05
+    ],
+    "thresholds": [
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.v2_theory_frontier:run",
+  "search": {
+    "campaign": "v2_theory_frontier_method2",
+    "enabled": false
+  },
+  "seed": 21,
+  "study": "risk-granularity-v2"
+}
