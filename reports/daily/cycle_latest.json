@@ -1,173 +1,2008 @@
 {
-  "date_utc": "2026-08-24T14:50:36.664242+00:00",
-  "records_before": 1765,
-  "pending_before": 33,
-  "budget": 33,
+  "date_utc": "2026-08-24T16:52:40.479422+00:00",
+  "records_before": 1798,
+  "pending_before": 400,
+  "budget": 400,
   "executed": [
     {
-      "experiment_id": "v2gnnfix-citeseer-full-r100-s1",
+      "experiment_id": "gbimb-density_equal-r01-class_means-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-full-r100-s1.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r01-class_means-s1.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-full-r100-s21",
+      "experiment_id": "gbimb-density_equal-r01-class_means-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-full-r100-s21.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r01-class_means-s2026.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-full-r100-s7",
+      "experiment_id": "gbimb-density_equal-r01-class_means-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-full-r100-s7.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r01-class_means-s21.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-gbgc_adaptive-s1",
+      "experiment_id": "gbimb-density_equal-r01-class_means-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-gbgc_adaptive-s1.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r01-class_means-s42.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-gbgc_adaptive-s21",
+      "experiment_id": "gbimb-density_equal-r01-class_means-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-gbgc_adaptive-s21.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r01-class_means-s7.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-gbgc_adaptive-s7",
+      "experiment_id": "gbimb-density_equal-r01-kmeans-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-gbgc_adaptive-s7.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r01-kmeans-s1.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-gbgc_fixed-r25-s1",
+      "experiment_id": "gbimb-density_equal-r01-kmeans-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-gbgc_fixed-r25-s1.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r01-kmeans-s2026.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-gbgc_fixed-r25-s21",
+      "experiment_id": "gbimb-density_equal-r01-kmeans-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-gbgc_fixed-r25-s21.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r01-kmeans-s21.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-gbgc_fixed-r25-s7",
+      "experiment_id": "gbimb-density_equal-r01-kmeans-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-gbgc_fixed-r25-s7.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r01-kmeans-s42.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-gbgc_fixed-r50-s1",
+      "experiment_id": "gbimb-density_equal-r01-kmeans-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-gbgc_fixed-r50-s1.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r01-kmeans-s7.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-gbgc_fixed-r50-s21",
+      "experiment_id": "gbimb-density_equal-r05-class_means-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-gbgc_fixed-r50-s21.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r05-class_means-s1.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-gbgc_fixed-r50-s7",
+      "experiment_id": "gbimb-density_equal-r05-class_means-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-gbgc_fixed-r50-s7.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r05-class_means-s2026.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-gbgc_fixed-r75-s1",
+      "experiment_id": "gbimb-density_equal-r05-class_means-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-gbgc_fixed-r75-s1.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r05-class_means-s21.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-gbgc_fixed-r75-s21",
+      "experiment_id": "gbimb-density_equal-r05-class_means-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-gbgc_fixed-r75-s21.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r05-class_means-s42.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-gbgc_fixed-r75-s7",
+      "experiment_id": "gbimb-density_equal-r05-class_means-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-gbgc_fixed-r75-s7.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r05-class_means-s7.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-heavy_edge-r25-s1",
+      "experiment_id": "gbimb-density_equal-r05-kmeans-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-heavy_edge-r25-s1.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r05-kmeans-s1.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-heavy_edge-r25-s21",
+      "experiment_id": "gbimb-density_equal-r05-kmeans-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-heavy_edge-r25-s21.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r05-kmeans-s2026.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-heavy_edge-r25-s7",
+      "experiment_id": "gbimb-density_equal-r05-kmeans-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-heavy_edge-r25-s7.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r05-kmeans-s21.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-heavy_edge-r50-s1",
+      "experiment_id": "gbimb-density_equal-r05-kmeans-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-heavy_edge-r50-s1.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r05-kmeans-s42.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-heavy_edge-r50-s21",
+      "experiment_id": "gbimb-density_equal-r05-kmeans-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-heavy_edge-r50-s21.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r05-kmeans-s7.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-heavy_edge-r50-s7",
+      "experiment_id": "gbimb-density_equal-r20-class_means-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-heavy_edge-r50-s7.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r20-class_means-s1.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-heavy_edge-r75-s1",
+      "experiment_id": "gbimb-density_equal-r20-class_means-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-heavy_edge-r75-s1.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r20-class_means-s2026.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-heavy_edge-r75-s21",
+      "experiment_id": "gbimb-density_equal-r20-class_means-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-heavy_edge-r75-s21.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r20-class_means-s21.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-heavy_edge-r75-s7",
+      "experiment_id": "gbimb-density_equal-r20-class_means-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-heavy_edge-r75-s7.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r20-class_means-s42.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-random-r25-s1",
+      "experiment_id": "gbimb-density_equal-r20-class_means-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-random-r25-s1.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r20-class_means-s7.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-random-r25-s21",
+      "experiment_id": "gbimb-density_equal-r20-kmeans-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-random-r25-s21.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r20-kmeans-s1.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-random-r25-s7",
+      "experiment_id": "gbimb-density_equal-r20-kmeans-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-random-r25-s7.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r20-kmeans-s2026.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-random-r50-s1",
+      "experiment_id": "gbimb-density_equal-r20-kmeans-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-random-r50-s1.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r20-kmeans-s21.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-random-r50-s21",
+      "experiment_id": "gbimb-density_equal-r20-kmeans-s42",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-random-r50-s21.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r20-kmeans-s42.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-random-r50-s7",
+      "experiment_id": "gbimb-density_equal-r20-kmeans-s7",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-random-r50-s7.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r20-kmeans-s7.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-random-r75-s1",
+      "experiment_id": "gbimb-density_equal-r50-class_means-s1",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-random-r75-s1.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r50-class_means-s1.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-random-r75-s21",
+      "experiment_id": "gbimb-density_equal-r50-class_means-s2026",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-random-r75-s21.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r50-class_means-s2026.json"
     },
     {
-      "experiment_id": "v2gnnfix-citeseer-random-r75-s7",
+      "experiment_id": "gbimb-density_equal-r50-class_means-s21",
       "outcome": "success",
-      "config": "experiments/configs/v2/gnn_citeseer_fix/v2gnnfix-citeseer-random-r75-s7.json"
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r50-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-density_equal-r50-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r50-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-density_equal-r50-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r50-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-density_equal-r50-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r50-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-density_equal-r50-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r50-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-density_equal-r50-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r50-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-density_equal-r50-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r50-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-density_equal-r50-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_equal-r50-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r01-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r01-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r01-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r01-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r01-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r01-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r01-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r01-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r01-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r01-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r01-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r01-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r01-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r01-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r01-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r01-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r01-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r01-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r01-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r01-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r05-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r05-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r05-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r05-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r05-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r05-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r05-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r05-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r05-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r05-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r05-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r05-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r05-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r05-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r05-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r05-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r05-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r05-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r05-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r05-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r20-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r20-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r20-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r20-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r20-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r20-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r20-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r20-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r20-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r20-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r20-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r20-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r20-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r20-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r20-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r20-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r20-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r20-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r20-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r20-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r50-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r50-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r50-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r50-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r50-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r50-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r50-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r50-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r50-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r50-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r50-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r50-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r50-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r50-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r50-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r50-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r50-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r50-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-density_shift-r50-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-density_shift-r50-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r01-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r01-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r01-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r01-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r01-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r01-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r01-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r01-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r01-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r01-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r01-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r01-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r01-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r01-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r01-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r01-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r01-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r01-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r01-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r01-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r05-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r05-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r05-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r05-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r05-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r05-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r05-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r05-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r05-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r05-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r05-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r05-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r05-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r05-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r05-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r05-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r05-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r05-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r05-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r05-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r20-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r20-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r20-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r20-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r20-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r20-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r20-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r20-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r20-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r20-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r20-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r20-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r20-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r20-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r20-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r20-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r20-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r20-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r20-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r20-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r50-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r50-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r50-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r50-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r50-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r50-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r50-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r50-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r50-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r50-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r50-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r50-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r50-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r50-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r50-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r50-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r50-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r50-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbimb-moons-r50-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/imbalance/gbimb-moons-r50-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r00-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r00-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r00-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r00-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r00-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r00-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r00-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r00-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r00-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r00-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r00-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r00-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r00-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r00-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r00-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r00-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r00-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r00-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r00-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r00-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r10-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r10-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r10-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r10-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r10-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r10-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r10-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r10-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r10-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r10-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r10-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r10-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r10-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r10-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r10-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r10-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r10-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r10-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r10-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r10-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r20-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r20-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r20-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r20-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r20-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r20-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r20-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r20-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r20-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r20-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r20-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r20-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r20-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r20-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r20-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r20-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r20-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r20-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r20-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r20-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r30-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r30-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r30-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r30-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r30-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r30-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r30-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r30-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r30-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r30-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r30-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r30-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r30-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r30-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r30-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r30-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r30-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r30-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-boundary-r30-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-boundary-r30-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r00-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r00-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r00-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r00-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r00-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r00-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r00-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r00-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r00-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r00-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r00-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r00-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r00-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r00-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r00-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r00-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r00-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r00-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r00-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r00-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r10-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r10-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r10-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r10-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r10-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r10-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r10-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r10-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r10-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r10-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r10-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r10-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r10-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r10-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r10-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r10-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r10-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r10-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r10-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r10-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r20-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r20-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r20-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r20-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r20-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r20-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r20-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r20-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r20-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r20-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r20-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r20-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r20-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r20-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r20-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r20-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r20-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r20-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r20-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r20-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r30-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r30-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r30-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r30-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r30-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r30-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r30-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r30-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r30-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r30-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r30-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r30-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r30-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r30-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r30-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r30-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r30-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r30-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-gaussian_blobs-symmetric-r30-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-gaussian_blobs-symmetric-r30-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r00-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r00-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r00-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r00-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r00-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r00-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r00-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r00-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r00-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r00-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r00-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r00-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r00-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r00-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r00-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r00-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r00-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r00-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r00-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r00-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r10-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r10-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r10-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r10-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r10-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r10-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r10-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r10-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r10-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r10-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r10-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r10-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r10-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r10-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r10-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r10-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r10-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r10-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r10-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r10-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r20-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r20-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r20-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r20-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r20-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r20-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r20-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r20-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r20-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r20-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r20-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r20-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r20-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r20-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r20-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r20-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r20-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r20-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r20-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r20-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r30-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r30-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r30-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r30-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r30-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r30-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r30-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r30-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r30-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r30-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r30-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r30-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r30-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r30-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r30-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r30-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r30-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r30-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-boundary-r30-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-boundary-r30-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r00-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r00-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r00-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r00-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r00-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r00-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r00-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r00-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r00-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r00-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r00-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r00-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r00-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r00-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r00-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r00-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r00-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r00-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r00-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r00-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r10-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r10-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r10-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r10-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r10-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r10-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r10-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r10-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r10-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r10-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r10-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r10-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r10-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r10-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r10-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r10-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r10-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r10-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r10-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r10-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r20-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r20-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r20-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r20-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r20-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r20-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r20-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r20-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r20-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r20-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r20-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r20-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r20-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r20-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r20-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r20-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r20-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r20-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r20-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r20-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r30-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r30-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r30-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r30-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r30-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r30-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r30-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r30-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r30-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r30-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r30-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r30-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r30-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r30-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r30-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r30-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r30-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r30-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-moons-symmetric-r30-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-moons-symmetric-r30-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r00-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r00-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r00-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r00-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r00-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r00-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r00-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r00-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r00-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r00-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r00-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r00-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r00-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r00-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r00-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r00-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r00-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r00-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r00-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r00-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r10-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r10-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r10-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r10-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r10-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r10-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r10-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r10-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r10-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r10-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r10-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r10-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r10-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r10-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r10-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r10-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r10-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r10-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r10-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r10-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r20-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r20-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r20-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r20-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r20-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r20-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r20-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r20-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r20-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r20-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r20-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r20-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r20-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r20-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r20-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r20-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r20-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r20-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r20-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r20-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r30-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r30-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r30-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r30-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r30-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r30-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r30-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r30-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r30-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r30-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r30-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r30-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r30-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r30-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r30-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r30-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r30-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r30-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-boundary-r30-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-boundary-r30-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r00-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r00-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r00-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r00-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r00-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r00-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r00-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r00-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r00-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r00-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r00-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r00-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r00-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r00-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r00-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r00-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r00-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r00-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r00-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r00-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r10-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r10-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r10-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r10-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r10-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r10-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r10-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r10-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r10-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r10-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r10-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r10-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r10-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r10-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r10-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r10-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r10-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r10-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r10-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r10-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r20-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r20-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r20-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r20-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r20-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r20-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r20-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r20-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r20-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r20-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r20-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r20-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r20-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r20-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r20-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r20-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r20-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r20-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r20-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r20-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r30-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r30-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r30-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r30-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r30-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r30-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r30-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r30-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r30-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r30-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r30-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r30-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r30-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r30-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r30-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r30-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r30-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r30-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbnoise-spirals-symmetric-r30-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/noise/gbnoise-spirals-symmetric-r30-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbshift-concept_drift-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-concept_drift-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbshift-concept_drift-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-concept_drift-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbshift-concept_drift-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-concept_drift-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbshift-concept_drift-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-concept_drift-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbshift-concept_drift-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-concept_drift-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbshift-concept_drift-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-concept_drift-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbshift-concept_drift-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-concept_drift-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbshift-concept_drift-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-concept_drift-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbshift-concept_drift-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-concept_drift-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbshift-concept_drift-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-concept_drift-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbshift-covariate_shift-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-covariate_shift-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbshift-covariate_shift-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-covariate_shift-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbshift-covariate_shift-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-covariate_shift-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbshift-covariate_shift-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-covariate_shift-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbshift-covariate_shift-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-covariate_shift-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbshift-covariate_shift-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-covariate_shift-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbshift-covariate_shift-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-covariate_shift-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbshift-covariate_shift-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-covariate_shift-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbshift-covariate_shift-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-covariate_shift-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbshift-covariate_shift-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-covariate_shift-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbshift-density_drift-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-density_drift-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbshift-density_drift-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-density_drift-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbshift-density_drift-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-density_drift-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbshift-density_drift-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-density_drift-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbshift-density_drift-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-density_drift-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbshift-density_drift-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-density_drift-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbshift-density_drift-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-density_drift-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbshift-density_drift-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-density_drift-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbshift-density_drift-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-density_drift-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbshift-density_drift-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-density_drift-kmeans-s7.json"
+    },
+    {
+      "experiment_id": "gbshift-prior_shift-class_means-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-prior_shift-class_means-s1.json"
+    },
+    {
+      "experiment_id": "gbshift-prior_shift-class_means-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-prior_shift-class_means-s2026.json"
+    },
+    {
+      "experiment_id": "gbshift-prior_shift-class_means-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-prior_shift-class_means-s21.json"
+    },
+    {
+      "experiment_id": "gbshift-prior_shift-class_means-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-prior_shift-class_means-s42.json"
+    },
+    {
+      "experiment_id": "gbshift-prior_shift-class_means-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-prior_shift-class_means-s7.json"
+    },
+    {
+      "experiment_id": "gbshift-prior_shift-kmeans-s1",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-prior_shift-kmeans-s1.json"
+    },
+    {
+      "experiment_id": "gbshift-prior_shift-kmeans-s2026",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-prior_shift-kmeans-s2026.json"
+    },
+    {
+      "experiment_id": "gbshift-prior_shift-kmeans-s21",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-prior_shift-kmeans-s21.json"
+    },
+    {
+      "experiment_id": "gbshift-prior_shift-kmeans-s42",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-prior_shift-kmeans-s42.json"
+    },
+    {
+      "experiment_id": "gbshift-prior_shift-kmeans-s7",
+      "outcome": "success",
+      "config": "experiments/configs/core_exploration/shift/gbshift-prior_shift-kmeans-s7.json"
     }
   ],
   "post_commands": [
@@ -206,10 +2041,10 @@
         "-v"
       ],
       "returncode": 0,
-      "output_tail": "test_classifier_interfaces (test_classical_adapters.ClassicalAdapterTests.test_classifier_interfaces) ... ok\ntest_cluster_interfaces (test_classical_adapters.ClassicalAdapterTests.test_cluster_interfaces) ... ok\ntest_confidence_lower_bound_is_no_less_conservative (test_cleanroom_gbc.CleanRoomGBCTests.test_confidence_lower_bound_is_no_less_conservative) ... ok\ntest_interface_and_probabilities (test_cleanroom_gbc.CleanRoomGBCTests.test_interface_and_probabilities) ... ok\ntest_all_families_shape_and_labels (test_generators.GeneratorTests.test_all_families_shape_and_labels) ... ok\ntest_deterministic_and_high_dimensional (test_generators.GeneratorTests.test_deterministic_and_high_dimensional) ... ok\ntest_pruned_interface (test_local_pruning.LocalPruningTests.test_pruned_interface) ... ok\ntest_confirmation_rejects_search (test_protocol.ProtocolTests.test_confirmation_rejects_search) ... ok\ntest_initial_seed_is_valid (test_protocol.ProtocolTests.test_initial_seed_is_valid) ... ok\ntest_all_existing_configs_have_unique_completed_ids_or_are_pending (test_research_cycle.ResearchCycleTests.test_all_existing_configs_have_unique_completed_ids_or_are_pending) ... ok\ntest_all_streams_and_replay (test_stream_generators.StreamGeneratorTests.test_all_streams_and_replay) ... ok\ntest_emerging_class_appears_late (test_stream_generators.StreamGeneratorTests.test_emerging_class_appears_late) ... ok\ntest_partition_and_bytes (test_v2_federated.V2FederatedTests.test_partition_and_bytes) ... ok\ntest_pareto (test_v2_frontier.V2FrontierTests.test_pareto) ... ok\ntest_small_harness (test_v2_frontier.V2FrontierTests.test_small_harness) ... ok\ntest_citeseer_reorder_matches_raw_test_labels (test_v2_gnn.V2GNNTests.test_citeseer_reorder_matches_raw_test_labels) ... /Users/muelsyse/Documents/Codex/2026-08-24/files-pasted-by-the-user-codex/research/studies/graph_coarsening/planetoid.py:7: DeprecationWarning: Please import `csr_matrix` from the `scipy.sparse` namespace; the `scipy.sparse.csr` namespace is deprecated and will be removed in SciPy 2.0.0.\n  with path.open('rb') as h:return pickle.load(h,encoding='latin1')\nok\ntest_cleanroom_gbgc_assignments (test_v2_gnn.V2GNNTests.test_cleanroom_gbgc_assignments) ... ok\ntest_coarsening_and_gcn (test_v2_gnn.V2GNNTests.test_coarsening_and_gcn) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 1.121s\n\nOK\n"
+      "output_tail": "test_classifier_interfaces (test_classical_adapters.ClassicalAdapterTests.test_classifier_interfaces) ... ok\ntest_cluster_interfaces (test_classical_adapters.ClassicalAdapterTests.test_cluster_interfaces) ... ok\ntest_confidence_lower_bound_is_no_less_conservative (test_cleanroom_gbc.CleanRoomGBCTests.test_confidence_lower_bound_is_no_less_conservative) ... ok\ntest_interface_and_probabilities (test_cleanroom_gbc.CleanRoomGBCTests.test_interface_and_probabilities) ... ok\ntest_metrics (test_gb_core_stress.GBCoreStressTests.test_metrics) ... ok\ntest_two_tree_methods (test_gb_core_stress.GBCoreStressTests.test_two_tree_methods) ... ok\ntest_all_families_shape_and_labels (test_generators.GeneratorTests.test_all_families_shape_and_labels) ... ok\ntest_deterministic_and_high_dimensional (test_generators.GeneratorTests.test_deterministic_and_high_dimensional) ... ok\ntest_pruned_interface (test_local_pruning.LocalPruningTests.test_pruned_interface) ... ok\ntest_confirmation_rejects_search (test_protocol.ProtocolTests.test_confirmation_rejects_search) ... ok\ntest_initial_seed_is_valid (test_protocol.ProtocolTests.test_initial_seed_is_valid) ... ok\ntest_all_existing_configs_have_unique_completed_ids_or_are_pending (test_research_cycle.ResearchCycleTests.test_all_existing_configs_have_unique_completed_ids_or_are_pending) ... ok\ntest_all_streams_and_replay (test_stream_generators.StreamGeneratorTests.test_all_streams_and_replay) ... ok\ntest_emerging_class_appears_late (test_stream_generators.StreamGeneratorTests.test_emerging_class_appears_late) ... ok\ntest_partition_and_bytes (test_v2_federated.V2FederatedTests.test_partition_and_bytes) ... ok\ntest_pareto (test_v2_frontier.V2FrontierTests.test_pareto) ... ok\ntest_small_harness (test_v2_frontier.V2FrontierTests.test_small_harness) ... ok\ntest_citeseer_reorder_matches_raw_test_labels (test_v2_gnn.V2GNNTests.test_citeseer_reorder_matches_raw_test_labels) ... /Users/muelsyse/Documents/Codex/2026-08-24/files-pasted-by-the-user-codex/research/studies/graph_coarsening/planetoid.py:7: DeprecationWarning: Please import `csr_matrix` from the `scipy.sparse` namespace; the `scipy.sparse.csr` namespace is deprecated and will be removed in SciPy 2.0.0.\n  with path.open('rb') as h:return pickle.load(h,encoding='latin1')\nok\ntest_cleanroom_gbgc_assignments (test_v2_gnn.V2GNNTests.test_cleanroom_gbgc_assignments) ... ok\ntest_coarsening_and_gcn (test_v2_gnn.V2GNNTests.test_coarsening_and_gcn) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 1.359s\n\nOK\n"
     }
   ],
   "status": "ok",
-  "records_after": 1798,
+  "records_after": 2198,
   "pending_after": 0
 }

@@ -11,21 +11,30 @@ count as novelty.
 - Direct occupied work: Granular Ball Sampling for Noisy Label or Imbalanced
   Classification (10.1109/TNNLS.2021.3105984); G-GBC Gaussian-mixture granular
   balls for noisy CNN classification (10.1016/J.KNOSYS.2026.115754); granular-ball
-  representation learning for CNN label noise (2025 LNCS).
+  representation learning for CNN label noise (2025 LNCS); CMGBIFSC explicitly
+  contrasts its construction with purity-1 generation and reports excessive
+  boundary fragmentation (10.1016/j.asoc.2026.116020); ScOrGBC likewise names
+  excessive high-purity ball generation as a limitation
+  (10.1016/j.asoc.2026.114852).
 - Collision risk: HIGH for another robust classifier/sampler.
-- Remaining mechanism question: when a purity target causes the generator to
-  chase random/boundary label noise, how does clean-test risk trade against ball
-  explosion? A reusable failure map may remain valuable.
+- Remaining value is diagnostic rather than algorithmic: map when a purity
+  target chases random/boundary label noise and quantify clean-test risk versus
+  ball explosion. The phenomenon itself is not a novelty claim after the 2026
+  papers.
 
 ## Imbalance / minority structure
 
 - Direct occupied work: GBSampling; three-way hybrid granular-ball sampling;
   GBRIP; granular classifiers for imbalanced data; informed granular-ball
-  oversampling.
+  oversampling; CMGBIFSC allocates class-mapped balls with a power-scaled class
+  budget and a nonzero per-class floor (10.1016/j.asoc.2026.116020); MLGNRS uses
+  a boundary-aware termination strategy for multi-label imbalance
+  (10.1016/j.ijar.2026.109669).
 - Collision risk: HIGH.
 - Remaining mechanism question: majority labels and purity stops may erase
-  locally dense/disconnected minority regions. Continue only if a cross-family
-  minority-recall failure is not repaired by existing sampling baselines.
+  locally dense/disconnected minority regions. A raw-purity collapse can still
+  be a useful regression test, but a new mechanism must outperform or materially
+  differ from class-mapped allocation, sampling and per-class floors.
 
 ## Shift / TTA / OOD / uncertainty
 
@@ -42,6 +51,8 @@ count as novelty.
 ## Dynamic split / merge / shape
 
 - Local dynamic granular-ball outlier detection and manifold GB clustering exist.
+- Boundary-driven bottom-up generation with adaptive radii, homogeneous merging
+  and overlap removal is now directly occupied (10.1016/j.ins.2026.123780).
 - Ellipsoid/manifold replacement is not treated as open by default.
 - Collision risk: MEDIUM–HIGH.
 - Reopen only after a stress test identifies a shape/update failure that a
@@ -63,3 +74,10 @@ count as novelty.
    stable cross-shift evidence.
 
 No candidate is P0 before these tests.
+
+## 2026 source check
+
+- [CMGBIFSC publisher page](https://doi.org/10.1016/j.asoc.2026.116020)
+- [ScOrGBC publisher page](https://doi.org/10.1016/j.asoc.2026.114852)
+- [Boundary-driven GB generation publisher page](https://doi.org/10.1016/j.ins.2026.123780)
+- [MLGNRS publisher page](https://doi.org/10.1016/j.ijar.2026.109669)
