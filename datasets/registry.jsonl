@@ -1,2 +1,6 @@
 {"dataset_id":"synthetic-smoke-v1","pool":"exploration","kind":"synthetic","source":"experiments.runners.smoke","license":"repository test fixture","checksum":null,"status":"active","notes":"Infrastructure-only; never scientific evidence."}
-
+{"dataset_id":"openml-59-ionosphere","pool":"exploration","kind":"real","source":"https://www.openml.org/d/59","license":"Public","checksum":"recorded per experiment from OpenML metadata","status":"active","notes":"Full dataset; binary classification."}
+{"dataset_id":"openml-40-sonar","pool":"exploration","kind":"real","source":"https://www.openml.org/d/40","license":"Public","checksum":"recorded per experiment from OpenML metadata","status":"active","notes":"Full dataset; binary classification."}
+{"dataset_id":"openml-1462-banknote-authentication","pool":"exploration","kind":"real","source":"https://www.openml.org/d/1462","license":"Public","checksum":"recorded per experiment from OpenML metadata","status":"active","notes":"Full dataset; binary classification."}
+{"dataset_id":"openml-1489-phoneme","pool":"exploration","kind":"real","source":"https://www.openml.org/d/1489","license":"Public","checksum":"recorded per experiment from OpenML metadata","status":"active","notes":"Stratified cap 5000; binary classification."}
+{"dataset_id":"openml-151-electricity","pool":"exploration","kind":"real","source":"https://www.openml.org/d/151","license":"Public","checksum":"recorded per experiment from OpenML metadata","status":"active","notes":"Stratified cap 5000; binary classification."}

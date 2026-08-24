@@ -1,0 +1,20 @@
+{
+  "algorithm": "cleanroom-original-gbc",
+  "dataset": "openml-1489-phoneme",
+  "dataset_generation_parameters": {
+    "max_samples": 5000,
+    "openml_data_id": 1489,
+    "subsampling": "stratified before split if source exceeds cap"
+  },
+  "experiment_id": "realv1-phoneme-s42",
+  "hyperparameters": {
+    "purity": 0.85
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.real_gbc_trial:run",
+  "search": {
+    "campaign": "real_v1",
+    "enabled": false
+  },
+  "seed": 42
+}
