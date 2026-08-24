@@ -40,3 +40,12 @@ A three-fold cross-fit local keep/split prototype reduced thousands of leaves to
 tens, but consistently lost Accuracy on Electricity and Phoneme. A bounded
 min-validation sensitivity check (5/10/20) did not rescue it. Sparse local
 validation is a structural limitation, not a tunable implementation detail.
+
+### Candidate 2 / M08 sequential control — not retained
+
+A paired empirical-Bernstein three-way controller evaluated purity alternatives
+in batches and could ACCEPT, REJECT or INVESTIGATE. Across 30 runs and two δ
+levels it consumed every validation sample, accepted no alternative, and always
+fell back to p=.85. It is safe but provides no adaptation or VOI savings. Less
+conservative variants lose the claimed distribution-free protection; the result
+is redirected to Candidate 6 sample-complexity analysis.

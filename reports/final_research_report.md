@@ -1,7 +1,7 @@
 # First Research Direction Ranking — 2026-08-24
 
 Eligibility evidence: 162 structured papers, five runnable core GBC/3WD author
-paths, 14 synthetic families, and 1,014 append-only experiment records. This is the
+paths, 14 synthetic families, and 1,044 append-only experiment records. This is the
 requested first Top 10, not the final 2–5 survivors. Only Candidate 1 currently
 has cross-method, cross-real-dataset evidence. MDL-based local construction is
 excluded after direct collision with arXiv:2605.11406.
@@ -96,7 +96,7 @@ M01/M02 negative controls；S3WD smoke 显示 coverage 0.630、selective Accurac
 
 ## Result
 
-继续获取信息有必要，但尚无局部 VOI 策略证据。
+分布无关 sequential control 在 30/30 次实验中读取全部验证样本后仍无法接受任何 alternative，全部回退 p=.85；安全但无自适应收益。
 
 ## Theoretical Opportunity
 
@@ -112,7 +112,7 @@ CPU，中等；主要成本是局部重采样。
 
 ## Next Decisive Experiment
 
-在三个 H-003 数据集上比较 fixed、Wilson、global CV 与三支 sequential test；若 uncertain 分支不能以更少评估达到更低 regret，淘汰。
+该决定性实验已失败。停止工程调参；仅保留“为什么局部证据样本复杂度过高”的理论问题，并入 Candidate 6。
 
 # Candidate 3
 
@@ -549,10 +549,10 @@ CPU。
 ## Ranking summary
 
 1. Candidate 1 — P0 problem, mechanism unresolved.
-2. Candidate 2 — P1, high collision risk.
+2. Candidate 6 — P1 theory track for Candidate 1.
 3. Candidate 3 — P1, boundary-aware collision risk.
 4. Candidate 4 — P1, theory-dependent.
-5. Candidate 6 — P1 theory track for Candidate 1.
+5. Candidate 2 — negative practical result; theory merged into Candidate 6.
 6. Candidate 5 — P2 replication needed.
 7. Candidate 8 — P2 analysis/artifact.
 8. Candidate 7 — P2, no shift evidence.

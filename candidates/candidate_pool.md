@@ -18,7 +18,7 @@ retained paper topic. Scores are 0–5; collision is dangerous when high.
 | M05 | Local MDL code-length stop | hundreds of low-value balls | REJECTED: direct 2026 MDL-GBC collision | 1 | 5 | 5 | 4 | 5 | 5 | 2 | 2 | 5 | 30 |
 | M06 | Pareto risk–balls–calibration frontier | no scalar purity suits all regimes | retain nondominated local actions then select by budget | 3 | 5 | 3 | 4 | 3 | 5 | 4 | 3 | 3 | 35 |
 | M07 | Sequential probability-ratio split test | abrupt Phoneme phase transition | accumulate split evidence until accept/reject boundary | 4 | 4 | 4 | 4 | 5 | 4 | 4 | 2 | 1 | 41 |
-| M08 | Value-of-information split | many splits add negligible accuracy | expected risk reduction divided by compute/granule cost | 4 | 4 | 4 | 3 | 4 | 5 | 5 | 5 | 2 | 42 |
+| M08 | Value-of-information split | many splits add negligible accuracy | distribution-free sequential control used all evidence and never acted | 3 | 4 | 3 | 2 | 4 | 3 | 3 | 4 | 3 | 29 |
 | M09 | Local out-of-bag error stopping | training purity blind to test error | bootstrap candidate split and use OOB loss | 3 | 5 | 3 | 3 | 2 | 4 | 4 | 3 | 2 | 34 |
 | M10 | Split-then-merge validation | irreversible over-refinement | validate local merge after each refinement wave | 2 | 4 | 3 | 3 | 2 | 4 | 3 | 2 | 3 | 26 |
 | M11 | Multi-scale prediction ensemble | threshold selection unstable | average predictions over purity path with complexity weights | 3 | 4 | 3 | 3 | 3 | 4 | 4 | 2 | 3 | 30 |
@@ -38,5 +38,5 @@ scores are triage judgments and do not override collision evidence.
 ## First implementation queue
 
 M05 is rejected after a direct collision; M01 is rejected after its Cheap Test.
-M02 and M12 are rejected. M08, M16 and M17 lead the queue. M04 is retained only
-as a calibration constraint.
+M02 and M12 are rejected. M16 and M17 lead the queue. M08 is demoted after its
+sequential control proved safe but powerless; M04 is a calibration constraint.
