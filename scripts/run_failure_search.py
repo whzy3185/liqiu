@@ -1,10 +1,11 @@
 """Generate and execute the bounded random-search campaign v1."""
 
-import argparse, json
+import argparse, json, sys
 from pathlib import Path
 import numpy as np
 
 ROOT=Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path: sys.path.insert(0,str(ROOT))
 SEEDS=(1,7,21)
 METHODS={
  "original":("upstream-gbc-original-failure-trial","work/upstreams/syxiaa_GBC/gb_origin.py"),
