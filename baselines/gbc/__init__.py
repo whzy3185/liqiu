@@ -1,2 +1,3 @@
 from .model import ConfidenceBoundGranularBallClassifier,GranularBallClassifier
-__all__=["GranularBallClassifier","ConfidenceBoundGranularBallClassifier"]
+from .local_pruning import StableLocalPrunedGBC
+__all__=["GranularBallClassifier","ConfidenceBoundGranularBallClassifier","StableLocalPrunedGBC"]

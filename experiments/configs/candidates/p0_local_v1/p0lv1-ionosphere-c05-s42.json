@@ -1,0 +1,20 @@
+{
+  "algorithm": "p0-stable-local-risk-cost-pruning",
+  "dataset": "openml-59-ionosphere",
+  "dataset_generation_parameters": {
+    "max_samples": 351,
+    "openml_data_id": 59
+  },
+  "experiment_id": "p0lv1-ionosphere-c05-s42",
+  "hyperparameters": {
+    "cost_per_leaf": 0.5,
+    "min_validation": 20
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.p0_local_pruning:run",
+  "search": {
+    "campaign": "p0_local_v1",
+    "enabled": false
+  },
+  "seed": 42
+}
