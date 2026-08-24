@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import LabelEncoder,MinMaxScaler
 from sklearn.svm import SVC
-from baselines.gbc import GranularBallClassifier
+from baselines.gbc import ConfidenceBoundGranularBallClassifier,GranularBallClassifier
 
 def _ece(y,prob,bins=10):
  confidence=np.maximum(prob,1-prob); correct=(prob>=.5)==y; edges=np.linspace(0,1,bins+1); total=len(y); value=0.0
@@ -25,7 +25,9 @@ def run(config:Mapping[str,Any]):
   selected,_=train_test_split(np.arange(len(y)),train_size=max_samples,stratify=y,random_state=seed); X,y=X[selected],y[selected]
  X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=.3,stratify=y,random_state=seed)
  imputer=SimpleImputer(strategy='median'); scaler=MinMaxScaler(); X_train=scaler.fit_transform(imputer.fit_transform(X_train)); X_test=scaler.transform(imputer.transform(X_test))
- model=GranularBallClassifier(purity=float(config['hyperparameters'].get('purity',.85))).fit(X_train,y_train)
+ if config['hyperparameters'].get('stop_rule')=='wilson_lower':
+  model=ConfidenceBoundGranularBallClassifier(purity=float(config['hyperparameters'].get('purity',.85))).fit(X_train,y_train)
+ else: model=GranularBallClassifier(purity=float(config['hyperparameters'].get('purity',.85))).fit(X_train,y_train)
  predicted=model.predict(X_test); probability=model.predict_proba(X_test)[:,1]
  refs={'RandomForestClassifier':RandomForestClassifier(n_estimators=200,min_samples_leaf=2,n_jobs=1,random_state=seed),
        'RBF-SVM':SVC(C=1,gamma='scale'),'5-NN':KNeighborsClassifier(5)}; ref_metrics={}
@@ -35,7 +37,7 @@ def run(config:Mapping[str,Any]):
  return {'metrics':{'accuracy':float(accuracy_score(y_test,predicted)),'macro_f1':float(f1_score(y_test,predicted,average='macro')),
   'auroc':float(roc_auc_score(y_test,probability)),'calibration_error':_ece(y_test,probability),
   'additional':{'reference':best,'reference_accuracy':ref_metrics[best]['accuracy'],'accuracy_gap':float(accuracy_score(y_test,predicted)-ref_metrics[best]['accuracy']),
-                'all_references':ref_metrics,'openml_version':bundle.details.get('version'),'openml_md5':bundle.details.get('md5_checksum'),'used_samples':len(y),'source_samples':len(bundle.target)}},
+                'all_references':ref_metrics,'stop_rule':config['hyperparameters'].get('stop_rule','observed_purity'),'openml_version':bundle.details.get('version'),'openml_md5':bundle.details.get('md5_checksum'),'used_samples':len(y),'source_samples':len(bundle.target)}},
   'structure':{'granule_count':len(sizes),'average_granule_size':float(np.mean(sizes)),
                'uncertain_sample_ratio':float(sum(s for s,q in zip(sizes,purities) if q<.85)/sum(sizes)),
                'additional':{'ball_sizes':sizes,'ball_purities':purities.tolist(),

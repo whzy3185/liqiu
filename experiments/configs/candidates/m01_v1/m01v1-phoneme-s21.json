@@ -1,0 +1,20 @@
+{
+  "algorithm": "m01-wilson-lower-purity-stop",
+  "dataset": "openml-1489-phoneme",
+  "dataset_generation_parameters": {
+    "max_samples": 5000,
+    "openml_data_id": 1489
+  },
+  "experiment_id": "m01v1-phoneme-s21",
+  "hyperparameters": {
+    "purity": 0.85,
+    "stop_rule": "wilson_lower"
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.real_gbc_trial:run",
+  "search": {
+    "campaign": "m01_v1",
+    "enabled": false
+  },
+  "seed": 21
+}

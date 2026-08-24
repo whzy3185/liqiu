@@ -1,0 +1,20 @@
+{
+  "algorithm": "m01-wilson-lower-purity-stop",
+  "dataset": "openml-1462-banknote-authentication",
+  "dataset_generation_parameters": {
+    "max_samples": 1372,
+    "openml_data_id": 1462
+  },
+  "experiment_id": "m01v1-banknote-authentication-s21",
+  "hyperparameters": {
+    "purity": 0.85,
+    "stop_rule": "wilson_lower"
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.real_gbc_trial:run",
+  "search": {
+    "campaign": "m01_v1",
+    "enabled": false
+  },
+  "seed": 21
+}

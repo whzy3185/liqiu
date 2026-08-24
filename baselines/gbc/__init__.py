@@ -1,2 +1,2 @@
-from .model import GranularBallClassifier
-__all__=["GranularBallClassifier"]
+from .model import ConfidenceBoundGranularBallClassifier,GranularBallClassifier
+__all__=["GranularBallClassifier","ConfidenceBoundGranularBallClassifier"]

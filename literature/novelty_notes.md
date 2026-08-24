@@ -11,7 +11,8 @@ only; Google Scholar/IEEE/ACM/Springer/ScienceDirect full-text checks remain.
 
 ### M01 — confidence-bound purity stop
 
-- NOVELTY_STATUS: `UNKNOWN` (no title-level direct collision).
+- NOVELTY_STATUS: `PARTIAL_COLLISION` (no GBC direct collision; generic
+  small-sample tree-pruning equivalence).
 - Closest: *An Efficient and Adaptive Granular-Ball Generation Method in
   Classification Problem* (10.1109/TNNLS.2022.3203381); *GBG++* (10.1109/TETCI.2024.3359091);
   *Constructing Three-Way Decision With Fuzzy Granular-Ball Rough Sets Based on
@@ -20,15 +21,20 @@ only; Google Scholar/IEEE/ACM/Springer/ScienceDirect full-text checks remain.
   proportion rather than heuristic/adaptive observed purity.
 - Reviewer objection: this may be a textbook binomial interval applied to GBC,
   with novelty limited to replacing a threshold.
+- Adjacent closest work: *Small Sample Decision Tree Pruning*
+  (10.1016/B978-1-55860-335-6.50048-9) and probabilistic/cost-sensitive tree
+  pruning. Cheap Test is permitted only as a kill test, not novelty evidence.
 
 ### M02 — cross-fitted local risk/cost stop
 
-- NOVELTY_STATUS: `UNKNOWN`.
+- NOVELTY_STATUS: `PARTIAL_COLLISION`.
 - Closest: adaptive GBG and GBG++; no direct validation-risk title found.
 - Difference to verify: out-of-sample local action selection under explicit ball
   cost, not training-purity gain.
 - Reviewer objection: equivalent to ordinary cost-complexity pruning or local
   cross-validation with GBC terminology.
+- Adjacent collision class: CART cost-complexity and probabilistic pruning; a
+  GBC version needs a mechanism/theory not reducible to tree pruning.
 
 ### M03 — perturbation stability stop
 
@@ -46,6 +52,23 @@ only; Google Scholar/IEEE/ACM/Springer/ScienceDirect full-text checks remain.
 - Closest: uncertainty-invariance 3WD and fuzzy granular-ball classifiers.
 - Difference to verify: held-out proper scoring rule/calibration controls split.
 - Reviewer objection: ECE-based tuning is statistically weak and may overfit.
+
+### M08 — value-of-information split
+
+- NOVELTY_STATUS: `PARTIAL_COLLISION`.
+- No exact granular-ball VOI result found in arXiv/DBLP/Crossref queries.
+- Adjacent collision class: cost-sensitive decision trees and classical value of
+  information decision theory.
+- Reviewer objection: generic split-benefit divided by cost, renamed for GBC.
+
+### M12 — change-point purity-cost stop
+
+- NOVELTY_STATUS: `PARTIAL_COLLISION`.
+- No exact granular-ball change-point result found.
+- Adjacent closest work: stochastic-complexity change-point detection and
+  complexity regularization paths.
+- Reviewer objection: offline hyperparameter knee detection rather than a new
+  granulation mechanism; nested validation is required to avoid benchmark leak.
 
 ### M05 — local MDL stop
 
