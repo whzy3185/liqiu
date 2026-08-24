@@ -26,3 +26,10 @@ gains on Electricity but loses about 0.048 Accuracy, helps Banknote/Phoneme, and
 is unstable or harmful on Ionosphere/Sonar. Calibration is a necessary outcome
 constraint, not a standalone split objective. M04 is removed from the leading
 queue and may only participate in a multi-objective mechanism.
+
+### M12 — rejected
+
+Knee, discrete-curvature and 1%-plateau rules were compared under nested
+validation. Their selected purity and held-out behavior disagree sharply; each
+has a catastrophic dataset/seed. M12 lacks a non-arbitrary statistical decision
+property and is removed from the candidate queue.

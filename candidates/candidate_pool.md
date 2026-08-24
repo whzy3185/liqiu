@@ -22,7 +22,7 @@ retained paper topic. Scores are 0–5; collision is dangerous when high.
 | M09 | Local out-of-bag error stopping | training purity blind to test error | bootstrap candidate split and use OOB loss | 3 | 5 | 3 | 3 | 2 | 4 | 4 | 3 | 2 | 34 |
 | M10 | Split-then-merge validation | irreversible over-refinement | validate local merge after each refinement wave | 2 | 4 | 3 | 3 | 2 | 4 | 3 | 2 | 3 | 26 |
 | M11 | Multi-scale prediction ensemble | threshold selection unstable | average predictions over purity path with complexity weights | 3 | 4 | 3 | 3 | 3 | 4 | 4 | 2 | 3 | 30 |
-| M12 | Change-point detection on purity–cost curve | phase transitions | stop at first statistically supported diminishing-return point | 4 | 5 | 4 | 4 | 4 | 5 | 5 | 3 | 1 | 45 |
+| M12 | Change-point detection on purity–cost curve | phase transitions | REJECTED: knee/curvature/plateau disagree and fail | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 2 | 4 | 25 |
 | M13 | Local intrinsic-dimension-conditioned stop | heterogeneous regions need different scale | regress split gain on local dimension and sample count | 3 | 4 | 3 | 3 | 3 | 4 | 3 | 4 | 3 | 31 |
 | M14 | Boundary-mixing-conditioned stop | interleaved boundary failure | estimate cross-label neighbor edges inside each ball | 3 | 5 | 4 | 4 | 4 | 5 | 4 | 3 | 2 | 40 |
 | M15 | Label-noise posterior purity correction | high p chases noisy labels | infer local noise rate before purity calculation | 3 | 4 | 4 | 3 | 4 | 4 | 4 | 2 | 3 | 33 |
@@ -38,5 +38,5 @@ scores are triage judgments and do not override collision evidence.
 ## First implementation queue
 
 M05 is rejected after a direct collision; M01 is rejected after its Cheap Test.
-M12, M08, M16 and M17 lead the queue. M02 requires resampling stability; M04 is
-retained only as a calibration constraint within a joint objective.
+M12 is rejected. M08, M16 and M17 lead the queue. M02 requires resampling
+stability; M04 is retained only as a calibration constraint.

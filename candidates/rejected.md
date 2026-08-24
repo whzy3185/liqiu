@@ -28,3 +28,14 @@ failed experiment IDs, and any reusable insight.
   not reconcile incompatible regimes.
 - Reusable insight: finite-sample uncertainty needs a three-way or value/cost
   action, not a uniformly stricter stop rule.
+
+## 2026-08-24 — M12 purity-path change point
+
+- Reason: heuristic instability plus `PARTIAL_COLLISION` with generic complexity
+  paths/change-point model selection.
+- Evidence: 45 nested train/validation/test runs, `m12v1-*`.
+- Curvature selects the one-ball Phoneme regime and loses about 0.13 Accuracy.
+- Knee damages Banknote and loses up to 0.25 on Sonar.
+- Plateau helps Banknote/Phoneme but repeats Ionosphere over-refinement.
+- Conclusion: plausible knee definitions disagree across data and seeds. Without
+  a derived risk property, “change point” is post-hoc hyperparameter selection.
