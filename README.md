@@ -39,6 +39,16 @@ python3 -m experiments.runners.run_experiment \
 python3 scripts/check_task0.py
 ```
 
+Inspect the bounded automatic cycle without changing results:
+
+```bash
+python scripts/research_cycle.py --dry-run
+```
+
+`research_cycle.json` caps new experiments per cycle and runs verification after
+execution. It never loops indefinitely, invents novelty decisions, commits, or
+pushes automatically.
+
 Use a temporary output during development:
 
 ```bash

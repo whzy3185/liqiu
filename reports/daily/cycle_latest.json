@@ -1,0 +1,49 @@
+{
+  "date_utc": "2026-08-24T11:44:32.041144+00:00",
+  "records_before": 1294,
+  "pending_before": 0,
+  "budget": 25,
+  "executed": [],
+  "post_commands": [
+    {
+      "command": [
+        "/Users/muelsyse/Documents/Codex/2026-08-24/files-pasted-by-the-user-codex/research/.venv/bin/python",
+        "scripts/check_task0.py"
+      ],
+      "returncode": 0,
+      "output_tail": "TASK 0 verification passed: schema, append-only records, and determinism are valid.\n"
+    },
+    {
+      "command": [
+        "/Users/muelsyse/Documents/Codex/2026-08-24/files-pasted-by-the-user-codex/research/.venv/bin/python",
+        "scripts/check_literature.py"
+      ],
+      "returncode": 0,
+      "output_tail": "Literature verification passed: 162 unique records; 75 abstract-coded.\n"
+    },
+    {
+      "command": [
+        "/Users/muelsyse/Documents/Codex/2026-08-24/files-pasted-by-the-user-codex/research/.venv/bin/python",
+        "scripts/check_baselines.py"
+      ],
+      "returncode": 0,
+      "output_tail": "Baseline gate passed: 5 core author-code paths runnable; paper-level reproduction remains pending.\n"
+    },
+    {
+      "command": [
+        "/Users/muelsyse/Documents/Codex/2026-08-24/files-pasted-by-the-user-codex/research/.venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "output_tail": "test_classifier_interfaces (test_classical_adapters.ClassicalAdapterTests.test_classifier_interfaces) ... ok\ntest_cluster_interfaces (test_classical_adapters.ClassicalAdapterTests.test_cluster_interfaces) ... ok\ntest_confidence_lower_bound_is_no_less_conservative (test_cleanroom_gbc.CleanRoomGBCTests.test_confidence_lower_bound_is_no_less_conservative) ... ok\ntest_interface_and_probabilities (test_cleanroom_gbc.CleanRoomGBCTests.test_interface_and_probabilities) ... ok\ntest_all_families_shape_and_labels (test_generators.GeneratorTests.test_all_families_shape_and_labels) ... ok\ntest_deterministic_and_high_dimensional (test_generators.GeneratorTests.test_deterministic_and_high_dimensional) ... ok\ntest_pruned_interface (test_local_pruning.LocalPruningTests.test_pruned_interface) ... ok\ntest_confirmation_rejects_search (test_protocol.ProtocolTests.test_confirmation_rejects_search) ... ok\ntest_initial_seed_is_valid (test_protocol.ProtocolTests.test_initial_seed_is_valid) ... ok\ntest_all_existing_configs_have_unique_completed_ids_or_are_pending (test_research_cycle.ResearchCycleTests.test_all_existing_configs_have_unique_completed_ids_or_are_pending) ... ok\ntest_all_streams_and_replay (test_stream_generators.StreamGeneratorTests.test_all_streams_and_replay) ... ok\ntest_emerging_class_appears_late (test_stream_generators.StreamGeneratorTests.test_emerging_class_appears_late) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.139s\n\nOK\n"
+    }
+  ],
+  "status": "ok",
+  "records_after": 1294,
+  "pending_after": 0
+}

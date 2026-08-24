@@ -1,0 +1,11 @@
+{
+  "max_new_experiments_per_cycle": 25,
+  "max_rounds": 1,
+  "post_commands": [
+    ["python", "scripts/check_task0.py"],
+    ["python", "scripts/check_literature.py"],
+    ["python", "scripts/check_baselines.py"],
+    ["python", "-m", "unittest", "discover", "-s", "tests", "-v"]
+  ],
+  "stop_when_no_pending_configs": true
+}
