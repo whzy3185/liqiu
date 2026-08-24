@@ -1,0 +1,11 @@
+{
+  "algorithm": "deterministic-smoke",
+  "dataset": "synthetic-smoke-v1",
+  "dataset_generation_parameters": {"n_samples": 20},
+  "pool": "exploration",
+  "seed": 42,
+  "runner": "experiments.runners.smoke:run",
+  "hyperparameters": {"threshold": 0.5},
+  "search": {"enabled": false}
+}
+

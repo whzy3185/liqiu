@@ -1,0 +1,9 @@
+[project]
+name = "granular-research-lab"
+version = "0.1.0"
+description = "Evidence-first experimentation infrastructure for granular computing research"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
