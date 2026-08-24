@@ -1,0 +1,31 @@
+{
+  "algorithm": "upstream-gbc-original-alternating-replication",
+  "dataset": "alternating-label-replication-v2",
+  "dataset_generation_parameters": {
+    "ambient_dimension": 2,
+    "family": "sector_wheel",
+    "feature_noise": 0,
+    "label_noise": "none",
+    "manifold_width": 0.05,
+    "n_samples": 600,
+    "noise_rate": 0,
+    "outlier_rate": 0,
+    "sectors": 4
+  },
+  "experiment_id": "altv2-sw04-original-s2026",
+  "hyperparameters": {
+    "purity": 0.85
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.failure_trial:run",
+  "search": {
+    "campaign": "alternating_v2",
+    "case": "sw04",
+    "enabled": true,
+    "prediction_distance": "center_norm_minus_mean_radius"
+  },
+  "seed": 2026,
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_origin.py",
+  "variant": "original"
+}

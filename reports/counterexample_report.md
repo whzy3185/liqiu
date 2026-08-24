@@ -33,6 +33,12 @@ No entry is promoted to a research hypothesis. High-dimensional XOR advances to 
 
 ## XOR targeted replication v1
 
+Evidence status: **deprecated for official-classifier claims**. These runs used
+nearest-center prediction after author-code granulation. Audit of `gb_knn.py`
+showed the official classifier minimizes center distance minus mean radius. V1
+remains useful as a downstream-sensitivity record but must not support GBC
+classifier conclusions; corrected v2 is required.
+
 The decisive grid completed 140/140 runs over dimensions 2/5/10/20/50/100/500,
 overlaps 0.05/0.25, five seeds, and both original/adaptive author methods. Each
 run compares against RF, RBF-SVM, and 5-NN and uses the best reference accuracy.
@@ -49,6 +55,9 @@ a cross-method replicated observation, but it remains within one synthetic
 family and is not promoted to a research hypothesis.
 
 ## Alternating-label independent generators
+
+Evidence status: **deprecated for official-classifier claims** for the same
+nearest-center discrepancy. Generator contrasts remain descriptive only until v2.
 
 Alternating v1 completed 90/90 runs using five seeds and three generator
 families. Mean held-out gaps versus the best RF/RBF-SVM/5-NN reference are:
@@ -67,6 +76,19 @@ This narrows the observation: disconnected same-class regions are not sufficient
 and ambient dimension is not the cause. Locally interleaved/curved boundaries
 with label mixing inside local balls are plausible, while checkerboard-6 prevents
 a simple monotonic “more alternation is worse” claim.
+
+## Mechanism-signal audit
+
+Across the 230 XOR and alternating-label targeted runs, sample-weighted training
+ball impurity correlates only moderately with held-out gap (Pearson −0.28).
+Granule count correlates −0.34 and mean granule size +0.50, with stronger values
+for original GBC (−0.46/+0.57). These are observational and generator-confounded.
+
+The sharper negative result is that original GBC has zero samples below its
+configured 0.85 purity threshold in all 115 targeted runs, including runs with a
+−0.16 held-out gap. Thus satisfying the purity stopping rule does not diagnose
+the observed out-of-sample failure. Boundary stability and fragmentation need
+direct stress tests before a repair mechanism is proposed.
 
 ## Next experiment
 

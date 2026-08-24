@@ -1,0 +1,29 @@
+{
+  "algorithm": "upstream-gbc-adaptive-alternating-replication",
+  "dataset": "alternating-label-replication-v2",
+  "dataset_generation_parameters": {
+    "ambient_dimension": 2,
+    "cells": 2,
+    "family": "checkerboard",
+    "feature_noise": 0,
+    "label_noise": "none",
+    "manifold_width": 0.05,
+    "n_samples": 600,
+    "noise_rate": 0,
+    "outlier_rate": 0
+  },
+  "experiment_id": "altv2-cb02-adaptive-s42",
+  "hyperparameters": {},
+  "pool": "exploration",
+  "runner": "experiments.runners.failure_trial:run",
+  "search": {
+    "campaign": "alternating_v2",
+    "case": "cb02",
+    "enabled": true,
+    "prediction_distance": "center_norm_minus_mean_radius"
+  },
+  "seed": 42,
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_adaptive_upload.py",
+  "variant": "adaptive"
+}

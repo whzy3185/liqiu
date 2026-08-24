@@ -47,10 +47,11 @@ def _adaptive(module, data, seed):
 
 def _predict(balls, X):
     centers=np.vstack([b[:,1:].mean(0) for b in balls])
+    radii=np.array([np.linalg.norm(b[:,1:]-b[:,1:].mean(0),axis=1).mean() for b in balls])
     labels=[]
     for b in balls:
         values,counts=np.unique(b[:,0],return_counts=True); labels.append(values[np.argmax(counts)])
-    distances=((X[:,None,:]-centers[None,:,:])**2).sum(2)
+    distances=np.linalg.norm(X[:,None,:]-centers[None,:,:],axis=2)-radii[None,:]
     return np.asarray(labels)[np.argmin(distances,axis=1)]
 
 def run(config: Mapping[str,Any]):

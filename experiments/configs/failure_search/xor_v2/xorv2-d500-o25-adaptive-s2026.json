@@ -1,0 +1,29 @@
+{
+  "algorithm": "upstream-gbc-adaptive-xor-replication",
+  "dataset": "xor-targeted-replication-v2",
+  "dataset_generation_parameters": {
+    "ambient_dimension": 500,
+    "family": "xor",
+    "feature_noise": 0,
+    "label_noise": "none",
+    "n_samples": 500,
+    "noise_rate": 0,
+    "outlier_rate": 0,
+    "overlap": 0.25
+  },
+  "experiment_id": "xorv2-d500-o25-adaptive-s2026",
+  "hyperparameters": {},
+  "pool": "exploration",
+  "runner": "experiments.runners.failure_trial:run",
+  "search": {
+    "campaign": "xor_v2",
+    "dimension": 500,
+    "enabled": true,
+    "overlap": 0.25,
+    "prediction_distance": "center_norm_minus_mean_radius"
+  },
+  "seed": 2026,
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_adaptive_upload.py",
+  "variant": "adaptive"
+}
