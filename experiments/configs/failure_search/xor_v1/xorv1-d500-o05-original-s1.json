@@ -1,0 +1,30 @@
+{
+  "algorithm": "upstream-gbc-original-xor-replication",
+  "dataset": "xor-targeted-replication-v1",
+  "dataset_generation_parameters": {
+    "ambient_dimension": 500,
+    "family": "xor",
+    "feature_noise": 0,
+    "label_noise": "none",
+    "n_samples": 500,
+    "noise_rate": 0,
+    "outlier_rate": 0,
+    "overlap": 0.05
+  },
+  "experiment_id": "xorv1-d500-o05-original-s1",
+  "hyperparameters": {
+    "purity": 0.85
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.failure_trial:run",
+  "search": {
+    "campaign": "xor_v1",
+    "dimension": 500,
+    "enabled": true,
+    "overlap": 0.05
+  },
+  "seed": 1,
+  "upstream_commit": "5986bea652f7e6e944af33572cc958cd096de5a1",
+  "upstream_path": "work/upstreams/syxiaa_GBC/gb_origin.py",
+  "variant": "original"
+}
