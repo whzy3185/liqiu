@@ -1,7 +1,7 @@
 # First Research Direction Ranking — 2026-08-24
 
 Eligibility evidence: 162 structured papers, five runnable core GBC/3WD author
-paths, 14 synthetic families, and 1,174 append-only experiment records. This is the
+paths, 14 synthetic families, and 1,204 append-only experiment records. This is the
 requested first Top 10, not the final 2–5 survivors. Only Candidate 1 currently
 has cross-method, cross-real-dataset evidence. MDL-based local construction is
 excluded after direct collision with arXiv:2605.11406.
@@ -204,7 +204,7 @@ MEDIUM–HIGH。
 
 ## Result
 
-失准跨数据明显但不普遍；Banknote ECE 仅约 0.012。校准必须与 Accuracy/成本联合处理。
+失准跨数据明显但不普遍；30-run conformal audit 显示 GBC 往往需要比 RF 更大的 prediction sets 才获得 coverage，未发现粒计算独特收益。
 
 ## Theoretical Opportunity
 
@@ -220,7 +220,7 @@ CPU。
 
 ## Next Decisive Experiment
 
-用 split conformal 检查不同 purity 路径的 coverage-risk；若粒化不提供超越 Mondrian/local conformal 的性质，否决。
+决定性 split-conformal 审计已完成且未显示独特性质。方向降为 purity-calibration 分析子贡献；仅当能证明粒化特有 coverage/risk 性质才恢复。
 
 # Candidate 5
 
@@ -550,8 +550,8 @@ CPU。
 
 1. Candidate 1 — P0 problem, mechanism unresolved.
 2. Candidate 6 — P1 theory track for Candidate 1.
-3. Candidate 4 — P1, theory-dependent.
-4. Candidate 3 — P2 after metric failure and boundary-aware collision risk.
+3. Candidate 3 — P2 after metric failure and boundary-aware collision risk.
+4. Candidate 4 — P2 calibration analysis; conformal task migration demoted.
 5. Candidate 2 — negative practical result; theory merged into Candidate 6.
 6. Candidate 5 — P2 replication needed.
 7. Candidate 8 — P2 analysis/artifact.

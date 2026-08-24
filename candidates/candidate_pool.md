@@ -26,7 +26,7 @@ retained paper topic. Scores are 0–5; collision is dangerous when high.
 | M13 | Local intrinsic-dimension-conditioned stop | heterogeneous regions need different scale | regress split gain on local dimension and sample count | 3 | 4 | 3 | 3 | 3 | 4 | 3 | 4 | 3 | 31 |
 | M14 | Boundary-mixing-conditioned stop | interleaved boundary failure | REJECTED: metrics fail leave-case-out prediction | 2 | 5 | 2 | 4 | 2 | 2 | 2 | 2 | 4 | 22 |
 | M15 | Label-noise posterior purity correction | high p chases noisy labels | infer local noise rate before purity calculation | 3 | 4 | 4 | 3 | 4 | 4 | 4 | 2 | 3 | 33 |
-| M16 | Conformal local miscoverage stop | fixed p lacks risk meaning | refine until local prediction-set coverage target is met | 4 | 3 | 5 | 3 | 5 | 5 | 5 | 3 | 2 | 41 |
+| M16 | Conformal local miscoverage stop | fixed p lacks risk meaning | post-hoc audit shows generic RF conformal is more efficient | 2 | 3 | 4 | 2 | 5 | 3 | 3 | 2 | 4 | 25 |
 | M17 | Bayesian hierarchical local purity | sparse balls overfit purity | partial-pool region purities across hierarchy | 4 | 4 | 5 | 2 | 5 | 5 | 5 | 2 | 2 | 41 |
 | M18 | Contextual bandit over split/keep/merge | actions vary by local state | offline contextual bandit on recorded split trajectories | 3 | 4 | 4 | 2 | 2 | 4 | 4 | 5 | 3 | 33 |
 | M19 | Minimum-size confidence schedule | tiny pure balls explode | purity threshold rises with effective sample size | 2 | 5 | 2 | 5 | 3 | 4 | 3 | 2 | 3 | 29 |
@@ -38,5 +38,5 @@ scores are triage judgments and do not override collision evidence.
 ## First implementation queue
 
 M05 is rejected after a direct collision; M01 is rejected after its Cheap Test.
-M02 and M12 are rejected. M16 and M17 lead the queue. M08 is demoted after its
-sequential control proved safe but powerless; M04 is a calibration constraint.
+M02 and M12 are rejected. M17 is the only untested high-score mechanism. M16/M08
+are demoted; M04 is a calibration constraint rather than a standalone direction.

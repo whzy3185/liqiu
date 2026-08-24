@@ -57,3 +57,11 @@ leave-case-out prediction is worse than a constant baseline. Candidate 3 is
 demoted to P2; M14 is rejected. A future attempt must introduce independently
 motivated curvature/scale/topology statistics and clear the boundary-aware
 MDL-GBC collision.
+
+### Candidate 4 / M16 conformal audit — demoted
+
+Thirty matched split-conformal runs compare GBC purity probabilities with RF.
+Both can obtain marginal coverage, but GBC sets are frequently much larger on
+Electricity/Ionosphere and generally less efficient on Phoneme/Sonar. Generic
+conformal prediction solves coverage without a granular mechanism. Candidate 4
+remains useful as a purity-calibration audit, not as “GBC + conformal”.
