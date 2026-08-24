@@ -1,0 +1,21 @@
+{
+  "algorithm": "m02-global-validation-cost-control",
+  "dataset": "openml-1489-phoneme",
+  "dataset_generation_parameters": {
+    "max_samples": 5000,
+    "openml_data_id": 1489
+  },
+  "experiment_id": "m02gv2-phoneme-l02-s42",
+  "hyperparameters": {
+    "ball_cost_lambda": 0.02
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.m02_global_validation:run",
+  "search": {
+    "campaign": "m02_global_v2",
+    "corrects": "double-scaled-test bug in v1",
+    "enabled": false,
+    "role": "negative_control"
+  },
+  "seed": 42
+}

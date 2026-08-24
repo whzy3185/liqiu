@@ -84,3 +84,9 @@ source. Contradictory evidence is never omitted from an aggregate conclusion.
   Ionosphere has a different non-monotonic curve from original GBC.
 - H-003 is promoted as a cross-method real-data hypothesis. The evidence supports
   adaptive/local stopping as a problem class, not any particular solution.
+
+### Global validation negative control
+
+- `m02gv1-*` is invalid: the test matrix was transformed twice with incompatible
+  scalers. The 45 records remain for audit but provide no hypothesis evidence.
+- Corrected `m02gv2-*` is required before drawing any conclusion.
