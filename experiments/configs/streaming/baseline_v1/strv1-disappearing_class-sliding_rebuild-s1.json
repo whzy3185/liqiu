@@ -1,0 +1,22 @@
+{
+  "algorithm": "stream-sliding_rebuild",
+  "dataset": "synthetic-stream-disappearing_class-v1",
+  "dataset_generation_parameters": {
+    "ambient_dimension": 5,
+    "drift_strength": 2.0,
+    "kind": "disappearing_class",
+    "n_steps": 10,
+    "samples_per_step": 200
+  },
+  "experiment_id": "strv1-disappearing_class-sliding_rebuild-s1",
+  "hyperparameters": {
+    "strategy": "sliding_rebuild"
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.stream_baseline:run",
+  "search": {
+    "campaign": "stream_baseline_v1",
+    "enabled": false
+  },
+  "seed": 1
+}

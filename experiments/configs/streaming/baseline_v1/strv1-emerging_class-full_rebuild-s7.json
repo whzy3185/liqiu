@@ -1,0 +1,22 @@
+{
+  "algorithm": "stream-full_rebuild",
+  "dataset": "synthetic-stream-emerging_class-v1",
+  "dataset_generation_parameters": {
+    "ambient_dimension": 5,
+    "drift_strength": 2.0,
+    "kind": "emerging_class",
+    "n_steps": 10,
+    "samples_per_step": 200
+  },
+  "experiment_id": "strv1-emerging_class-full_rebuild-s7",
+  "hyperparameters": {
+    "strategy": "full_rebuild"
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.stream_baseline:run",
+  "search": {
+    "campaign": "stream_baseline_v1",
+    "enabled": false
+  },
+  "seed": 7
+}

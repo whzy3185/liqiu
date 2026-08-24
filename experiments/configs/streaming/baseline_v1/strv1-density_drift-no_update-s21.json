@@ -1,0 +1,22 @@
+{
+  "algorithm": "stream-no_update",
+  "dataset": "synthetic-stream-density_drift-v1",
+  "dataset_generation_parameters": {
+    "ambient_dimension": 5,
+    "drift_strength": 2.0,
+    "kind": "density_drift",
+    "n_steps": 10,
+    "samples_per_step": 200
+  },
+  "experiment_id": "strv1-density_drift-no_update-s21",
+  "hyperparameters": {
+    "strategy": "no_update"
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.stream_baseline:run",
+  "search": {
+    "campaign": "stream_baseline_v1",
+    "enabled": false
+  },
+  "seed": 21
+}
