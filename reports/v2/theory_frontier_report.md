@@ -41,7 +41,9 @@ diagnostics, not a deployable value estimator.
 
 ## Closest literature
 
-The forced theory collision audit is now required before any theorem packaging.
+The forced audit finds strong equivalence to cost-complexity pruning, structural
+risk minimization, adaptive partitions and rate-distortion. See
+`theory_collision_audit.md`.
 
 ## Collision risk
 
@@ -50,9 +52,9 @@ distortion and structural-risk minimization.
 
 ## Decision
 
-`P1_PENDING_COLLISION`: Theory-3 passes via Condition C across four families and
-two methods. It is not P0 because practical region discovery and novelty are not
-established.
+`P1_APPLICATION_EXPLANATION`: Theory-3 passes via Condition C across four
+families and two methods, but the current optimization is not sufficiently
+distinct from pruning/model selection for standalone theory.
 
 ## Next kill test
 

@@ -1,0 +1,7 @@
+{
+  "collision_risk": "HIGH_STANDALONE",
+  "decision": "P1_APPLICATION_EXPLANATION",
+  "empirical_gate": "PASS_CONDITION_C",
+  "reason": "Risk-budget cut selection is strongly equivalent to cost-complexity pruning, structural risk minimization and adaptive partition model selection.",
+  "reopen_p0_if": "A granular-ball-specific lower bound or application mechanism survives strong resource-frontier baselines."
+}
