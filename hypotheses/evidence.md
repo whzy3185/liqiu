@@ -85,6 +85,16 @@ source. Contradictory evidence is never omitted from an aggregate conclusion.
 - H-003 is promoted as a cross-method real-data hypothesis. The evidence supports
   adaptive/local stopping as a problem class, not any particular solution.
 
+### H-003 minimal theory construction
+
+- 40/40 runs verify the two-distribution construction at q=.7.
+- Separable labels: τ≤.7 gives 1 ball/Accuracy .7; τ>.7 gives 2 balls/Accuracy 1.
+- Feature-independent labels: τ≤.7 gives 1 ball/Accuracy .7; τ>.7 produces
+  hundreds of balls and Accuracy below .7.
+- Proposition 1 formalizes why no global threshold is compatible with both
+  regimes. Proposition 2 gives a worst-case local validation sample requirement
+  proportional to `1/Δ²`, explaining failed sequential/local controls.
+
 ### Global validation negative control
 
 - `m02gv1-*` is invalid: the test matrix was transformed twice with incompatible

@@ -97,3 +97,18 @@ only; Google Scholar/IEEE/ACM/Springer/ScienceDirect full-text checks remain.
 No candidate is `CLEAR`. M05 is rejected. Deeper checks prioritize
 M01/M12/M04/M02/M08. M03 and M06 are deprioritized because collision risk is
 already material. Semantic Scholar was rate-limited; DBLP exposed M05.
+
+## Candidate 6 theory gate — 2026-08-24
+
+- NOVELTY_STATUS: `UNKNOWN`; no direct title-level collision found in the
+  162-paper corpus, DBLP, or Crossref queries for granular-ball purity threshold
+  theory, complexity bounds, or sample complexity.
+- Closest mechanisms: adaptive GBG, GBG++, self-adaptive granular-ball splitting,
+  and MDL-GBC local model selection.
+- Difference: Proposition 1 is an incompatibility result for any global purity
+  threshold across two equal-root-purity regimes; Proposition 2 quantifies why
+  distribution-free local validation is impractical for small gains.
+- Potential reviewer objection: the two-distribution construction and Hoeffding
+  calculation may be mathematically correct but too elementary. A nontrivial
+  recursive ball-count/risk lower bound or selective-partition result is needed.
+- Gate decision: retain as P1 theory track; do not claim `CLEAR`.

@@ -1,0 +1,9 @@
+dataset,purity,runs,mean_accuracy,std_accuracy,mean_granules,min_granules,max_granules
+h003-separable-q070,0.6,5,0.7,0.0,1,1,1
+h003-separable-q070,0.7,5,0.7,0.0,1,1,1
+h003-separable-q070,0.8,5,1.0,0.0,2,2,2
+h003-separable-q070,0.9,5,1.0,0.0,2,2,2
+h003-uninformative-q070,0.6,5,0.7,0.0,1,1,1
+h003-uninformative-q070,0.7,5,0.7,0.0,1,1,1
+h003-uninformative-q070,0.8,5,0.6177,0.013090454537562858,453.8,422,471
+h003-uninformative-q070,0.9,5,0.5958,0.007619711280619493,660,645,675

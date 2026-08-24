@@ -1,7 +1,7 @@
 # First Research Direction Ranking — 2026-08-24
 
 Eligibility evidence: 162 structured papers, five runnable core GBC/3WD author
-paths, 14 synthetic families, and 1,044 append-only experiment records. This is the
+paths, 14 synthetic families, and 1,084 append-only experiment records. This is the
 requested first Top 10, not the final 2–5 survivors. Only Candidate 1 currently
 has cross-method, cross-real-dataset evidence. MDL-based local construction is
 excluded after direct collision with arXiv:2605.11406.
@@ -312,7 +312,7 @@ MEDIUM。
 
 ## Result
 
-跨方法现象稳定；理论尚空缺。
+跨方法现象稳定；最小两分布构造已验证 40 次，并形成全局阈值不可兼容命题与局部验证 `1/Δ²` 样本复杂度命题。
 
 ## Theoretical Opportunity
 
@@ -328,7 +328,7 @@ CPU + 理论分析。
 
 ## Next Decisive Experiment
 
-在可解析 Gaussian/XOR mixture 上推导最小反例并验证球数阶；若只能事后拟合曲线，合并回 Candidate 1。
+完成 Proposition 1 的严格书写与最近理论工作 Novelty Gate；随后尝试对递归球数给出概率下界。若只能证明第一步 split，则作为 Candidate 1 的理论核心而非独立主线。
 
 # Candidate 7
 
