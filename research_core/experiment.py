@@ -124,6 +124,7 @@ def run_from_config(config_path: Path, output_path: Path) -> Dict[str, Any]:
 
     base: Dict[str, Any] = {
         "schema_version": "1.0",
+        "study": config.get("study"),
         "experiment_id": experiment_id,
         "git_commit": git["commit"],
         "git_dirty": git["dirty"],
@@ -172,4 +173,3 @@ def run_from_config(config_path: Path, output_path: Path) -> Dict[str, Any]:
     base["peak_memory_mb"] = round(_peak_memory_mb(), 3)
     _append_jsonl(output_path.resolve(), base)
     return base
-
