@@ -1,0 +1,18 @@
+{
+  "estimated_mechanism_note": "epsilon=.01 test-risk regret is small, but >=30% resource savings is not stable across all families/methods",
+  "families_passed": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "marginal_value_mean_variance": 0.0026754461496014312,
+  "mean_seed_rank_spearman": 0.40463297488642697,
+  "methods": [
+    "class_means",
+    "kmeans"
+  ],
+  "region_value_mean_variance": 0.0004089184773711936,
+  "status": "P1_PENDING_COLLISION",
+  "theory3_condition_c_pass": true
+}

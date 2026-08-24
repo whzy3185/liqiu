@@ -1,0 +1,242 @@
+[
+  {
+    "base_config": "A00",
+    "mean_seed_rank_spearman": null,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "A01",
+    "mean_seed_rank_spearman": null,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "A02",
+    "mean_seed_rank_spearman": null,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "A03",
+    "mean_seed_rank_spearman": null,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "A04",
+    "mean_seed_rank_spearman": null,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "A05",
+    "mean_seed_rank_spearman": 0.9999999999999999,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "B00",
+    "mean_seed_rank_spearman": null,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "B01",
+    "mean_seed_rank_spearman": null,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "B02",
+    "mean_seed_rank_spearman": null,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "B03",
+    "mean_seed_rank_spearman": -0.25,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "B04",
+    "mean_seed_rank_spearman": null,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "B05",
+    "mean_seed_rank_spearman": 0.0,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "C00",
+    "mean_seed_rank_spearman": 0.09999999999999998,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "C01",
+    "mean_seed_rank_spearman": null,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "C02",
+    "mean_seed_rank_spearman": null,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "C03",
+    "mean_seed_rank_spearman": 0.04871778478384514,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "C04",
+    "mean_seed_rank_spearman": 0.11111111111111112,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "C05",
+    "mean_seed_rank_spearman": null,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "D00",
+    "mean_seed_rank_spearman": 1.0,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "D01",
+    "mean_seed_rank_spearman": null,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "D02",
+    "mean_seed_rank_spearman": null,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "D03",
+    "mean_seed_rank_spearman": -0.8660254037844387,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "D04",
+    "mean_seed_rank_spearman": 0.7,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "D05",
+    "mean_seed_rank_spearman": 1.0,
+    "method": "kmeans"
+  },
+  {
+    "base_config": "A00",
+    "mean_seed_rank_spearman": null,
+    "method": "class_means"
+  },
+  {
+    "base_config": "A01",
+    "mean_seed_rank_spearman": null,
+    "method": "class_means"
+  },
+  {
+    "base_config": "A02",
+    "mean_seed_rank_spearman": null,
+    "method": "class_means"
+  },
+  {
+    "base_config": "A03",
+    "mean_seed_rank_spearman": null,
+    "method": "class_means"
+  },
+  {
+    "base_config": "A04",
+    "mean_seed_rank_spearman": null,
+    "method": "class_means"
+  },
+  {
+    "base_config": "A05",
+    "mean_seed_rank_spearman": 0.9999999999999999,
+    "method": "class_means"
+  },
+  {
+    "base_config": "B00",
+    "mean_seed_rank_spearman": null,
+    "method": "class_means"
+  },
+  {
+    "base_config": "B01",
+    "mean_seed_rank_spearman": 0.9106836025229591,
+    "method": "class_means"
+  },
+  {
+    "base_config": "B02",
+    "mean_seed_rank_spearman": null,
+    "method": "class_means"
+  },
+  {
+    "base_config": "B03",
+    "mean_seed_rank_spearman": 0.09999999999999994,
+    "method": "class_means"
+  },
+  {
+    "base_config": "B04",
+    "mean_seed_rank_spearman": null,
+    "method": "class_means"
+  },
+  {
+    "base_config": "B05",
+    "mean_seed_rank_spearman": -7.401486830834377e-17,
+    "method": "class_means"
+  },
+  {
+    "base_config": "C00",
+    "mean_seed_rank_spearman": 0.015950180872840582,
+    "method": "class_means"
+  },
+  {
+    "base_config": "C01",
+    "mean_seed_rank_spearman": null,
+    "method": "class_means"
+  },
+  {
+    "base_config": "C02",
+    "mean_seed_rank_spearman": null,
+    "method": "class_means"
+  },
+  {
+    "base_config": "C03",
+    "mean_seed_rank_spearman": 0.11111111111111112,
+    "method": "class_means"
+  },
+  {
+    "base_config": "C04",
+    "mean_seed_rank_spearman": 0.11111111111111112,
+    "method": "class_means"
+  },
+  {
+    "base_config": "C05",
+    "mean_seed_rank_spearman": 1.0,
+    "method": "class_means"
+  },
+  {
+    "base_config": "D00",
+    "mean_seed_rank_spearman": 1.0,
+    "method": "class_means"
+  },
+  {
+    "base_config": "D01",
+    "mean_seed_rank_spearman": null,
+    "method": "class_means"
+  },
+  {
+    "base_config": "D02",
+    "mean_seed_rank_spearman": null,
+    "method": "class_means"
+  },
+  {
+    "base_config": "D03",
+    "mean_seed_rank_spearman": null,
+    "method": "class_means"
+  },
+  {
+    "base_config": "D04",
+    "mean_seed_rank_spearman": 1.0,
+    "method": "class_means"
+  },
+  {
+    "base_config": "D05",
+    "mean_seed_rank_spearman": null,
+    "method": "class_means"
+  }
+]
