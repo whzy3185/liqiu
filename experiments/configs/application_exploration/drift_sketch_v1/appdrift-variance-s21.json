@@ -1,0 +1,35 @@
+{
+  "algorithm": "gb-fixed-memory-distribution-sketch",
+  "dataset": "synthetic-monitoring-variance",
+  "dataset_generation_parameters": {
+    "batch_size": 200,
+    "dimension": 6,
+    "reference_size": 1200,
+    "shift_kind": "variance"
+  },
+  "experiment_id": "appdrift-variance-s21",
+  "hyperparameters": {
+    "budgets": [
+      8,
+      16,
+      32
+    ],
+    "calibration_batches": 20,
+    "repeats": 10,
+    "severities": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_drift_sketch:run",
+  "search": {
+    "campaign": "app_drift_sketch_v1",
+    "enabled": false
+  },
+  "seed": 21,
+  "study": "granular-ball-application-drift-sketch"
+}
