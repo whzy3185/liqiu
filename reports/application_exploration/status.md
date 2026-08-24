@@ -27,6 +27,10 @@ No application is currently P1 after the first three kill tests.
   the update-time gate, and 0/9 show a 1 pp radius advantage over center-only.
 - Batch active learning: only 4/25 runs beat the strongest selector by .5 pp;
   radius weighting loses to the same partition without radius on average.
+- Local annotator competence: oracle-local results confirm a real regional
+  competence opportunity, but full GB loses to kNN/tree/KMeans/terminal variants;
+  0/45 competence and allocation cells pass the strongest-baseline gates, and
+  same-partition radius attribution is absent.
 - Generic GB anomaly detection and time-series anomaly detection: directly
   occupied by multiple 2025-2026 methods, including AAAI 2026 GBOC/GVDD.
 - GB replay/prototype continual memory: BallIL, EG-CNN and strong non-GB compact
@@ -49,3 +53,9 @@ anomaly, replay/continual memory, federated cache and open-world memory are
 directly occupied by recent granular-ball work. Reopening requires a new
 application pain point or a materially different GB role, not another score or
 downstream model.
+
+The targeted crowd-annotation reopening is also closed. A future cycle may keep
+the *problem* of local annotator competence, but it must introduce a materially
+different region/membership mechanism and first beat the exact same hierarchy
+without radius. The current GB local-reliability mechanism must not be tuned or
+expanded to real crowd data.

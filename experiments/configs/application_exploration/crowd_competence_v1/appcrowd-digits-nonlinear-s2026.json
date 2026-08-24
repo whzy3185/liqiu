@@ -1,0 +1,28 @@
+{
+  "algorithm": "gb-local-annotator-competence",
+  "dataset": "semi-real-digits-crowd-nonlinear",
+  "dataset_generation_parameters": {
+    "dataset": "digits",
+    "regime": "nonlinear"
+  },
+  "experiment_id": "appcrowd-digits-nonlinear-s2026",
+  "hyperparameters": {
+    "allocation_cost_fractions": [
+      0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "competence_labels_per_item": 5,
+    "pool_initial_labels_per_item": 2,
+    "workers": 16
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_crowd_competence:run",
+  "search": {
+    "campaign": "app_crowd_competence_v1",
+    "enabled": false
+  },
+  "seed": 2026,
+  "study": "granular-ball-application-crowd-competence"
+}

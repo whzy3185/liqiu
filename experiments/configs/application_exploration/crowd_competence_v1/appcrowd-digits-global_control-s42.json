@@ -1,0 +1,28 @@
+{
+  "algorithm": "gb-local-annotator-competence",
+  "dataset": "semi-real-digits-crowd-global_control",
+  "dataset_generation_parameters": {
+    "dataset": "digits",
+    "regime": "global_control"
+  },
+  "experiment_id": "appcrowd-digits-global_control-s42",
+  "hyperparameters": {
+    "allocation_cost_fractions": [
+      0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "competence_labels_per_item": 5,
+    "pool_initial_labels_per_item": 2,
+    "workers": 16
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_crowd_competence:run",
+  "search": {
+    "campaign": "app_crowd_competence_v1",
+    "enabled": false
+  },
+  "seed": 42,
+  "study": "granular-ball-application-crowd-competence"
+}
