@@ -18,3 +18,6 @@ confirmation after its labels/results have influenced method design.
 Assignments live in `registry.jsonl`. Generated data record the generator
 version and all parameters in the experiment configuration.
 
+Streaming synthetic data use `counterexamples.generators.generate_stream` and
+are exploration-only. Batch indices and ground-truth drift parameters are part
+of the returned metadata.
