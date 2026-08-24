@@ -1,0 +1,46 @@
+[
+  {
+    "estimated_eps01_condition_a_fraction": 0.4666666666666667,
+    "estimated_eps01_mean_oracle_regret": 0,
+    "family": "A",
+    "mean_global_regret": 0.008338,
+    "method": "kmeans",
+    "oracle_condition_a_fraction": 0.9666666666666667,
+    "oracle_condition_b_fraction": 0.8,
+    "positive_regret_run_fraction": 1,
+    "runs": 30
+  },
+  {
+    "estimated_eps01_condition_a_fraction": 0.4,
+    "estimated_eps01_mean_oracle_regret": 0.0001999999999999997,
+    "family": "B",
+    "mean_global_regret": 0.011428666666666667,
+    "method": "kmeans",
+    "oracle_condition_a_fraction": 0.7666666666666667,
+    "oracle_condition_b_fraction": 0.9,
+    "positive_regret_run_fraction": 1,
+    "runs": 30
+  },
+  {
+    "estimated_eps01_condition_a_fraction": 0.6,
+    "estimated_eps01_mean_oracle_regret": 0.0010666666666666676,
+    "family": "C",
+    "mean_global_regret": 0.018551999999999996,
+    "method": "kmeans",
+    "oracle_condition_a_fraction": 0.9,
+    "oracle_condition_b_fraction": 0.9666666666666667,
+    "positive_regret_run_fraction": 1,
+    "runs": 30
+  },
+  {
+    "estimated_eps01_condition_a_fraction": 0.9333333333333333,
+    "estimated_eps01_mean_oracle_regret": 3.333333333333336e-05,
+    "family": "D",
+    "mean_global_regret": 0.0073346666666666656,
+    "method": "kmeans",
+    "oracle_condition_a_fraction": 0.9666666666666667,
+    "oracle_condition_b_fraction": 0.5666666666666667,
+    "positive_regret_run_fraction": 1,
+    "runs": 30
+  }
+]
