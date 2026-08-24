@@ -21,8 +21,8 @@ evidence exists but the requested scope is not met; `NOT STARTED` is explicit.
 | 12 red team | PARTIAL | heuristic, metric, pipeline and local-pruning attacks | no surviving new method exists to adversarially attack |
 | 13 agentic adaptive granulation | PARTIAL/negative | sequential/VOI and local action controls failed | contextual bandit/RL not implemented |
 | 14 new representations | PARTIAL/negative | interleaved-boundary audit, M14 rejection | no heterogeneous ball/ellipsoid/graph comparison |
-| 15 Agent memory/RAG | NOT STARTED | none | full route remains |
-| 16 three-way Agent | NOT STARTED | only granular S3WD smoke | no tool-cost Agent environment |
+| 15 Agent memory/RAG | COMPLETE collision gate / no implementation | UAMG/MG2/MGK/multi-evidence collision report | granular-specific property absent; generic system rejected |
+| 16 three-way Agent | COMPLETE collision gate / no implementation | VOI/adaptive retrieval/selective/tool filtering audit | no non-equivalent Agent mechanism retained |
 | 17 calibrated uncertainty | COMPLETE diagnostic / PARTIAL mechanism | ECE/Brier/conformal audits | no GBC-specific guarantee retained |
 | 18 shift/streaming | COMPLETE controls / PARTIAL incremental method | six drift generators, 72 prequential no-update/rebuild/window/SGD runs | no incremental granular update method |
 | 19 cross-domain exploration | PARTIAL | selected OOD/graph/stream terms in corpus | broad list not experimentally exhausted |

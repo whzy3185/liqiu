@@ -128,3 +128,14 @@ already material. Semantic Scholar was rate-limited; DBLP exposed M05.
   research mechanism. It needs independent implementations and more decision
   rules to justify a standalone benchmark contribution.
 - Gate decision: retain as P1 artifact/analysis line, not an algorithm paper.
+
+## Agent/RAG route gate — 2026-08-24
+
+- Multi-granularity RAG: `HIGH_COLLISION` with UAMG-RAG, MG2-RAG,
+  multi-granularity evidence retrieval and MGK-RAG. Granular-ball naming does not
+  distinguish a hierarchical retrieval system.
+- Three-way Agent: `PARTIAL_COLLISION`; exact naming is sparse but VOI,
+  uncertainty-adaptive retrieval, selective prediction and tool filtering occupy
+  the mechanism space.
+- Decision: no implementation until a granular-specific guarantee/failure is
+  established. See `reports/agent_rag_collision_report.md`.
