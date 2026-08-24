@@ -16,14 +16,20 @@ gaps do not worsen monotonically from d=2 to d=500.
   artifact, untuned purity, and distance concentration.
 - Decisive experiment: completed as XOR v1 (140 runs).
 
-## Pre-hypothesis PH-002 — overlap-driven alternating-label weakness
+## Pre-hypothesis PH-002 — locally interleaved boundary weakness
 
-Original and adaptive spherical GBC may systematically lose local alternating
-label structure as XOR overlap increases, independent of ambient dimension.
+Original and adaptive spherical GBC may systematically lose locally interleaved
+or curved alternating boundaries when mixed labels fall inside the same local
+balls; ambient dimension and disconnected class regions alone are insufficient.
 
 - Evidence region: XOR overlap 0.25 across dimensions 2–500 and five seeds.
 - Observable: negative held-out accuracy gap against best RF/RBF-SVM/5-NN.
 - Current strength: 69/70 individual method/dimension/seed runs negative.
-- Missing: independent generator family, real-data analogue, clean-room method,
-  and mechanism measure connecting within-ball mixed labels to error.
-- Status: cross-method replicated observation, not research hypothesis.
+- Independent support: continuous XOR overlap, checkerboard-4, and sector wheels
+  with 4/8/12 sectors.
+- Counterexamples: Gaussian XOR with well-separated compact clusters is solved;
+  checkerboard-6 does not degrade original GBC.
+- Missing: real-data analogue, clean-room method, and a mechanism measure
+  connecting within-ball mixed labels/boundary curvature to error.
+- Status: cross-method and cross-generator replicated observation, still not a
+  research hypothesis because the causal statistic is unresolved.

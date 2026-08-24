@@ -17,6 +17,19 @@ Status levels: `observation`, `replicated`, `cross-method`, `research-hypothesis
 - Required replication: alternate XOR/checkerboard generators, clean-room GBC
   implementation, and a real dataset with alternating/disconnected local labels.
 
+### Independent-generator update
+
+- Alternating v1 adds Gaussian-cluster XOR, checkerboards, and sector wheels
+  across five seeds (90 runs).
+- Sector wheels with 4/8/12 alternating sectors reproduce negative gaps for
+  both methods; checkerboard-4 also reproduces.
+- Gaussian XOR at cluster standard deviations 0.10/0.25 is exactly tied for all
+  methods/seeds. At 0.40, gaps remain near zero.
+- Checkerboard-6 does not reproduce for original GBC.
+- Refined boundary: disconnected same-class regions alone are insufficient;
+  local interleaving/curvature plus overlap is a better descriptor, but the
+  governing geometric statistic remains unknown.
+
 ## O-002 — Method-specific split between moons and imbalanced density
 
 - Status: `observation`.

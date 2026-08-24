@@ -48,10 +48,29 @@ not ambient dimension, is the stable control in this grid. O-001 is upgraded to
 a cross-method replicated observation, but it remains within one synthetic
 family and is not promoted to a research hypothesis.
 
+## Alternating-label independent generators
+
+Alternating v1 completed 90/90 runs using five seeds and three generator
+families. Mean held-out gaps versus the best RF/RBF-SVM/5-NN reference are:
+
+| Case | Original gap | Adaptive gap | Interpretation |
+|---|---:|---:|---|
+| Gaussian XOR σ=0.10 | 0.000 | 0.000 | compact disconnected regions solved |
+| Gaussian XOR σ=0.25 | 0.000 | 0.000 | compact disconnected regions solved |
+| Gaussian XOR σ=0.40 | −0.003 | −0.021 | only small degradation |
+| Checkerboard-4 | −0.053 | −0.077 | common replication |
+| Sector wheel-4 | −0.047 | −0.070 | common replication |
+| Sector wheel-8 | −0.068 | −0.088 | common replication |
+| Sector wheel-12 | −0.056 | −0.088 | common replication |
+
+This narrows the observation: disconnected same-class regions are not sufficient,
+and ambient dimension is not the cause. Locally interleaved/curved boundaries
+with label mixing inside local balls are plausible, while checkerboard-6 prevents
+a simple monotonic “more alternation is worse” claim.
+
 ## Next experiment
 
-Construct independent alternating-label generators (rotated/multi-cell XOR and
-controlled checkerboards), measure within-ball label mixing and boundary error,
+Measure within-ball label mixing, boundary error and curvature/scale mismatch,
 and repeat with a clean-room GBC implementation. Seek a real-data analogue before
 any mechanism proposal. Continue reporting absolute gaps; use loss ratio only
 when reference loss exceeds a declared floor.
