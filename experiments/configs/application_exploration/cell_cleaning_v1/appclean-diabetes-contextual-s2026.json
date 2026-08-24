@@ -1,0 +1,21 @@
+{
+  "algorithm": "gb-crossfit-contextual-cell-cleaning",
+  "dataset": "sklearn-diabetes-contextual-cell-errors",
+  "dataset_generation_parameters": {
+    "corruption": "contextual_systematic",
+    "dataset": "diabetes"
+  },
+  "experiment_id": "appclean-diabetes-contextual-s2026",
+  "hyperparameters": {
+    "corruption_rate": 0.03,
+    "crossfit_folds": 5
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_cell_cleaning:run",
+  "search": {
+    "campaign": "app_cell_cleaning_v1",
+    "enabled": false
+  },
+  "seed": 2026,
+  "study": "granular-ball-application-cell-cleaning"
+}

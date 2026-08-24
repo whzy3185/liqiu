@@ -1,108 +1,83 @@
 {
-  "date_utc": "2026-08-24T18:07:38.159561+00:00",
-  "records_before": 2198,
-  "pending_before": 20,
-  "budget": 20,
+  "date_utc": "2026-08-24T18:18:57.344374+00:00",
+  "records_before": 2218,
+  "pending_before": 15,
+  "budget": 15,
   "executed": [
     {
-      "experiment_id": "appdrift-local_emergence-s1",
+      "experiment_id": "appclean-breast_cancer-contextual-s1",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-local_emergence-s1.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-breast_cancer-contextual-s1.json"
     },
     {
-      "experiment_id": "appdrift-local_emergence-s2026",
+      "experiment_id": "appclean-breast_cancer-contextual-s2026",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-local_emergence-s2026.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-breast_cancer-contextual-s2026.json"
     },
     {
-      "experiment_id": "appdrift-local_emergence-s21",
+      "experiment_id": "appclean-breast_cancer-contextual-s21",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-local_emergence-s21.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-breast_cancer-contextual-s21.json"
     },
     {
-      "experiment_id": "appdrift-local_emergence-s42",
+      "experiment_id": "appclean-breast_cancer-contextual-s42",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-local_emergence-s42.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-breast_cancer-contextual-s42.json"
     },
     {
-      "experiment_id": "appdrift-local_emergence-s7",
+      "experiment_id": "appclean-breast_cancer-contextual-s7",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-local_emergence-s7.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-breast_cancer-contextual-s7.json"
     },
     {
-      "experiment_id": "appdrift-mixture_weight-s1",
+      "experiment_id": "appclean-diabetes-contextual-s1",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-mixture_weight-s1.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-diabetes-contextual-s1.json"
     },
     {
-      "experiment_id": "appdrift-mixture_weight-s2026",
+      "experiment_id": "appclean-diabetes-contextual-s2026",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-mixture_weight-s2026.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-diabetes-contextual-s2026.json"
     },
     {
-      "experiment_id": "appdrift-mixture_weight-s21",
+      "experiment_id": "appclean-diabetes-contextual-s21",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-mixture_weight-s21.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-diabetes-contextual-s21.json"
     },
     {
-      "experiment_id": "appdrift-mixture_weight-s42",
+      "experiment_id": "appclean-diabetes-contextual-s42",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-mixture_weight-s42.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-diabetes-contextual-s42.json"
     },
     {
-      "experiment_id": "appdrift-mixture_weight-s7",
+      "experiment_id": "appclean-diabetes-contextual-s7",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-mixture_weight-s7.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-diabetes-contextual-s7.json"
     },
     {
-      "experiment_id": "appdrift-translation-s1",
+      "experiment_id": "appclean-wine-contextual-s1",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-translation-s1.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-wine-contextual-s1.json"
     },
     {
-      "experiment_id": "appdrift-translation-s2026",
+      "experiment_id": "appclean-wine-contextual-s2026",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-translation-s2026.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-wine-contextual-s2026.json"
     },
     {
-      "experiment_id": "appdrift-translation-s21",
+      "experiment_id": "appclean-wine-contextual-s21",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-translation-s21.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-wine-contextual-s21.json"
     },
     {
-      "experiment_id": "appdrift-translation-s42",
+      "experiment_id": "appclean-wine-contextual-s42",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-translation-s42.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-wine-contextual-s42.json"
     },
     {
-      "experiment_id": "appdrift-translation-s7",
+      "experiment_id": "appclean-wine-contextual-s7",
       "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-translation-s7.json"
-    },
-    {
-      "experiment_id": "appdrift-variance-s1",
-      "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-variance-s1.json"
-    },
-    {
-      "experiment_id": "appdrift-variance-s2026",
-      "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-variance-s2026.json"
-    },
-    {
-      "experiment_id": "appdrift-variance-s21",
-      "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-variance-s21.json"
-    },
-    {
-      "experiment_id": "appdrift-variance-s42",
-      "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-variance-s42.json"
-    },
-    {
-      "experiment_id": "appdrift-variance-s7",
-      "outcome": "success",
-      "config": "experiments/configs/application_exploration/drift_sketch_v1/appdrift-variance-s7.json"
+      "config": "experiments/configs/application_exploration/cell_cleaning_v1/appclean-wine-contextual-s7.json"
     }
   ],
   "post_commands": [
@@ -141,10 +116,10 @@
         "-v"
       ],
       "returncode": 0,
-      "output_tail": "test_all_shift_kinds_run (test_app_drift_sketch.ApplicationDriftSketchTests.test_all_shift_kinds_run) ... ok\ntest_sketch_shapes_and_memory (test_app_drift_sketch.ApplicationDriftSketchTests.test_sketch_shapes_and_memory) ... ok\ntest_classifier_interfaces (test_classical_adapters.ClassicalAdapterTests.test_classifier_interfaces) ... ok\ntest_cluster_interfaces (test_classical_adapters.ClassicalAdapterTests.test_cluster_interfaces) ... ok\ntest_confidence_lower_bound_is_no_less_conservative (test_cleanroom_gbc.CleanRoomGBCTests.test_confidence_lower_bound_is_no_less_conservative) ... ok\ntest_interface_and_probabilities (test_cleanroom_gbc.CleanRoomGBCTests.test_interface_and_probabilities) ... ok\ntest_metrics (test_gb_core_stress.GBCoreStressTests.test_metrics) ... ok\ntest_two_tree_methods (test_gb_core_stress.GBCoreStressTests.test_two_tree_methods) ... ok\ntest_all_families_shape_and_labels (test_generators.GeneratorTests.test_all_families_shape_and_labels) ... ok\ntest_deterministic_and_high_dimensional (test_generators.GeneratorTests.test_deterministic_and_high_dimensional) ... ok\ntest_pruned_interface (test_local_pruning.LocalPruningTests.test_pruned_interface) ... ok\ntest_confirmation_rejects_search (test_protocol.ProtocolTests.test_confirmation_rejects_search) ... ok\ntest_initial_seed_is_valid (test_protocol.ProtocolTests.test_initial_seed_is_valid) ... ok\ntest_all_existing_configs_have_unique_completed_ids_or_are_pending (test_research_cycle.ResearchCycleTests.test_all_existing_configs_have_unique_completed_ids_or_are_pending) ... ok\ntest_all_streams_and_replay (test_stream_generators.StreamGeneratorTests.test_all_streams_and_replay) ... ok\ntest_emerging_class_appears_late (test_stream_generators.StreamGeneratorTests.test_emerging_class_appears_late) ... ok\ntest_partition_and_bytes (test_v2_federated.V2FederatedTests.test_partition_and_bytes) ... ok\ntest_pareto (test_v2_frontier.V2FrontierTests.test_pareto) ... ok\ntest_small_harness (test_v2_frontier.V2FrontierTests.test_small_harness) ... ok\ntest_citeseer_reorder_matches_raw_test_labels (test_v2_gnn.V2GNNTests.test_citeseer_reorder_matches_raw_test_labels) ... /Users/muelsyse/Documents/Codex/2026-08-24/files-pasted-by-the-user-codex/research/studies/graph_coarsening/planetoid.py:7: DeprecationWarning: Please import `csr_matrix` from the `scipy.sparse` namespace; the `scipy.sparse.csr` namespace is deprecated and will be removed in SciPy 2.0.0.\n  with path.open('rb') as h:return pickle.load(h,encoding='latin1')\nok\ntest_cleanroom_gbgc_assignments (test_v2_gnn.V2GNNTests.test_cleanroom_gbgc_assignments) ... ok\ntest_coarsening_and_gcn (test_v2_gnn.V2GNNTests.test_coarsening_and_gcn) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 1.304s\n\nOK\n"
+      "output_tail": "test_contextual_corruption_is_deterministic_and_bounded (test_app_cell_cleaning.ApplicationCellCleaningTests.test_contextual_corruption_is_deterministic_and_bounded) ... ok\ntest_wine_end_to_end (test_app_cell_cleaning.ApplicationCellCleaningTests.test_wine_end_to_end) ... ok\ntest_all_shift_kinds_run (test_app_drift_sketch.ApplicationDriftSketchTests.test_all_shift_kinds_run) ... ok\ntest_sketch_shapes_and_memory (test_app_drift_sketch.ApplicationDriftSketchTests.test_sketch_shapes_and_memory) ... ok\ntest_classifier_interfaces (test_classical_adapters.ClassicalAdapterTests.test_classifier_interfaces) ... ok\ntest_cluster_interfaces (test_classical_adapters.ClassicalAdapterTests.test_cluster_interfaces) ... ok\ntest_confidence_lower_bound_is_no_less_conservative (test_cleanroom_gbc.CleanRoomGBCTests.test_confidence_lower_bound_is_no_less_conservative) ... ok\ntest_interface_and_probabilities (test_cleanroom_gbc.CleanRoomGBCTests.test_interface_and_probabilities) ... ok\ntest_metrics (test_gb_core_stress.GBCoreStressTests.test_metrics) ... ok\ntest_two_tree_methods (test_gb_core_stress.GBCoreStressTests.test_two_tree_methods) ... ok\ntest_all_families_shape_and_labels (test_generators.GeneratorTests.test_all_families_shape_and_labels) ... ok\ntest_deterministic_and_high_dimensional (test_generators.GeneratorTests.test_deterministic_and_high_dimensional) ... ok\ntest_pruned_interface (test_local_pruning.LocalPruningTests.test_pruned_interface) ... ok\ntest_confirmation_rejects_search (test_protocol.ProtocolTests.test_confirmation_rejects_search) ... ok\ntest_initial_seed_is_valid (test_protocol.ProtocolTests.test_initial_seed_is_valid) ... ok\ntest_all_existing_configs_have_unique_completed_ids_or_are_pending (test_research_cycle.ResearchCycleTests.test_all_existing_configs_have_unique_completed_ids_or_are_pending) ... ok\ntest_all_streams_and_replay (test_stream_generators.StreamGeneratorTests.test_all_streams_and_replay) ... ok\ntest_emerging_class_appears_late (test_stream_generators.StreamGeneratorTests.test_emerging_class_appears_late) ... ok\ntest_partition_and_bytes (test_v2_federated.V2FederatedTests.test_partition_and_bytes) ... ok\ntest_pareto (test_v2_frontier.V2FrontierTests.test_pareto) ... ok\ntest_small_harness (test_v2_frontier.V2FrontierTests.test_small_harness) ... ok\ntest_citeseer_reorder_matches_raw_test_labels (test_v2_gnn.V2GNNTests.test_citeseer_reorder_matches_raw_test_labels) ... /Users/muelsyse/Documents/Codex/2026-08-24/files-pasted-by-the-user-codex/research/studies/graph_coarsening/planetoid.py:7: DeprecationWarning: Please import `csr_matrix` from the `scipy.sparse` namespace; the `scipy.sparse.csr` namespace is deprecated and will be removed in SciPy 2.0.0.\n  with path.open('rb') as h:return pickle.load(h,encoding='latin1')\nok\ntest_cleanroom_gbgc_assignments (test_v2_gnn.V2GNNTests.test_cleanroom_gbgc_assignments) ... ok\ntest_coarsening_and_gcn (test_v2_gnn.V2GNNTests.test_coarsening_and_gcn) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 1.572s\n\nOK\n"
     }
   ],
   "status": "ok",
-  "records_after": 2218,
+  "records_after": 2233,
   "pending_after": 0
 }

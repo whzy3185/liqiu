@@ -1,0 +1,21 @@
+{
+  "algorithm": "gb-crossfit-contextual-cell-cleaning",
+  "dataset": "sklearn-breast_cancer-contextual-cell-errors",
+  "dataset_generation_parameters": {
+    "corruption": "contextual_systematic",
+    "dataset": "breast_cancer"
+  },
+  "experiment_id": "appclean-breast_cancer-contextual-s7",
+  "hyperparameters": {
+    "corruption_rate": 0.03,
+    "crossfit_folds": 5
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_cell_cleaning:run",
+  "search": {
+    "campaign": "app_cell_cleaning_v1",
+    "enabled": false
+  },
+  "seed": 7,
+  "study": "granular-ball-application-cell-cleaning"
+}

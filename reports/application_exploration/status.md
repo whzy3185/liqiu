@@ -6,7 +6,6 @@ Updated: 2026-08-25.
 
 | Candidate | Status | Next cheap test |
 |---|---|---|
-| Contextual cell-error cleaning | `P1` | 3 numeric tables x 4 cell corruptions x 5 seeds; matched local baselines |
 | Hard-budget local regranulation | `P1` | concept/covariate/emerging streams; fixed bytes and update-time gate |
 | Batch active learning | `P1-low` | defer until the first two candidates are killed or promoted |
 
@@ -16,10 +15,6 @@ None.
 
 ## P1
 
-- Contextual cell-error cleaning: application gap is cell-level corruption, not
-  row anomaly or label noise. Direct GB cell-repair work was not found in the
-  2024-2026 scan, but generic conformal cleaning and contextual tabular anomaly
-  methods are strong collisions.
 - Hard-budget local regranulation: the repository's sliding GBC rebuild is much
   slower and less accurate than online SGD on concept drift. A local update can
   continue only if it matches risk within 1 pp at less than 20% of rebuild time.
@@ -28,6 +23,9 @@ None.
 
 - Fixed-memory GB drift sketch: KMeans beats it at identical bytes in all four
   shift families; only 2/20 runs clear the +2 pp equal-memory gate.
+- Contextual cell-error cleaning: zero of 15 runs beat the strongest matched
+  baseline by 3 pp AUPRC, and radius routing loses to the same-tree center-only
+  ablation. Robust local statistics, not GB geometry, explain the useful signal.
 - Generic GB anomaly detection and time-series anomaly detection: directly
   occupied by multiple 2025-2026 methods, including AAAI 2026 GBOC/GVDD.
 - GB replay/prototype continual memory: BallIL, EG-CNN and strong non-GB compact
@@ -44,11 +42,9 @@ None.
 
 ## NEXT CHEAP TESTS
 
-1. Run contextual cell-error cleaning without target labels or corruption-mask
-   leakage. Compare global robust scores, kNN context, matched-k KMeans context,
-   and a supervised per-column predictor.
-2. Kill unless GB improves cell AUPRC by at least .03 over the strongest cheap
-   baseline on at least three datasets, or improves clean-test downstream score
-   by at least .5 pp at the same review budget.
-3. If rejected, move to the nine-run hard-budget local regranulation test. Do not
-   return to anomaly, replay, federated or open-world memory directions.
+1. Run the nine-cell hard-budget local regranulation test on concept, covariate
+   and emerging-class streams.
+2. Require risk within 1 pp of the best existing stream baseline, update time at
+   most 20% of sliding rebuild, and a fixed ball/byte cap in at least two shifts.
+3. If rejected, move to batch active learning. Do not return to anomaly, replay,
+   federated, open-world memory, generic drift sketches or cell cleaning.
