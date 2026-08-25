@@ -1,0 +1,25 @@
+{
+  "algorithm": "anisotropic-differentiable-gb-cross-view",
+  "dataset": "semi-real-learnable-view-wine",
+  "dataset_generation_parameters": {
+    "dataset": "wine",
+    "max_samples": 2400
+  },
+  "experiment_id": "applearn-wine-s1",
+  "hyperparameters": {
+    "epochs": 80,
+    "missing_rates": [
+      0.2,
+      0.4,
+      0.6
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_learnable_cross_view:run",
+  "search": {
+    "campaign": "app_learnable_cross_view_v1",
+    "enabled": false
+  },
+  "seed": 1,
+  "study": "granular-ball-application-learnable-cross-view"
+}

@@ -51,6 +51,8 @@ No application is currently P1 after the first three kill tests.
   accuracy 1.83 pp lower than the best Ridge/kNN recovery baseline.
 - Model failure-slice discovery: GB risk uplift is 8.40 pp and error recall 17.0
   pp below the strongest fixed-coverage baseline.
+- Learnable anisotropic missing-view module: recovery NRMSE is 31.3% worse and
+  downstream accuracy 1.59 pp lower than MLP/Ridge; no recovery gate passes.
 - Generic GB anomaly detection and time-series anomaly detection: directly
   occupied by multiple 2025-2026 methods, including AAAI 2026 GBOC/GVDD.
 - GB replay/prototype continual memory: BallIL, EG-CNN and strong non-GB compact

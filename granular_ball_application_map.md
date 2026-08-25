@@ -268,6 +268,47 @@ themselves. Fields not verified from a primary source are marked `UNKNOWN`.
   representation is occupied.
 - **Evidence:** [publisher DOI](https://doi.org/10.1016/j.eswa.2026.132124).
 
+### GBSVR - `PUBLISHED`, Neural Networks 2026
+
+- **Application:** robust and efficient regression, including financial and wind
+  forecasting examples.
+- **GB role:** compressed training units in support vector regression.
+- **Generation/radius/membership:** GB summaries replace point inputs; full
+  generation details remain pending table-level coding.
+- **Downstream:** granular-ball support vector regression.
+- **Claimed advantage:** reduce quadratic-program cost and improve noise/outlier
+  robustness.
+- **Code:** `UNKNOWN`.
+- **Limitation/open edge:** generic GB regression/SVR is occupied.
+- **Evidence:** [publisher DOI](https://doi.org/10.1016/j.neunet.2026.109174).
+
+### MGBT-MO - `PUBLISHED`, Knowledge-Based Systems 2026
+
+- **Application:** multimodal continuous optimization.
+- **GB role:** evolutionary search regions/niches at multiple granularities.
+- **Generation/radius/membership:** adaptive position-coverage adjustment and GB
+  transfer control global-to-local search.
+- **Downstream:** evolutionary optimizer with archive/restart.
+- **Claimed advantage:** find more global optima with stable exploration and
+  exploitation on CEC2013.
+- **Code:** `UNKNOWN`.
+- **Limitation/open edge:** generic GB multimodal optimization is occupied.
+- **Evidence:** [publisher DOI](https://doi.org/10.1016/j.knosys.2026.116465).
+
+### GBExplainer - `PUBLISHED`, Knowledge-Based Systems 2026
+
+- **Application:** GNN explanation.
+- **GB role:** adaptive global-to-local subgraph regions combining structural-
+  and edge-level evidence.
+- **Generation:** information-gain splitting of a graph-level initial ball.
+- **Radius/membership:** adaptive region scale matters more than Euclidean radius
+  in the published motivation.
+- **Downstream:** post-hoc graph-classification explanation.
+- **Claimed advantage:** fidelity and stability without fixed explanation size.
+- **Code:** [reported artifact](https://anonymous.4open.science/r/GBExplainer-32E6/).
+- **Limitation/open edge:** generic GNN explanation with GB is occupied.
+- **Evidence:** [publisher DOI](https://doi.org/10.1016/j.knosys.2026.116285).
+
 ## 2025 published application anchors
 
 | Work | Venue | Application | GB role | Code / limitation |

@@ -1,0 +1,25 @@
+{
+  "algorithm": "anisotropic-differentiable-gb-cross-view",
+  "dataset": "semi-real-learnable-view-breast_cancer",
+  "dataset_generation_parameters": {
+    "dataset": "breast_cancer",
+    "max_samples": 2400
+  },
+  "experiment_id": "applearn-breast_cancer-s21",
+  "hyperparameters": {
+    "epochs": 80,
+    "missing_rates": [
+      0.2,
+      0.4,
+      0.6
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_learnable_cross_view:run",
+  "search": {
+    "campaign": "app_learnable_cross_view_v1",
+    "enabled": false
+  },
+  "seed": 21,
+  "study": "granular-ball-application-learnable-cross-view"
+}
