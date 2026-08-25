@@ -1,0 +1,24 @@
+{
+  "algorithm": "gb-weighted-pointcloud-compression-retrieval",
+  "dataset": "synthetic-shape-gallery-density_bias",
+  "dataset_generation_parameters": {
+    "points": 256,
+    "regime": "density_bias"
+  },
+  "experiment_id": "apppoint-density_bias-s7",
+  "hyperparameters": {
+    "point_budgets": [
+      32,
+      64,
+      128
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_pointcloud_compression:run",
+  "search": {
+    "campaign": "app_pointcloud_compression_v1",
+    "enabled": false
+  },
+  "seed": 7,
+  "study": "granular-ball-application-pointcloud-compression"
+}

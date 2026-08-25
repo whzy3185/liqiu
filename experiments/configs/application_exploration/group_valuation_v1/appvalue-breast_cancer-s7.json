@@ -1,0 +1,21 @@
+{
+  "algorithm": "gb-grouped-leaveout-data-valuation",
+  "dataset": "semi-real-data-valuation-breast_cancer",
+  "dataset_generation_parameters": {
+    "dataset": "breast_cancer",
+    "max_samples": 320
+  },
+  "experiment_id": "appvalue-breast_cancer-s7",
+  "hyperparameters": {
+    "label_noise": 0.1,
+    "max_groups": 40
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_group_valuation:run",
+  "search": {
+    "campaign": "app_group_valuation_v1",
+    "enabled": false
+  },
+  "seed": 7,
+  "study": "granular-ball-application-group-valuation"
+}

@@ -1,0 +1,21 @@
+{
+  "algorithm": "gb-grouped-leaveout-data-valuation",
+  "dataset": "semi-real-data-valuation-moons",
+  "dataset_generation_parameters": {
+    "dataset": "moons",
+    "max_samples": 320
+  },
+  "experiment_id": "appvalue-moons-s21",
+  "hyperparameters": {
+    "label_noise": 0.1,
+    "max_groups": 40
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_group_valuation:run",
+  "search": {
+    "campaign": "app_group_valuation_v1",
+    "enabled": false
+  },
+  "seed": 21,
+  "study": "granular-ball-application-group-valuation"
+}

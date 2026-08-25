@@ -1,0 +1,24 @@
+{
+  "algorithm": "gb-weighted-pointcloud-compression-retrieval",
+  "dataset": "synthetic-shape-gallery-outliers",
+  "dataset_generation_parameters": {
+    "points": 256,
+    "regime": "outliers"
+  },
+  "experiment_id": "apppoint-outliers-s21",
+  "hyperparameters": {
+    "point_budgets": [
+      32,
+      64,
+      128
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_pointcloud_compression:run",
+  "search": {
+    "campaign": "app_pointcloud_compression_v1",
+    "enabled": false
+  },
+  "seed": 21,
+  "study": "granular-ball-application-pointcloud-compression"
+}

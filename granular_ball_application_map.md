@@ -302,3 +302,14 @@ themselves. Fields not verified from a primary source are marked `UNKNOWN`.
 3. A new candidate need not prove radius-specific value. It must show stable
    application value not explained by matched KMeans/prototype/tree/coreset
    controls and must differ materially from an occupied role-task pair.
+
+## ArXiv-only watchlist
+
+- **3DGBGS** (`ARXIV_ONLY`, 2026): partitions SfM point clouds into 3D granular
+  balls for compact Gaussian Splatting / novel-view synthesis. It raises
+  collision risk for point-cloud compression but does not count as accepted
+  occupation. [arXiv](https://arxiv.org/abs/2607.26578)
+- **SCGNN** (`ARXIV_ONLY`, 2026): GB semantic anchors and pseudo-label
+  consistency for GNNs. [arXiv](https://arxiv.org/abs/2605.02617)
+- **MDL-GBC** (`ARXIV_ONLY`, 2026): local description-length model selection for
+  boundary-aware GB classification. [arXiv](https://arxiv.org/abs/2605.11406)

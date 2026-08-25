@@ -37,6 +37,12 @@ No application is currently P1 after the first three kill tests.
 - Fixed-slot gallery retrieval: only 1/12 runs passes +2 pp mAP and none passes
   mAP plus rare-class Hit jointly. All compressed methods receive the same 90%
   distance-computation reduction.
+- Point-cloud compression/retrieval: GB loses 5.04 pp mAP and has 42.6% worse
+  Chamfer error than the strongest equal-point baseline; FPS dominates the main
+  sampling conditions.
+- Grouped training-data valuation: grouping saves 88.4% retrains for all methods,
+  but GB loses 14.9 pp exact-influence correlation and 21.1 pp noise AUPRC to the
+  best matched grouping.
 - Generic GB anomaly detection and time-series anomaly detection: directly
   occupied by multiple 2025-2026 methods, including AAAI 2026 GBOC/GVDD.
 - GB replay/prototype continual memory: BallIL, EG-CNN and strong non-GB compact
@@ -68,5 +74,6 @@ expanded to real crowd data.
 
 The accepted-paper map is now the search driver. Vector ANN indexing,
 semi-supervised propagation and lightweight image token coarsening were rejected
-at collision search. Point-cloud adaptive compression/retrieval is the next
-`CLEAR_DIRECT_GB / PARTIAL_GENERIC` Cheap Candidate.
+at collision search. Point-cloud compression and grouped valuation are now also
+`REJECT`. The next map-edge candidate must move beyond generic representative
+selection, point sampling or grouped retraining.
