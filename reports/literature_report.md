@@ -63,3 +63,12 @@ claims or novelty decisions are made.
 
 Prioritize foundational GBC, GBG++, local-density GBG, granular-ball rough-set, and
 three-way granular-ball papers; then follow their references and public code repositories.
+
+## GPT-ready export
+
+- `reports/literature_summary_for_gpt.md` is a standalone Chinese synthesis with
+  evidence boundaries, representative papers, privacy distinctions, negative
+  experimental evidence, and a ready-to-use review prompt.
+- `literature/literature_catalog_for_gpt.csv` merges the main and privacy/security
+  maps into 169 title-deduplicated structured records. Regenerate it with
+  `python scripts/export_literature_for_gpt.py`.
