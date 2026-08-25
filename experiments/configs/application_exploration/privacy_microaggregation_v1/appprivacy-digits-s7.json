@@ -1,0 +1,24 @@
+{
+  "algorithm": "gb-k-anonymous-microaggregation",
+  "dataset": "semi-real-private-table-digits",
+  "dataset_generation_parameters": {
+    "dataset": "digits",
+    "max_samples": 1000
+  },
+  "experiment_id": "appprivacy-digits-s7",
+  "hyperparameters": {
+    "k_values": [
+      5,
+      10,
+      20
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_privacy_microaggregation:run",
+  "search": {
+    "campaign": "app_privacy_microaggregation_v1",
+    "enabled": false
+  },
+  "seed": 7,
+  "study": "granular-ball-application-privacy-microaggregation"
+}

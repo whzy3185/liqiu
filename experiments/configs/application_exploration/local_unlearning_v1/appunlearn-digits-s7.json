@@ -1,0 +1,25 @@
+{
+  "algorithm": "gb-fixed-region-approximate-unlearning",
+  "dataset": "semi-real-unlearning-digits",
+  "dataset_generation_parameters": {
+    "dataset": "digits",
+    "max_samples": 1200
+  },
+  "experiment_id": "appunlearn-digits-s7",
+  "hyperparameters": {
+    "deletion_fraction": 0.1,
+    "scenarios": [
+      "random",
+      "local_concentrated",
+      "class_skew"
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_local_unlearning:run",
+  "search": {
+    "campaign": "app_local_unlearning_v1",
+    "enabled": false
+  },
+  "seed": 7,
+  "study": "granular-ball-application-local-unlearning"
+}

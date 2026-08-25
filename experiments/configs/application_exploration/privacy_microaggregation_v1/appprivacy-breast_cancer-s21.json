@@ -1,0 +1,24 @@
+{
+  "algorithm": "gb-k-anonymous-microaggregation",
+  "dataset": "semi-real-private-table-breast_cancer",
+  "dataset_generation_parameters": {
+    "dataset": "breast_cancer",
+    "max_samples": 1000
+  },
+  "experiment_id": "appprivacy-breast_cancer-s21",
+  "hyperparameters": {
+    "k_values": [
+      5,
+      10,
+      20
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_privacy_microaggregation:run",
+  "search": {
+    "campaign": "app_privacy_microaggregation_v1",
+    "enabled": false
+  },
+  "seed": 21,
+  "study": "granular-ball-application-privacy-microaggregation"
+}

@@ -43,6 +43,10 @@ No application is currently P1 after the first three kill tests.
 - Grouped training-data valuation: grouping saves 88.4% retrains for all methods,
   but GB loses 14.9 pp exact-influence correlation and 21.1 pp noise AUPRC to the
   best matched grouping.
+- k-anonymous privacy microaggregation: GB distortion is 30.2% worse and utility
+  5.93 pp lower than the best equal-k baseline; no gate passes.
+- Fixed-region approximate unlearning: local updates are fast, but GB post-delete
+  agreement is 3.06 pp below the best matched region updater; no +1 pp gate pass.
 - Generic GB anomaly detection and time-series anomaly detection: directly
   occupied by multiple 2025-2026 methods, including AAAI 2026 GBOC/GVDD.
 - GB replay/prototype continual memory: BallIL, EG-CNN and strong non-GB compact
