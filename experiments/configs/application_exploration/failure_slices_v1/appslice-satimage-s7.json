@@ -1,0 +1,21 @@
+{
+  "algorithm": "gb-model-risk-slice-discovery",
+  "dataset": "semi-real-model-audit-satimage",
+  "dataset_generation_parameters": {
+    "dataset": "satimage",
+    "max_samples": 1200
+  },
+  "experiment_id": "appslice-satimage-s7",
+  "hyperparameters": {
+    "localized_corruption": true,
+    "target_coverage": 0.2
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_failure_slices:run",
+  "search": {
+    "campaign": "app_failure_slices_v1",
+    "enabled": false
+  },
+  "seed": 7,
+  "study": "granular-ball-application-failure-slices"
+}

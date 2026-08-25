@@ -1,0 +1,24 @@
+{
+  "algorithm": "gb-cross-view-region-recovery",
+  "dataset": "semi-real-missing-view-digits",
+  "dataset_generation_parameters": {
+    "dataset": "digits",
+    "max_samples": 2400
+  },
+  "experiment_id": "appmissing-digits-s1",
+  "hyperparameters": {
+    "missing_rates": [
+      0.2,
+      0.4,
+      0.6
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_missing_view:run",
+  "search": {
+    "campaign": "app_missing_view_v1",
+    "enabled": false
+  },
+  "seed": 1,
+  "study": "granular-ball-application-missing-view"
+}
