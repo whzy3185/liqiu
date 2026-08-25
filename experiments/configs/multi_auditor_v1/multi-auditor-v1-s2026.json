@@ -1,0 +1,31 @@
+{
+  "algorithm": "multi-auditor-trust-v1",
+  "dataset": "synthetic-multi-auditor-v1",
+  "dataset_generation_parameters": {
+    "auditors": [
+      20,
+      50,
+      100
+    ],
+    "collusion_strength": [
+      0.5,
+      1.0
+    ],
+    "drift": [
+      0.0,
+      0.2
+    ],
+    "malicious_ratio": [
+      0.1,
+      0.3
+    ]
+  },
+  "experiment_id": "multi-auditor-v1-s2026",
+  "hyperparameters": {},
+  "pool": "exploration",
+  "runner": "experiments.runners.multi_auditor:run",
+  "search": {
+    "enabled": false
+  },
+  "seed": 2026
+}

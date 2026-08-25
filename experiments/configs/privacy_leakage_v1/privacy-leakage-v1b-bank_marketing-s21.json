@@ -1,0 +1,18 @@
+{
+  "algorithm": "privacy-leakage-summary-attack-v1",
+  "dataset": "bank_marketing",
+  "dataset_generation_parameters": {
+    "cap": 2000,
+    "name": "bank_marketing"
+  },
+  "experiment_id": "privacy-leakage-v1b-bank_marketing-s21",
+  "hyperparameters": {
+    "purity": 0.9
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.privacy_leakage:run",
+  "search": {
+    "enabled": false
+  },
+  "seed": 21
+}

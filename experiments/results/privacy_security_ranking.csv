@@ -1,0 +1,7 @@
+direction,strongest_gb_result,strongest_baseline,gain,stability,novelty,compute,failure_mode,empirical_signal,gb_specificity,mechanism_clarity,reproducibility,paper_extensibility,total,decision
+Privacy Leakage,"Initial membership AUC -0.0516 vs matched KMeans with +0.0071 utility","Anti-GB best eligible partition",-0.0523,"Anti-GB win 0.033",4,2,"Random/hierarchical/local prototypes match utility with lower leakage",3,1,2,4,2,2.65,KILL
+Cloud Auditing,"Structured detection by best GB policy","Per-cell strongest risk/KMeans/tree/anomaly baseline",-0.0074,"+0.03 win fraction 0.256",4,2,"Ordinary risk stratification explains the signal",1,1,2,5,2,2.15,KILL
+Multi-Auditor,"GB three-way mean accuracy 0.9373","Weighted majority mean accuracy 0.9532",-0.0196,"+0.01 win fraction 0.000",4,1,"Local competence/reputation methods dominate",1,1,2,5,2,2.15,KILL
+Secure Aggregation,"GB mean m/n 0.2094 and accuracy 0.7656","Matched KMeans accuracy 0.7687",-0.0032,"GB +0.01 win fraction 0.311",3,2,"Prototype compression is generic and misses the compression gate",1,1,2,5,2,1.95,KILL
+DP Granular Ball,"Not run; gate closed","Three-way DP and generic microaggregation are adjacent baselines",0,"Privacy prerequisite KILL",3,1,"Would relabel generic noisy aggregation as GB-DP",1,1,1,1,1,1.40,KILL
+

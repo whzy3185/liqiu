@@ -1,0 +1,3 @@
+status,privacy_precondition,gb_specific_leakage_fraction,anti_gb_win_fraction,reason
+NOT_RUN,KILL,0.12,0.0333333333,"Prerequisite failed; no formal or empirical DP claim made"
+

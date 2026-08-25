@@ -1,0 +1,18 @@
+{
+  "algorithm": "privacy-leakage-summary-attack-v1",
+  "dataset": "covertype",
+  "dataset_generation_parameters": {
+    "cap": 2000,
+    "name": "covertype"
+  },
+  "experiment_id": "privacy-leakage-v1-covertype-s2026",
+  "hyperparameters": {
+    "purity": 0.9
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.privacy_leakage:run",
+  "search": {
+    "enabled": false
+  },
+  "seed": 2026
+}

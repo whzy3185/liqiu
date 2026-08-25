@@ -1,0 +1,22 @@
+{
+  "algorithm": "privacy-anti-gb-v1",
+  "dataset": "adult",
+  "dataset_generation_parameters": {
+    "cap": 2000,
+    "name": "adult"
+  },
+  "experiment_id": "privacy-anti-gb-v1-adult-s21",
+  "hyperparameters": {
+    "purity_scan": [
+      0.8,
+      0.9,
+      0.95
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.privacy_anti_gb:run",
+  "search": {
+    "enabled": false
+  },
+  "seed": 21
+}

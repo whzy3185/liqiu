@@ -1,0 +1,20 @@
+{
+  "algorithm": "cloud-auditing-fixed-budget-v1",
+  "dataset": "synthetic-cloud-blocks-v1",
+  "dataset_generation_parameters": {
+    "sizes": [
+      10000,
+      100000
+    ]
+  },
+  "experiment_id": "cloud-auditing-v1-s2026",
+  "hyperparameters": {
+    "repeats": 30
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.cloud_auditing:run",
+  "search": {
+    "enabled": false
+  },
+  "seed": 2026
+}

@@ -1,0 +1,18 @@
+{
+  "algorithm": "secure-aggregation-compression-v1",
+  "dataset": "adult",
+  "dataset_generation_parameters": {
+    "cap": 2000,
+    "name": "adult"
+  },
+  "experiment_id": "secure-aggregation-v1-adult-s7",
+  "hyperparameters": {
+    "purity": 0.9
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.secure_aggregation:run",
+  "search": {
+    "enabled": false
+  },
+  "seed": 7
+}

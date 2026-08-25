@@ -1,0 +1,18 @@
+{
+  "algorithm": "secure-aggregation-compression-v1",
+  "dataset": "breast_cancer",
+  "dataset_generation_parameters": {
+    "cap": 2000,
+    "name": "breast_cancer"
+  },
+  "experiment_id": "secure-aggregation-v1-breast_cancer-s21",
+  "hyperparameters": {
+    "purity": 0.9
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.secure_aggregation:run",
+  "search": {
+    "enabled": false
+  },
+  "seed": 21
+}
