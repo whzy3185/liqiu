@@ -1,0 +1,24 @@
+{
+  "algorithm": "gb-spatial-monitoring-network-thinning",
+  "dataset": "synthetic-spatial-field-smooth_multiscale",
+  "dataset_generation_parameters": {
+    "family": "smooth_multiscale",
+    "sites": 400
+  },
+  "experiment_id": "appsensor-smooth_multiscale-s21",
+  "hyperparameters": {
+    "sensor_fractions": [
+      0.05,
+      0.1,
+      0.2
+    ]
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_sensor_placement:run",
+  "search": {
+    "campaign": "app_sensor_placement_v1",
+    "enabled": false
+  },
+  "seed": 21,
+  "study": "granular-ball-application-sensor-placement"
+}

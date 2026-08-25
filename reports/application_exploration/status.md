@@ -31,6 +31,12 @@ No application is currently P1 after the first three kill tests.
   competence opportunity, but full GB loses to kNN/tree/KMeans/terminal variants;
   0/45 competence and allocation cells pass the strongest-baseline gates, and
   same-partition radius attribution is absent.
+- Spatial sensor placement: 0/20 runs pass the joint +5% mean/worst-region RMSE
+  gate. KMeans, k-center, facility-location or axis selection explains the useful
+  station coverage.
+- Fixed-slot gallery retrieval: only 1/12 runs passes +2 pp mAP and none passes
+  mAP plus rare-class Hit jointly. All compressed methods receive the same 90%
+  distance-computation reduction.
 - Generic GB anomaly detection and time-series anomaly detection: directly
   occupied by multiple 2025-2026 methods, including AAAI 2026 GBOC/GVDD.
 - GB replay/prototype continual memory: BallIL, EG-CNN and strong non-GB compact
@@ -59,3 +65,8 @@ the *problem* of local annotator competence, but it must introduce a materially
 different region/membership mechanism and first beat the exact same hierarchy
 without radius. The current GB local-reliability mechanism must not be tuned or
 expanded to real crowd data.
+
+The accepted-paper map is now the search driver. Vector ANN indexing,
+semi-supervised propagation and lightweight image token coarsening were rejected
+at collision search. Point-cloud adaptive compression/retrieval is the next
+`CLEAR_DIRECT_GB / PARTIAL_GENERIC` Cheap Candidate.

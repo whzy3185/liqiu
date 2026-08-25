@@ -1,0 +1,25 @@
+{
+  "algorithm": "gb-fixed-slot-gallery-retrieval",
+  "dataset": "semi-real-gallery-covertype",
+  "dataset_generation_parameters": {
+    "dataset": "covertype",
+    "max_samples": 2400
+  },
+  "experiment_id": "appgallery-covertype-s7",
+  "hyperparameters": {
+    "gallery_fractions": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "top_k": 10
+  },
+  "pool": "exploration",
+  "runner": "experiments.runners.app_gallery_retrieval:run",
+  "search": {
+    "campaign": "app_gallery_retrieval_v1",
+    "enabled": false
+  },
+  "seed": 7,
+  "study": "granular-ball-application-gallery-retrieval"
+}
