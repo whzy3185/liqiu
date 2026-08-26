@@ -24,7 +24,7 @@ model hyperparameters, and downstream full-data fit.
 - no label input;
 - maximum 128 regions;
 - minimum 20 samples per final region;
-- APS representation fitting cap: stratified 12,000 training rows;
+- APS representation fitting cap: label-free seeded uniform 12,000 training rows;
 - no parameter search;
 - Steel Plates, SECOM, and APS; five frozen seeds;
 - XGBoost, LightGBM, CatBoost, Random Forest, ExtraTrees.
@@ -38,4 +38,3 @@ The mechanism is `GO` only if, relative to both Raw and matched KMeans features:
 3. the mean UGBFeat-minus-KMeans delta is positive on at least two datasets.
 
 If these conditions fail, do not build a third local-structure feature variant.
-

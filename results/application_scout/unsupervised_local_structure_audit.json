@@ -1,0 +1,77 @@
+{
+  "aps_failure:s1": {
+    "kmeans_regions": 11,
+    "label_free_fit_subset": 12000,
+    "n_regions": 11
+  },
+  "aps_failure:s2026": {
+    "kmeans_regions": 13,
+    "label_free_fit_subset": 12000,
+    "n_regions": 13
+  },
+  "aps_failure:s21": {
+    "kmeans_regions": 9,
+    "label_free_fit_subset": 12000,
+    "n_regions": 9
+  },
+  "aps_failure:s42": {
+    "kmeans_regions": 2,
+    "label_free_fit_subset": 12000,
+    "n_regions": 2
+  },
+  "aps_failure:s7": {
+    "kmeans_regions": 15,
+    "label_free_fit_subset": 12000,
+    "n_regions": 15
+  },
+  "secom:s1": {
+    "kmeans_regions": 5,
+    "label_free_fit_subset": 940,
+    "n_regions": 5
+  },
+  "secom:s2026": {
+    "kmeans_regions": 1,
+    "label_free_fit_subset": 940,
+    "n_regions": 1
+  },
+  "secom:s21": {
+    "kmeans_regions": 1,
+    "label_free_fit_subset": 940,
+    "n_regions": 1
+  },
+  "secom:s42": {
+    "kmeans_regions": 10,
+    "label_free_fit_subset": 940,
+    "n_regions": 10
+  },
+  "secom:s7": {
+    "kmeans_regions": 1,
+    "label_free_fit_subset": 940,
+    "n_regions": 1
+  },
+  "steel_plates:s1": {
+    "kmeans_regions": 22,
+    "label_free_fit_subset": 1164,
+    "n_regions": 22
+  },
+  "steel_plates:s2026": {
+    "kmeans_regions": 27,
+    "label_free_fit_subset": 1164,
+    "n_regions": 27
+  },
+  "steel_plates:s21": {
+    "kmeans_regions": 24,
+    "label_free_fit_subset": 1164,
+    "n_regions": 24
+  },
+  "steel_plates:s42": {
+    "kmeans_regions": 19,
+    "label_free_fit_subset": 1164,
+    "n_regions": 19
+  },
+  "steel_plates:s7": {
+    "kmeans_regions": 26,
+    "label_free_fit_subset": 1164,
+    "n_regions": 26
+  }
+}
