@@ -1,0 +1,214 @@
+{
+  "datasets": {
+    "aps_failure:s1": {
+      "features": 170,
+      "protocol": "official first-60000 train / last-16000 test; seeded stratified 80/20 validation inside official train",
+      "source": "OpenML 41138 mirror of UCI 421 Scania APS Failure",
+      "test": 16000,
+      "test_class_counts": {
+        "0": 15625,
+        "1": 375
+      },
+      "train": 48000,
+      "validation": 12000
+    },
+    "aps_failure:s2026": {
+      "features": 170,
+      "protocol": "official first-60000 train / last-16000 test; seeded stratified 80/20 validation inside official train",
+      "source": "OpenML 41138 mirror of UCI 421 Scania APS Failure",
+      "test": 16000,
+      "test_class_counts": {
+        "0": 15625,
+        "1": 375
+      },
+      "train": 48000,
+      "validation": 12000
+    },
+    "aps_failure:s21": {
+      "features": 170,
+      "protocol": "official first-60000 train / last-16000 test; seeded stratified 80/20 validation inside official train",
+      "source": "OpenML 41138 mirror of UCI 421 Scania APS Failure",
+      "test": 16000,
+      "test_class_counts": {
+        "0": 15625,
+        "1": 375
+      },
+      "train": 48000,
+      "validation": 12000
+    },
+    "aps_failure:s42": {
+      "features": 170,
+      "protocol": "official first-60000 train / last-16000 test; seeded stratified 80/20 validation inside official train",
+      "source": "OpenML 41138 mirror of UCI 421 Scania APS Failure",
+      "test": 16000,
+      "test_class_counts": {
+        "0": 15625,
+        "1": 375
+      },
+      "train": 48000,
+      "validation": 12000
+    },
+    "aps_failure:s7": {
+      "features": 170,
+      "protocol": "official first-60000 train / last-16000 test; seeded stratified 80/20 validation inside official train",
+      "source": "OpenML 41138 mirror of UCI 421 Scania APS Failure",
+      "test": 16000,
+      "test_class_counts": {
+        "0": 15625,
+        "1": 375
+      },
+      "train": 48000,
+      "validation": 12000
+    },
+    "secom:s1": {
+      "features": 590,
+      "protocol": "chronological 60/20/20 by official production test timestamp",
+      "source": "UCI 179 / DOI 10.24432/C54305",
+      "test": 314,
+      "test_class_counts": {
+        "0": 297,
+        "1": 17
+      },
+      "train": 940,
+      "validation": 313
+    },
+    "secom:s2026": {
+      "features": 590,
+      "protocol": "chronological 60/20/20 by official production test timestamp",
+      "source": "UCI 179 / DOI 10.24432/C54305",
+      "test": 314,
+      "test_class_counts": {
+        "0": 297,
+        "1": 17
+      },
+      "train": 940,
+      "validation": 313
+    },
+    "secom:s21": {
+      "features": 590,
+      "protocol": "chronological 60/20/20 by official production test timestamp",
+      "source": "UCI 179 / DOI 10.24432/C54305",
+      "test": 314,
+      "test_class_counts": {
+        "0": 297,
+        "1": 17
+      },
+      "train": 940,
+      "validation": 313
+    },
+    "secom:s42": {
+      "features": 590,
+      "protocol": "chronological 60/20/20 by official production test timestamp",
+      "source": "UCI 179 / DOI 10.24432/C54305",
+      "test": 314,
+      "test_class_counts": {
+        "0": 297,
+        "1": 17
+      },
+      "train": 940,
+      "validation": 313
+    },
+    "secom:s7": {
+      "features": 590,
+      "protocol": "chronological 60/20/20 by official production test timestamp",
+      "source": "UCI 179 / DOI 10.24432/C54305",
+      "test": 314,
+      "test_class_counts": {
+        "0": 297,
+        "1": 17
+      },
+      "train": 940,
+      "validation": 313
+    },
+    "steel_plates:s1": {
+      "features": 27,
+      "protocol": "seeded stratified 60/20/20; no acquisition/session IDs are published",
+      "source": "UCI 198 / DOI 10.24432/C5JG6Z",
+      "test": 389,
+      "test_class_counts": {
+        "0": 32,
+        "1": 38,
+        "2": 78,
+        "3": 14,
+        "4": 11,
+        "5": 81,
+        "6": 135
+      },
+      "train": 1164,
+      "validation": 388
+    },
+    "steel_plates:s2026": {
+      "features": 27,
+      "protocol": "seeded stratified 60/20/20; no acquisition/session IDs are published",
+      "source": "UCI 198 / DOI 10.24432/C5JG6Z",
+      "test": 389,
+      "test_class_counts": {
+        "0": 32,
+        "1": 38,
+        "2": 78,
+        "3": 14,
+        "4": 11,
+        "5": 81,
+        "6": 135
+      },
+      "train": 1164,
+      "validation": 388
+    },
+    "steel_plates:s21": {
+      "features": 27,
+      "protocol": "seeded stratified 60/20/20; no acquisition/session IDs are published",
+      "source": "UCI 198 / DOI 10.24432/C5JG6Z",
+      "test": 389,
+      "test_class_counts": {
+        "0": 32,
+        "1": 38,
+        "2": 78,
+        "3": 14,
+        "4": 11,
+        "5": 81,
+        "6": 135
+      },
+      "train": 1164,
+      "validation": 388
+    },
+    "steel_plates:s42": {
+      "features": 27,
+      "protocol": "seeded stratified 60/20/20; no acquisition/session IDs are published",
+      "source": "UCI 198 / DOI 10.24432/C5JG6Z",
+      "test": 389,
+      "test_class_counts": {
+        "0": 32,
+        "1": 38,
+        "2": 78,
+        "3": 14,
+        "4": 11,
+        "5": 81,
+        "6": 135
+      },
+      "train": 1164,
+      "validation": 388
+    },
+    "steel_plates:s7": {
+      "features": 27,
+      "protocol": "seeded stratified 60/20/20; no acquisition/session IDs are published",
+      "source": "UCI 198 / DOI 10.24432/C5JG6Z",
+      "test": 389,
+      "test_class_counts": {
+        "0": 32,
+        "1": 38,
+        "2": 78,
+        "3": 14,
+        "4": 11,
+        "5": 81,
+        "6": 135
+      },
+      "train": 1164,
+      "validation": 388
+    }
+  },
+  "notes": "Tree/boosting models use all training rows. KNN and RBF-SVM are diagnostic and use a stratified cap of 5000 rows when the dataset is larger. No model or threshold is selected from test performance.",
+  "output": "results/application_scout/raw_baselines.parquet",
+  "rows": 105,
+  "schema_version": "1.0",
+  "sha256": "0b32a9e533b7a82f04b88b1cba83b12f4e44fce990c04a1a01d4b794fd8c043b"
+}

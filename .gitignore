@@ -7,3 +7,6 @@ experiments/results/*.tmp
 datasets/real/*
 !datasets/real/.gitkeep
 work/
+data/**/raw/
+data/**/processed/
+data/**/cache/
