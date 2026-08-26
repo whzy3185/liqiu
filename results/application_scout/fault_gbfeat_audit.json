@@ -1,0 +1,617 @@
+{
+  "aps_failure:s1": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 0,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 1,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 2,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 3,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 4,
+        "n_balls": 1,
+        "query_count": 9600
+      }
+    ],
+    "generator_full_fit_count": 12000,
+    "n_balls": 1
+  },
+  "aps_failure:s2026": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 0,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 1,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 2,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 3,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 4,
+        "n_balls": 1,
+        "query_count": 9600
+      }
+    ],
+    "generator_full_fit_count": 12000,
+    "n_balls": 1
+  },
+  "aps_failure:s21": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 0,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 1,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 2,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 3,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 4,
+        "n_balls": 1,
+        "query_count": 9600
+      }
+    ],
+    "generator_full_fit_count": 12000,
+    "n_balls": 1
+  },
+  "aps_failure:s42": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 0,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 1,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 2,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 3,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 4,
+        "n_balls": 1,
+        "query_count": 9600
+      }
+    ],
+    "generator_full_fit_count": 12000,
+    "n_balls": 1
+  },
+  "aps_failure:s7": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 0,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 1,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 2,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 3,
+        "n_balls": 1,
+        "query_count": 9600
+      },
+      {
+        "disjoint": true,
+        "fit_count": 12000,
+        "fold": 4,
+        "n_balls": 1,
+        "query_count": 9600
+      }
+    ],
+    "generator_full_fit_count": 12000,
+    "n_balls": 1
+  },
+  "secom:s1": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 0,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 1,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 2,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 3,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 4,
+        "n_balls": 1,
+        "query_count": 188
+      }
+    ],
+    "generator_full_fit_count": 940,
+    "n_balls": 1
+  },
+  "secom:s2026": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 0,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 1,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 2,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 3,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 4,
+        "n_balls": 1,
+        "query_count": 188
+      }
+    ],
+    "generator_full_fit_count": 940,
+    "n_balls": 1
+  },
+  "secom:s21": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 0,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 1,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 2,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 3,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 4,
+        "n_balls": 1,
+        "query_count": 188
+      }
+    ],
+    "generator_full_fit_count": 940,
+    "n_balls": 1
+  },
+  "secom:s42": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 0,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 1,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 2,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 3,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 4,
+        "n_balls": 1,
+        "query_count": 188
+      }
+    ],
+    "generator_full_fit_count": 940,
+    "n_balls": 1
+  },
+  "secom:s7": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 0,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 1,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 2,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 3,
+        "n_balls": 1,
+        "query_count": 188
+      },
+      {
+        "disjoint": true,
+        "fit_count": 752,
+        "fold": 4,
+        "n_balls": 1,
+        "query_count": 188
+      }
+    ],
+    "generator_full_fit_count": 940,
+    "n_balls": 1
+  },
+  "steel_plates:s1": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 0,
+        "n_balls": 236,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 1,
+        "n_balls": 239,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 2,
+        "n_balls": 228,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 3,
+        "n_balls": 240,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 932,
+        "fold": 4,
+        "n_balls": 220,
+        "query_count": 232
+      }
+    ],
+    "generator_full_fit_count": 1164,
+    "n_balls": 256
+  },
+  "steel_plates:s2026": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 0,
+        "n_balls": 230,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 1,
+        "n_balls": 228,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 2,
+        "n_balls": 238,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 3,
+        "n_balls": 238,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 932,
+        "fold": 4,
+        "n_balls": 233,
+        "query_count": 232
+      }
+    ],
+    "generator_full_fit_count": 1164,
+    "n_balls": 256
+  },
+  "steel_plates:s21": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 0,
+        "n_balls": 255,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 1,
+        "n_balls": 226,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 2,
+        "n_balls": 235,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 3,
+        "n_balls": 243,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 932,
+        "fold": 4,
+        "n_balls": 222,
+        "query_count": 232
+      }
+    ],
+    "generator_full_fit_count": 1164,
+    "n_balls": 256
+  },
+  "steel_plates:s42": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 0,
+        "n_balls": 250,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 1,
+        "n_balls": 229,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 2,
+        "n_balls": 230,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 3,
+        "n_balls": 239,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 932,
+        "fold": 4,
+        "n_balls": 221,
+        "query_count": 232
+      }
+    ],
+    "generator_full_fit_count": 1164,
+    "n_balls": 256
+  },
+  "steel_plates:s7": {
+    "folds": [
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 0,
+        "n_balls": 245,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 1,
+        "n_balls": 244,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 2,
+        "n_balls": 228,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 931,
+        "fold": 3,
+        "n_balls": 244,
+        "query_count": 233
+      },
+      {
+        "disjoint": true,
+        "fit_count": 932,
+        "fold": 4,
+        "n_balls": 228,
+        "query_count": 232
+      }
+    ],
+    "generator_full_fit_count": 1164,
+    "n_balls": 256
+  }
+}

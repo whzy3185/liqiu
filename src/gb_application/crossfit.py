@@ -25,6 +25,7 @@ class CrossFittedGBFeatures:
     test: np.ndarray
     audits: tuple[FoldAudit, ...]
     full_generator: StableGranularBallGenerator
+    full_fit_count: int
 
 
 def cross_fitted_gb_features(
@@ -38,6 +39,7 @@ def cross_fitted_gb_features(
     purity: float = 0.9,
     min_samples: int = 5,
     max_balls: int = 256,
+    generator_fit_cap: int | None = None,
 ) -> CrossFittedGBFeatures:
     X_train = np.asarray(X_train, dtype=float)
     y_train = np.asarray(y_train).reshape(-1)
@@ -49,27 +51,31 @@ def cross_fitted_gb_features(
     out_of_fold = np.empty((len(X_train), 12), dtype=float)
     audits: list[FoldAudit] = []
     for fold, (fit_indices, query_indices) in enumerate(splitter.split(X_train, y_train)):
+        generator_indices = _stratified_cap(fit_indices, y_train, generator_fit_cap, seed + fold)
         generator = StableGranularBallGenerator(
             purity=purity,
             min_samples=min_samples,
             random_state=seed + fold,
             max_balls=max_balls,
-        ).fit(X_train[fit_indices], y_train[fit_indices])
+        ).fit(X_train[generator_indices], y_train[generator_indices])
         out_of_fold[query_indices], _ = structural_features(generator, X_train[query_indices])
         audits.append(
             FoldAudit(
                 fold=fold,
-                fit_indices=tuple(int(value) for value in fit_indices),
+                fit_indices=tuple(int(value) for value in generator_indices),
                 query_indices=tuple(int(value) for value in query_indices),
                 n_balls=len(generator.balls_),
             )
         )
+    full_fit_indices = _stratified_cap(
+        np.arange(len(X_train)), y_train, generator_fit_cap, seed
+    )
     full_generator = StableGranularBallGenerator(
         purity=purity,
         min_samples=min_samples,
         random_state=seed,
         max_balls=max_balls,
-    ).fit(X_train, y_train)
+    ).fit(X_train[full_fit_indices], y_train[full_fit_indices])
     validation, _ = structural_features(full_generator, X_validation)
     test, _ = structural_features(full_generator, X_test)
     return CrossFittedGBFeatures(
@@ -78,5 +84,26 @@ def cross_fitted_gb_features(
         test=test,
         audits=tuple(audits),
         full_generator=full_generator,
+        full_fit_count=len(full_fit_indices),
     )
 
+
+def _stratified_cap(
+    available: np.ndarray,
+    y: np.ndarray,
+    cap: int | None,
+    seed: int,
+) -> np.ndarray:
+    available = np.asarray(available, dtype=int)
+    if cap is None or len(available) <= cap:
+        return available
+    rng = np.random.default_rng(seed)
+    selected: list[int] = []
+    labels = np.unique(y[available])
+    for label in labels:
+        candidates = available[y[available] == label]
+        quota = max(1, int(round(cap * len(candidates) / len(available))))
+        selected.extend(rng.choice(candidates, size=min(quota, len(candidates)), replace=False))
+    if len(selected) > cap:
+        selected = rng.choice(selected, size=cap, replace=False).tolist()
+    return np.asarray(sorted(selected), dtype=int)

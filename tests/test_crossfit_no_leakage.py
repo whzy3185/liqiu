@@ -67,7 +67,20 @@ class CrossFitNoLeakageTests(unittest.TestCase):
         augmented = append_gb_features(self.X_train, result.train)
         self.assertEqual(augmented.shape[1], self.X_train.shape[1] + 12)
 
+    def test_generator_fit_cap_stays_inside_oof_fit(self):
+        result = cross_fitted_gb_features(
+            self.X_train,
+            self.y_train,
+            self.X_validation,
+            self.X_test,
+            seed=42,
+            generator_fit_cap=80,
+        )
+        self.assertEqual(result.full_fit_count, 80)
+        for audit in result.audits:
+            self.assertLessEqual(len(audit.fit_indices), 80)
+            self.assertFalse(set(audit.fit_indices) & set(audit.query_indices))
+
 
 if __name__ == "__main__":
     unittest.main()
-
