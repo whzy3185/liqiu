@@ -1,0 +1,4 @@
+domain,primary_metric,mean_gain,median_gain,win_tie_loss,at_least_1pp,at_least_2pp,at_least_3pp,at_least_5pp,strongest_raw_model,best_gb_mechanism,data_quality,novelty_space,compute_cost,decision,rank
+industrial_tabular,Macro-F1,-0.006467,0.000000,"19/22/34",3,1,0,0,"APS: LightGBM; Steel: XGBoost; SECOM: all majority-class","GB structural features (KILL)","3 real tabular industrial sources; mechanical-signal official downloads unavailable",medium,low,KILL,3
+finance,PR-AUC,-0.000939,0.000105,"24/0/21",0,0,0,0,"Taiwan: CatBoost; Australian: CatBoost; Polish: LightGBM","OOF purity weighting selected in 32/45 cells but no material gain",high,high,medium,KILL,1
+iiot_intrusion,PR-AUC,-0.000002,0.000010,"9/0/6",0,0,0,0,LightGBM,"GB weighting/features vary by validation but no effect","one transformed UNSW export only; no campaign/device/time-safe evaluation",low,medium,KILL,2
