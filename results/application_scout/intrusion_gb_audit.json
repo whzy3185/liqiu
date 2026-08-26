@@ -1,0 +1,22 @@
+{
+  "unsw_nb15:s1": {
+    "n_balls": 256,
+    "oof_disjoint": true
+  },
+  "unsw_nb15:s2026": {
+    "n_balls": 256,
+    "oof_disjoint": true
+  },
+  "unsw_nb15:s21": {
+    "n_balls": 256,
+    "oof_disjoint": true
+  },
+  "unsw_nb15:s42": {
+    "n_balls": 256,
+    "oof_disjoint": true
+  },
+  "unsw_nb15:s7": {
+    "n_balls": 256,
+    "oof_disjoint": true
+  }
+}
