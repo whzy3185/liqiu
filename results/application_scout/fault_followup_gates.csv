@@ -1,0 +1,7 @@
+prompt,status,reason
+10_fewshot,NOT_RUN,"No industrial GB method survived Prompt 8"
+11_imbalance,NOT_RUN,"No industrial GB method survived Prompt 8"
+12_label_noise,NOT_RUN,"No industrial GB method survived Prompt 8"
+13_signal_noise,NOT_RUN,"No industrial GB method survived Prompt 8"
+14_cross_condition,NOT_RUN,"No industrial GB method survived Prompt 8"
+

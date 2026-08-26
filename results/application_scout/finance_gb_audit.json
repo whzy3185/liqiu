@@ -1,0 +1,77 @@
+{
+  "australian_credit:s1": {
+    "full_fit_count": 414,
+    "n_balls": 54,
+    "oof_disjoint": true
+  },
+  "australian_credit:s2026": {
+    "full_fit_count": 414,
+    "n_balls": 59,
+    "oof_disjoint": true
+  },
+  "australian_credit:s21": {
+    "full_fit_count": 414,
+    "n_balls": 53,
+    "oof_disjoint": true
+  },
+  "australian_credit:s42": {
+    "full_fit_count": 414,
+    "n_balls": 75,
+    "oof_disjoint": true
+  },
+  "australian_credit:s7": {
+    "full_fit_count": 414,
+    "n_balls": 81,
+    "oof_disjoint": true
+  },
+  "polish_bankruptcy_5year:s1": {
+    "full_fit_count": 3546,
+    "n_balls": 1,
+    "oof_disjoint": true
+  },
+  "polish_bankruptcy_5year:s2026": {
+    "full_fit_count": 3546,
+    "n_balls": 1,
+    "oof_disjoint": true
+  },
+  "polish_bankruptcy_5year:s21": {
+    "full_fit_count": 3546,
+    "n_balls": 1,
+    "oof_disjoint": true
+  },
+  "polish_bankruptcy_5year:s42": {
+    "full_fit_count": 3546,
+    "n_balls": 1,
+    "oof_disjoint": true
+  },
+  "polish_bankruptcy_5year:s7": {
+    "full_fit_count": 3546,
+    "n_balls": 1,
+    "oof_disjoint": true
+  },
+  "taiwan_default:s1": {
+    "full_fit_count": 12000,
+    "n_balls": 256,
+    "oof_disjoint": true
+  },
+  "taiwan_default:s2026": {
+    "full_fit_count": 12000,
+    "n_balls": 256,
+    "oof_disjoint": true
+  },
+  "taiwan_default:s21": {
+    "full_fit_count": 12000,
+    "n_balls": 256,
+    "oof_disjoint": true
+  },
+  "taiwan_default:s42": {
+    "full_fit_count": 12000,
+    "n_balls": 256,
+    "oof_disjoint": true
+  },
+  "taiwan_default:s7": {
+    "full_fit_count": 12000,
+    "n_balls": 256,
+    "oof_disjoint": true
+  }
+}
