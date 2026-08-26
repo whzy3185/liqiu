@@ -1,0 +1,3 @@
+status,prerequisite,observed_overall_gbfeat_delta,positive_dataset_count,reason
+NOT_RUN,"Prompt 8 local positive signal",-0.006467,0,"GBFeat was KILL; preregistered weighting search gate remained closed"
+
