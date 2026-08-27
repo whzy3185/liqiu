@@ -18,4 +18,7 @@ release levels, and both simple attack models. However, targeted natural and
 semi-synthetic real-feature tests on Sonar, Spambase, Digits, and molecule-group
 split Musk1 do not transfer the GB-specific contrast. Keep the mechanism as a
 controlled-distribution finding; do not claim a real-data privacy risk or
-universality. All negative regimes remain retained.
+universality. A confirmed-regime small-ball audit finds the strongest GB-minus-
+KMeans contrast in singleton/two-sample regions, but that explanation remains
+synthetic-only and has limited matched-bin support. All negative regimes remain
+retained.

@@ -1,0 +1,2 @@
+method,n,r_squared,coef_log_ball_size,coef_purity,coef_radius,coef_refinement_depth,coef_normalized_distance,spearman_log_ball_size,spearman_purity,spearman_radius,spearman_refinement_depth,spearman_normalized_distance
+granular_ball,30646,0.6297451186347431,-0.09096380589882971,-0.029102358970675896,0.05800806771868675,-0.031140668660809428,-0.21035212558943162,0.0516029578539454,0.07644330291596417,0.49150273836116876,-0.441074227305347,-0.7187240873840761
