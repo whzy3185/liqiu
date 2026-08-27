@@ -49,6 +49,13 @@ def load_dataset(name: str, cache: Path) -> tuple[np.ndarray, np.ndarray, str]:
     if name == "digits":
         bunch = load_digits()
         return np.asarray(bunch.data, float), np.asarray(bunch.target, int), "sklearn.load_digits"
+    if name in {"sonar", "spambase"}:
+        from ucimlrepo import fetch_ucirepo
+        dataset_id = {"sonar": 151, "spambase": 94}[name]
+        bunch = fetch_ucirepo(id=dataset_id)
+        x = np.asarray(bunch.data.features, float)
+        y = LabelEncoder().fit_transform(np.asarray(bunch.data.targets).reshape(-1))
+        return x, y, f"UCI id={dataset_id} via ucimlrepo"
     if name not in OPENML:
         raise ValueError(f"Unknown dataset {name}")
     bunch = fetch_openml(data_id=OPENML[name], as_frame=False, data_home=str(cache), parser="auto")

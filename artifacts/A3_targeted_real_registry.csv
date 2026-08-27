@@ -1,0 +1,6 @@
+dataset,official_source,instances,features,structural_role,access_status,split_requirement,decision
+Sonar,UCI id=151; doi:10.24432/C5T01Q,208,60,small-n moderate-high-d numeric local-signal candidate,public_loaded,row-stratified exploratory only,include
+Spambase,UCI id=94; doi:10.24432/C53G6X,4601,57,moderate-d heterogeneous real collection with noisy concept boundary,public_loaded,row-stratified exploratory only,include
+Musk1,UCI id=74; doi:10.24432/C5ZK5B,476,168,high-d conformational local geometry candidate,public_loaded,group split by molecule required,defer
+Arcene,UCI id=167; doi:10.24432/C58P55,900,10000,high-d probe-feature negative control,official archive but API import unavailable,official train-valid split required,defer
+Madelon,UCI id=171; doi:10.24432/C5602H,4400,500,high-d redundant/probe synthetic external negative control,official archive but API import unavailable,official train-valid split required,defer
