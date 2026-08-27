@@ -78,7 +78,7 @@ def load_grouped_dataset(name: str, cache: Path | None = None) -> tuple[np.ndarr
     y = LabelEncoder().fit_transform(np.asarray(bunch.data.targets).reshape(-1))
     if cache_file is not None:
         cache.mkdir(parents=True, exist_ok=True)
-        np.savez_compressed(cache_file, x=x, y=y, groups=groups)
+        np.savez_compressed(cache_file, x=x, y=y, groups=np.asarray(groups, dtype="U"))
     return x, y, groups, "UCI id=74 via ucimlrepo; molecule_name group split"
 
 
