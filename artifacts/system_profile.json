@@ -1,0 +1,22 @@
+{
+  "profiled_at": "2026-08-27",
+  "os": "macOS Darwin 25.5.0 arm64",
+  "cpu": {"model": "Apple M5", "physical_cores": 10, "logical_cores": 10},
+  "memory": {
+    "total_bytes": 17179869184,
+    "estimated_available_bytes": 6111363072,
+    "swap_total_bytes": 4294967296,
+    "available_estimation": "free + inactive + speculative + purgeable pages from vm_stat"
+  },
+  "gpu": {"model": "Apple M5 integrated GPU", "metal": true, "cuda_available": false},
+  "python": {
+    "version": "3.12.13",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.9.0",
+    "psutil": "7.2.2",
+    "torch": "NOT_INSTALLED"
+  },
+  "disk_available_bytes": 839008681984
+}
