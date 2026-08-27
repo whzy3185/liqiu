@@ -14,7 +14,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import average_precision_score, roc_auc_score, roc_curve
 from sklearn.metrics import pairwise_distances
-from sklearn.model_selection import StratifiedKFold, cross_val_predict, train_test_split
+from sklearn.model_selection import StratifiedGroupKFold, StratifiedKFold, cross_val_predict, train_test_split
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
@@ -62,10 +62,32 @@ def load_dataset(name: str, cache: Path) -> tuple[np.ndarray, np.ndarray, str]:
     return np.asarray(bunch.data, float), LabelEncoder().fit_transform(bunch.target), f"OpenML data_id={OPENML[name]}"
 
 
+def load_grouped_dataset(name: str) -> tuple[np.ndarray, np.ndarray, np.ndarray, str]:
+    """Load a public dataset whose entity ID must remain split-disjoint."""
+    if name != "musk1":
+        raise ValueError(f"Unknown grouped dataset {name}")
+    from ucimlrepo import fetch_ucirepo
+    bunch = fetch_ucirepo(id=74)
+    frame = bunch.data.features
+    groups = frame["molecule_name"].astype(str).to_numpy()
+    x = np.asarray(frame.drop(columns=["molecule_name", "conformation_name"]), dtype=float)
+    y = LabelEncoder().fit_transform(np.asarray(bunch.data.targets).reshape(-1))
+    return x, y, groups, "UCI id=74 via ucimlrepo; molecule_name group split"
+
+
 def split_standardize(x: np.ndarray, y: np.ndarray, seed: int) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
     x_member, x_nonmember, y_member, y_nonmember = train_test_split(x, y, test_size=0.5, stratify=y, random_state=seed)
     scaler = StandardScaler().fit(x_member)
     return scaler.transform(x_member), y_member, scaler.transform(x_nonmember), y_nonmember
+
+
+def split_standardize_groups(x: np.ndarray, y: np.ndarray, groups: np.ndarray, seed: int) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
+    splitter = StratifiedGroupKFold(n_splits=2, shuffle=True, random_state=seed)
+    member_index, nonmember_index = next(splitter.split(x, y, groups))
+    if set(groups[member_index]) & set(groups[nonmember_index]):
+        raise RuntimeError("group split leaked an entity across member/non-member sets")
+    scaler = StandardScaler().fit(x[member_index])
+    return scaler.transform(x[member_index]), y[member_index], scaler.transform(x[nonmember_index]), y[nonmember_index]
 
 
 def _tree_metadata(tree: GranulationTree) -> dict[int, tuple[int, int | None, int]]:
@@ -160,9 +182,9 @@ def _flip_training_labels(y: np.ndarray, fraction: float, seed: int) -> np.ndarr
     return out
 
 
-def run_arrays(dataset: str, x: np.ndarray, y: np.ndarray, source: str, seed: int, context: dict[str, object] | None = None, training_label_noise: float = 0.0) -> tuple[list[dict[str, object]], list[dict[str, object]], dict[str, object]]:
+def run_arrays(dataset: str, x: np.ndarray, y: np.ndarray, source: str, seed: int, context: dict[str, object] | None = None, training_label_noise: float = 0.0, groups: np.ndarray | None = None) -> tuple[list[dict[str, object]], list[dict[str, object]], dict[str, object]]:
     context = {} if context is None else context
-    x_member, y_member, x_nonmember, _ = split_standardize(x, y, seed)
+    x_member, y_member, x_nonmember, _ = split_standardize(x, y, seed) if groups is None else split_standardize_groups(x, y, groups, seed)
     y_member = _flip_training_labels(y_member, training_label_noise, seed * 7919 + 17)
     tree = GranulationTree(random_state=211 + seed, split_method="kmeans").fit(x_member, y_member)
     results: list[dict[str, object]] = []
