@@ -1,6 +1,6 @@
 # A3 Decision
 
-Decision: `CONTINUE_CONDITIONAL_REGIME`.
+Decision: `SYNTHETIC_ONLY_HOLD_REAL_TRANSFER`.
 
 The broad question remains deliberately unanswered: first-round synthetic
 results show matched KMeans often explains or exceeds GB leakage. However, a
@@ -13,7 +13,9 @@ GB-specific membership-leakage contrast under a defined structural regime:
 - locally heterogeneous multimodal minority structure; and
 - fine purity refinement.
 
-The result survives new seeds, nearby held-out parameter combinations, release
-levels, and both simple attack models. Move to targeted real-data confirmation,
-small-ball/boundary mechanism analysis, and a maintained matched-KMeans control.
-Do not claim universality or remove negative discovery regimes.
+The synthetic result survives new seeds, nearby held-out parameter combinations,
+release levels, and both simple attack models. However, targeted natural and
+semi-synthetic real-feature tests on Sonar, Spambase, Digits, and molecule-group
+split Musk1 do not transfer the GB-specific contrast. Keep the mechanism as a
+controlled-distribution finding; do not claim a real-data privacy risk or
+universality. All negative regimes remain retained.

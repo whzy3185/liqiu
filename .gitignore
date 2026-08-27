@@ -7,4 +7,5 @@ experiments/results/*.tmp
 datasets/real/*
 !datasets/real/.gitkeep
 results/A3_semisynthetic_real_balls.jsonl
+results/A3_musk_group_balls.jsonl
 work/
