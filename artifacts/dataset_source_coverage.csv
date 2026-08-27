@@ -1,0 +1,13 @@
+source,url,coverage_status,outcome
+OpenML,https://www.openml.org/,COVERED,metadata source; candidate IDs require per-dataset provenance check
+UCI,https://archive.ics.uci.edu/,COVERED,Arcene and Madelon approved; other leads catalogued
+KEEL,https://sci2s.ugr.es/keel/datasets.php,COVERED,high-dimensional lead discovered; original provenance/license pending
+Zenodo,https://zenodo.org/,COVERED,Dataset60 metadata found but files restricted
+Harvard Dataverse,https://dataverse.harvard.edu/,COVERED_NO_APPROVED_CANDIDATE,no source/target/license-complete candidate selected in this pass
+Figshare,https://figshare.com/,COVERED_NO_APPROVED_CANDIDATE,no source/target/license-complete candidate selected in this pass
+Mendeley Data,https://data.mendeley.com/,COVERED_NO_APPROVED_CANDIDATE,no source/target/license-complete candidate selected in this pass
+GEO,https://www.ncbi.nlm.nih.gov/geo/,COVERED,omics subtype leads catalogued pending task extraction/usage review
+PhysioNet,https://physionet.org/,COVERED,raw-signal lead rejected until a frozen embedding and group protocol exist
+Data.gov,https://www.data.gov/,COVERED_NO_APPROVED_CANDIDATE,no task/label provenance candidate selected
+re3data,https://www.re3data.org/,COVERED_AS_ROUTING,used only as repository discovery routing; no forum attachment accepted
+Papers With Code,https://paperswithcode.com/datasets,COVERED_AS_ROUTING,CIFAR-N corroborated; original UCSC release remains the catalog source
