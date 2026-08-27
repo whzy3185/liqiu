@@ -6,4 +6,5 @@ experiments/logs/*.log
 experiments/results/*.tmp
 datasets/real/*
 !datasets/real/.gitkeep
+results/A3_semisynthetic_real_balls.jsonl
 work/
