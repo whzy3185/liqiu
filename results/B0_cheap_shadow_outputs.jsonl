@@ -1,0 +1,432 @@
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 0, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [13], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 0, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [27], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 0, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [20], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 0, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 1, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [14, 16], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 1, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [21, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 1, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 1, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [20, 0], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 2, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [16, 14], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 2, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [21, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 2, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [23, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 2, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [20, 22], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 3, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [13, 16], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 3, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [0, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 3, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [7, 27], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 3, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 4, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [18], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 4, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [27], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 4, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [23], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 4, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [20], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 5, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [16, 13], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 5, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [4, 21], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 5, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22, 7], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 5, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [20, 27], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 6, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [13, 16], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 6, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [21, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 6, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22, 23], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 6, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [20, 27], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 7, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [13], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 7, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [27], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 7, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [27], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 7, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 8, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [13], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 8, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [27], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 8, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 8, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [20], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 9, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [14, 16], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 9, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [4, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 9, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [23, 22], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 9, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [20, 22], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 10, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [18, 6], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 10, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [21, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 10, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22, 27], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 10, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [20, 22], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 11, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [7, 16, 3], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 11, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [0, 1, 27], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 11, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22, 23, 20], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 1, "shadow_id": 11, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [20, 22, 23], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 0, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [16, 18], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 0, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [1, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 0, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 0, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 1, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [16], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 1, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [27], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 1, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [27], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 1, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 2, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [13, 16], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 2, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [21, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 2, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22, 23], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 2, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 3, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [11, 13], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 3, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [11, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 3, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [7, 22], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 3, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 4, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [13, 16], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 4, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [21, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 4, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [23, 22], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 4, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 5, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [14, 16], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 5, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [21, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 5, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [20, 22], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 5, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 6, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [13, 19], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 6, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [21, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 6, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [27, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 6, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [22, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 7, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [16, 28], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 7, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [4, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 7, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [27, 22], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 7, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 22], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 8, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [28, 9, 18], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 8, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [0, 8, 27], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 8, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22, 23, 20], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 8, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [20, 27, 22], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 9, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [16, 28, 15], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 9, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [0, 21, 27], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 9, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22, 20, 27], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 9, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20, 22], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 10, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [16, 28, 18, 19], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 10, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [0, 1, 4, 27], "selected_count": 4, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 10, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [20, 22, 23, 27], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 10, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20, 22, 7], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 11, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [13, 16], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 11, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [21, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 11, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [20, 23], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 7, "shadow_id": 11, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 0, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [16, 13], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 0, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [1, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 0, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [20, 22], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 0, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 1, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [28, 16], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 1, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [1, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 1, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [7, 22], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 1, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 21], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 2, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [16, 28], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 2, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [21, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 2, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [7, 27], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 2, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 7], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 3, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [13, 16, 23], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 3, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [0, 1, 27], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 3, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22, 23, 27], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 3, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20, 22], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 4, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [16, 5], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 4, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [1, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 4, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 4, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 5, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [13, 16], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 5, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [1, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 5, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [20, 22], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 5, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [20, 27], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 6, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [13, 19], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 6, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [9, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 6, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [20, 23], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 6, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 7, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [13, 16], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 7, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [1, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 7, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22, 23], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 7, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 8, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [16, 13], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 8, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [1, 27], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 8, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22, 23], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 8, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 9, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [16], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 9, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [27], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 9, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [22], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 9, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [22], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 10, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [23, 19, 13], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 10, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [0, 1, 27], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 10, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [27, 22, 7], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 10, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27, 20, 22], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 11, "source": "sklearn.load_breast_cancer", "method": "GBFRS", "selected_features": [13], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 11, "source": "sklearn.load_breast_cancer", "method": "FRFS", "selected_features": [27], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 11, "source": "sklearn.load_breast_cancer", "method": "MutualInformation", "selected_features": [23], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "breast_cancer", "seed": 21, "shadow_id": 11, "source": "sklearn.load_breast_cancer", "method": "ReliefF", "selected_features": [27], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 0, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 40, 59, 38, 4], "selected_count": 5, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 0, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 1, 2, 3, 19], "selected_count": 5, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 1, "shadow_id": 0, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [10, 11, 43, 14, 56], "selected_count": 5, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 0, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [10, 11, 35, 36, 44], "selected_count": 5, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 1, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [57, 49, 56], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 1, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 11, 15], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 1, "shadow_id": 1, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [11, 31, 7], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 1, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 9, 10], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 2, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 5, 1], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 2, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 4, 19], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 1, "shadow_id": 2, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [11, 57, 10], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 2, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [10, 11, 9], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 3, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 4], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 3, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [5, 18], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 1, "shadow_id": 3, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [24, 11], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 3, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [9, 11], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 4, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [0, 56], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 4, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [4, 19], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 1, "shadow_id": 4, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [4, 8], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 4, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 5, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [50, 58, 46, 33], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 5, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 1, 5, 19], "selected_count": 4, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 1, "shadow_id": 5, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [10, 18, 20, 11], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 5, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10, 9, 44], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 6, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 5], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 6, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [5, 18], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 1, "shadow_id": 6, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [42, 11], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 6, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 7, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [59, 40, 58, 49], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 7, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 1, 5, 19], "selected_count": 4, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 1, "shadow_id": 7, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [11, 10, 38, 25], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 7, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10, 9, 8], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 8, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [50, 46, 56], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 8, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 1, 30], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 1, "shadow_id": 8, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [20, 38, 7], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 8, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [27, 9, 10], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 9, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [59], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 9, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [19], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 1, "shadow_id": 9, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [11], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 9, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 10, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [55, 57, 49, 54], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 10, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 1, 2, 19], "selected_count": 4, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 1, "shadow_id": 10, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [44, 47, 53, 27], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 10, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10, 9, 27], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 11, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 5, 0], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 11, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 5, 19], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 1, "shadow_id": 11, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [11, 10, 28], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 1, "shadow_id": 11, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 35, 10], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 0, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [4, 5, 3], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 0, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 5, 26], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 7, "shadow_id": 0, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [7, 47, 11], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 0, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [48, 47, 35], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 1, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 4], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 1, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [4, 19], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 7, "shadow_id": 1, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [11, 10], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 1, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 2, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [57, 5, 22], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 2, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 6, 19], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 7, "shadow_id": 2, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [44, 31, 11], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 2, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [48, 47, 10], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 3, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 42, 1, 59], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 3, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 1, 2, 18], "selected_count": 4, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 7, "shadow_id": 3, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [4, 44, 30, 8], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 3, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 9, 10, 12], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 4, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 5], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 4, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [2, 29], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 7, "shadow_id": 4, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [47, 45], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 4, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [10, 9], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 5, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [5, 8], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 5, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [4, 19], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 7, "shadow_id": 5, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [11, 10], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 5, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 6, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 42, 4], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 6, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 4, 19], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 7, "shadow_id": 6, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [4, 11, 44], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 6, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10, 8], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 7, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [1, 3], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 7, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [5, 29], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 7, "shadow_id": 7, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [11, 10], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 7, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 8, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [58, 4, 54, 53], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 8, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 1, 3, 18], "selected_count": 4, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 7, "shadow_id": 8, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [46, 11, 8, 29], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 8, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 48, 47, 44], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 9, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 1, 2], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 9, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 1, 19], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 7, "shadow_id": 9, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [49, 32, 26], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 9, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10, 47], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 10, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [50, 5, 45], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 10, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 1, 28], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 7, "shadow_id": 10, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [50, 8, 53], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 10, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [19, 35, 36], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 11, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [59, 43], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 11, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [2, 19], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 7, "shadow_id": 11, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [10, 11], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 7, "shadow_id": 11, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 0, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [59, 5], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 0, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [7, 31], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 21, "shadow_id": 0, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [10, 24], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 0, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 1, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [8, 38, 0, 59], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 1, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 1, 2, 18], "selected_count": 4, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 21, "shadow_id": 1, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [11, 44, 10, 45], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 1, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10, 9, 8], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 2, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [45, 5, 50], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 2, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 18, 21], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 21, "shadow_id": 2, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [11, 10, 12], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 2, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10, 9], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 3, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [59, 42], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 3, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [1, 18], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 21, "shadow_id": 3, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [10, 11], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 3, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 4, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 0], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 4, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [5, 18], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 21, "shadow_id": 4, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [10, 48], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 4, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [10, 35], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 5, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [50], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 5, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [19], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 21, "shadow_id": 5, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [47], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 5, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 6, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [3], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 6, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [28], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 21, "shadow_id": 6, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [10], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 6, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [10], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 7, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [59, 43], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 7, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [5, 28], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 21, "shadow_id": 7, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [54, 10], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 7, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [10, 47], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 8, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [4, 8, 0], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 8, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 1, 18], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 21, "shadow_id": 8, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [24, 7, 10], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 8, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10, 43], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 9, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [50, 39, 49, 40], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 9, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 1, 4, 28], "selected_count": 4, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 21, "shadow_id": 9, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [11, 51, 38, 10], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 9, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10, 35, 9], "selected_count": 4, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 10, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 4], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 10, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [5, 6], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 21, "shadow_id": 10, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [36, 11], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 10, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [11, 10], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 11, "source": "UCI id=151 via ucimlrepo", "method": "GBFRS", "selected_features": [1, 3, 42], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 11, "source": "UCI id=151 via ucimlrepo", "method": "FRFS", "selected_features": [0, 1, 18], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "sonar", "seed": 21, "shadow_id": 11, "source": "UCI id=151 via ucimlrepo", "method": "MutualInformation", "selected_features": [0, 21, 36], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "sonar", "seed": 21, "shadow_id": 11, "source": "UCI id=151 via ucimlrepo", "method": "ReliefF", "selected_features": [10, 15, 11], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 0, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [55, 46], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 0, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [11, 18], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 1, "shadow_id": 0, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52, 51], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 0, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [18, 51], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 1, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [37, 3, 41], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 1, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [11, 18, 49], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 1, "shadow_id": 1, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [55, 52, 56], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 1, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [52, 51, 6], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 2, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [55, 37], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 2, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [11, 18], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 1, "shadow_id": 2, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [55, 52], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 2, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [18, 51], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 3, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [21, 23], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 3, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [11, 18], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 1, "shadow_id": 3, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [55, 54], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 3, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51, 18], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 4, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [3], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 4, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 1, "shadow_id": 4, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 4, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 5, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [54], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 5, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 1, "shadow_id": 5, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 5, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 6, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [52, 46], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 6, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [11, 18], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 1, "shadow_id": 6, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [51, 55], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 6, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51, 18], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 7, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 43], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 7, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [11, 18], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 1, "shadow_id": 7, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [51, 52], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 7, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [22, 6], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 8, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [54, 34], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 8, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18, 49], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 1, "shadow_id": 8, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [55, 51], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 8, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51, 6], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 9, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [48, 3], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 9, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [11, 18], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 1, "shadow_id": 9, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [6, 55], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 9, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [52, 4], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 10, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [54, 50], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 10, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [11, 18], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 1, "shadow_id": 10, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [51, 52], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 10, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51, 52], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 11, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 23], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 11, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [11, 18], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 1, "shadow_id": 11, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [55, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 1, "shadow_id": 11, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [4, 51], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 0, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [3], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 0, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 7, "shadow_id": 0, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 0, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [4], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 1, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [3], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 1, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 7, "shadow_id": 1, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 1, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 2, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [53], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 2, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 7, "shadow_id": 2, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [55], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 2, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 3, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [53], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 3, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 7, "shadow_id": 3, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 3, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 4, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [53], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 4, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 7, "shadow_id": 4, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 4, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [52], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 5, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [53], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 5, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 7, "shadow_id": 5, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 5, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [4], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 6, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [3], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 6, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 7, "shadow_id": 6, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 6, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [4], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 7, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [56], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 7, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 7, "shadow_id": 7, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 7, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 8, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [53], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 8, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 7, "shadow_id": 8, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 8, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 9, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [53, 37], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 9, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18, 49], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 7, "shadow_id": 9, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [55, 52], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 9, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51, 15], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 10, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [51, 33], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 10, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18, 49], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 7, "shadow_id": 10, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52, 55], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 10, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [4, 51], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 11, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [53], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 11, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 7, "shadow_id": 11, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 7, "shadow_id": 11, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 0, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [55, 46, 54], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 0, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [11, 18, 24], "selected_count": 3, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 21, "shadow_id": 0, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52, 55, 56], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 0, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51, 4, 18], "selected_count": 3, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 1, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [3, 34], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 1, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18, 49], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 21, "shadow_id": 1, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52, 51], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 1, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [4, 51], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 2, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [54, 46], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 2, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18, 49], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 21, "shadow_id": 2, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52, 51], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 2, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51, 6], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 3, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [55, 38], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 3, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [11, 18], "selected_count": 2, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 21, "shadow_id": 3, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52, 54], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 3, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51, 20], "selected_count": 2, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 4, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [23], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 4, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 21, "shadow_id": 4, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 4, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 5, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [3], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 5, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 21, "shadow_id": 5, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [55], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 5, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 6, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [55], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 6, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 21, "shadow_id": 6, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 6, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 7, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [54], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 7, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 21, "shadow_id": 7, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 7, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [4], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 8, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [23], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 8, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 21, "shadow_id": 8, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 8, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 9, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [55], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 9, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 21, "shadow_id": 9, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 9, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 10, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [3], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 10, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 21, "shadow_id": 10, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 10, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 11, "source": "UCI id=94 via ucimlrepo", "method": "GBFRS", "selected_features": [3], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 11, "source": "UCI id=94 via ucimlrepo", "method": "FRFS", "selected_features": [18], "selected_count": 1, "ranking_exposed": false}
+{"dataset": "spambase", "seed": 21, "shadow_id": 11, "source": "UCI id=94 via ucimlrepo", "method": "MutualInformation", "selected_features": [52], "selected_count": 1, "ranking_exposed": true}
+{"dataset": "spambase", "seed": 21, "shadow_id": 11, "source": "UCI id=94 via ucimlrepo", "method": "ReliefF", "selected_features": [51], "selected_count": 1, "ranking_exposed": true}
