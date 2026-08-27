@@ -62,16 +62,23 @@ def load_dataset(name: str, cache: Path) -> tuple[np.ndarray, np.ndarray, str]:
     return np.asarray(bunch.data, float), LabelEncoder().fit_transform(bunch.target), f"OpenML data_id={OPENML[name]}"
 
 
-def load_grouped_dataset(name: str) -> tuple[np.ndarray, np.ndarray, np.ndarray, str]:
+def load_grouped_dataset(name: str, cache: Path | None = None) -> tuple[np.ndarray, np.ndarray, np.ndarray, str]:
     """Load a public dataset whose entity ID must remain split-disjoint."""
     if name != "musk1":
         raise ValueError(f"Unknown grouped dataset {name}")
+    cache_file = None if cache is None else cache / "musk1_grouped.npz"
+    if cache_file is not None and cache_file.exists():
+        data = np.load(cache_file, allow_pickle=False)
+        return data["x"], data["y"], data["groups"], "UCI id=74 cached official retrieval; molecule_name group split"
     from ucimlrepo import fetch_ucirepo
     bunch = fetch_ucirepo(id=74)
     frame = bunch.data.features
     groups = frame["molecule_name"].astype(str).to_numpy()
     x = np.asarray(frame.drop(columns=["molecule_name", "conformation_name"]), dtype=float)
     y = LabelEncoder().fit_transform(np.asarray(bunch.data.targets).reshape(-1))
+    if cache_file is not None:
+        cache.mkdir(parents=True, exist_ok=True)
+        np.savez_compressed(cache_file, x=x, y=y, groups=groups)
     return x, y, groups, "UCI id=74 via ucimlrepo; molecule_name group split"
 
 

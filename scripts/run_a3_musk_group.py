@@ -32,7 +32,7 @@ def main() -> None:
     manifest = Path("artifacts/A3_musk_group_manifest.jsonl")
     os.environ.setdefault("OMP_NUM_THREADS", "1")
     os.environ.setdefault("MKL_NUM_THREADS", "1")
-    x, y, groups, source = load_grouped_dataset("musk1")
+    x, y, groups, source = load_grouped_dataset("musk1", Path("datasets/real/a3_musk1"))
     done = finished(results)
     for noise in (0.0, 0.05, 0.10):
         dataset = f"musk1_group_trainnoise{noise:g}"
