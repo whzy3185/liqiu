@@ -1,0 +1,42 @@
+{
+  "version": "v1",
+  "frozen_at": "2026-08-27",
+  "scope": "Pre-MIA dataset screening only; no membership labels, attack features, IN/OUT distances, ROC-AUC, or attack score may be used.",
+  "preprocessing": {
+    "numeric_only": true,
+    "missing_values": "median imputation per feature for profiling only",
+    "scale": "StandardScaler fit on the complete screened dataset; permitted because this is pre-MIA structural profiling, not release construction"
+  },
+  "base": [
+    "n_samples", "n_features", "n_classes", "class_distribution",
+    "imbalance_ratio", "missing_rate", "duplicate_rate", "raw_dimension"
+  ],
+  "linear_structure": {
+    "effective_rank": "exp(entropy(normalized covariance eigenvalues))",
+    "effective_rank_ratio": "effective_rank / raw_dimension",
+    "mean_absolute_feature_correlation": "upper-triangle mean of absolute Pearson correlation",
+    "high_correlation_pair_fraction": "upper-triangle fraction with absolute Pearson correlation >= 0.90"
+  },
+  "local_geometry": {
+    "k_values": [5, 10, 20],
+    "knn_distance": "Euclidean distance to the kth nearest other sample",
+    "knn_distance_cv": "standard deviation / mean of kth-neighbour distance",
+    "class_density_dispersion": "coefficient of variation of per-class mean kth-neighbour distances",
+    "local_disagreement": "1 - maximum class proportion among k nearest other samples",
+    "knn_label_entropy": "label entropy among k nearest other samples, normalized by log(n_classes)",
+    "boundary_sample_fraction": "fraction with local disagreement at k=10 >= 0.20"
+  },
+  "geometry_label_conflict": {
+    "definition": "For each k, fraction of points with kth-neighbour distance <= its dataset Q25 and local disagreement >= its dataset Q75, additionally requiring disagreement > 0. If all disagreements are zero, conflict is zero.",
+    "aggregate": "retain k=5,10,20 separately; report their unweighted mean only as a descriptive convenience"
+  },
+  "class_structure": {
+    "multimodality_proxy": "mean across eligible classes of 1 - within-class KMeans(2) inertia / KMeans(1) inertia; classes require >= 2*k samples",
+    "minority_island_proxy": "mean over classes with support <= median class support of fraction whose k=10 same-class neighbour proportion is < 0.50"
+  },
+  "restrictions": [
+    "No weighted aggregate structural score is allowed.",
+    "No threshold or metric may be changed after real-data MIA begins without creating v2 and a new discovery/confirmation pool.",
+    "These measures may rank neither membership outcome nor an inferred privacy score."
+  ]
+}
