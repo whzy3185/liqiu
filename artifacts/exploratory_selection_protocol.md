@@ -18,6 +18,22 @@ properties, not criteria derived from attack AUC.
 Every retrievable dataset in a frozen tier is retained. A download or numerical
 failure is recorded as such; it is not silently replaced after outcomes appear.
 
+## Regime-first discovery and confirmation
+
+The initial real-data screen is not a universal claim gate. If its aggregate is
+weak, the next step is a synthetic regime search over separation, density ratio,
+minority fraction, local modes, noise, redundant features, and dimensionality.
+All parameter points are stored. The aim is to identify a structural condition
+that changes refinement, then release leakage, and finally the GB-versus-KMeans
+contrast.
+
+Any apparent regime is only a discovery result. Its condition is then frozen
+and must be evaluated on new synthetic seeds, held-out nearby parameter points,
+and targeted real datasets selected from metadata rather than attack outcomes.
+The project may continue on a stable conditional effect even when no broad
+average effect exists. It is killed only when no reproducible regime survives
+matched controls and confirmation.
+
 ## Seed rule
 
 The initial seeds are fixed at `1, 7, 21, 42, 2026`. Exploratory reporting uses

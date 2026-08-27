@@ -21,10 +21,11 @@ permitted to discard a dataset or seed after seeing leakage results.
 
 ## Adaptive escalation
 
-A single medium dataset benchmark determines observed time and RSS. If a full
-six-dataset five-seed run fits below 60% of the RAM budget and has comfortable
-time headroom, the experiment expands to 10 datasets and then 10 seeds. The
-same inclusion rule, controls, releases, and reporting apply at every tier.
+A single medium dataset benchmark determines observed time and RSS. Initial
+expansion prioritizes synthetic regime search, then extra seeds around any
+discovered condition, then targeted real datasets. A larger generic benchmark
+count is secondary. The same inclusion rule, controls, releases, and reporting
+apply at every tier.
 
 No GPU-only model or new granular-ball algorithm is introduced merely to use
 hardware. Raw intermediate records are checkpointed after each unit of work.
