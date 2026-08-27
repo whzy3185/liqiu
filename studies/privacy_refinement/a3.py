@@ -147,9 +147,23 @@ def trajectory_rows(release: Release, dataset: str, seed: int, threshold: float)
     return rows
 
 
-def run_arrays(dataset: str, x: np.ndarray, y: np.ndarray, source: str, seed: int, context: dict[str, object] | None = None) -> tuple[list[dict[str, object]], list[dict[str, object]], dict[str, object]]:
+def _flip_training_labels(y: np.ndarray, fraction: float, seed: int) -> np.ndarray:
+    if fraction <= 0:
+        return y
+    rng = np.random.default_rng(seed)
+    out = y.copy()
+    positions = rng.choice(len(out), size=int(round(len(out) * fraction)), replace=False)
+    classes = np.unique(out)
+    for position in positions:
+        alternatives = classes[classes != out[position]]
+        out[position] = rng.choice(alternatives)
+    return out
+
+
+def run_arrays(dataset: str, x: np.ndarray, y: np.ndarray, source: str, seed: int, context: dict[str, object] | None = None, training_label_noise: float = 0.0) -> tuple[list[dict[str, object]], list[dict[str, object]], dict[str, object]]:
     context = {} if context is None else context
     x_member, y_member, x_nonmember, _ = split_standardize(x, y, seed)
+    y_member = _flip_training_labels(y_member, training_label_noise, seed * 7919 + 17)
     tree = GranulationTree(random_state=211 + seed, split_method="kmeans").fit(x_member, y_member)
     results: list[dict[str, object]] = []
     balls: list[dict[str, object]] = []
