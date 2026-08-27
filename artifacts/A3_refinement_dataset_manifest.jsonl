@@ -1,1 +1,11 @@
 {"dataset": "breast_cancer", "seed": 1, "n": 569, "d": 30, "classes": 2, "source": "sklearn.load_breast_cancer"}
+{"dataset": "sonar", "seed": 1, "n": 208, "d": 60, "classes": 2, "source": "UCI id=151 via ucimlrepo"}
+{"dataset": "sonar", "seed": 7, "n": 208, "d": 60, "classes": 2, "source": "UCI id=151 via ucimlrepo"}
+{"dataset": "sonar", "seed": 21, "n": 208, "d": 60, "classes": 2, "source": "UCI id=151 via ucimlrepo"}
+{"dataset": "sonar", "seed": 42, "n": 208, "d": 60, "classes": 2, "source": "UCI id=151 via ucimlrepo"}
+{"dataset": "sonar", "seed": 2026, "n": 208, "d": 60, "classes": 2, "source": "UCI id=151 via ucimlrepo"}
+{"dataset": "spambase", "seed": 1, "n": 4601, "d": 57, "classes": 2, "source": "UCI id=94 via ucimlrepo"}
+{"dataset": "spambase", "seed": 7, "n": 4601, "d": 57, "classes": 2, "source": "UCI id=94 via ucimlrepo"}
+{"dataset": "spambase", "seed": 21, "n": 4601, "d": 57, "classes": 2, "source": "UCI id=94 via ucimlrepo"}
+{"dataset": "spambase", "seed": 42, "n": 4601, "d": 57, "classes": 2, "source": "UCI id=94 via ucimlrepo"}
+{"dataset": "spambase", "seed": 2026, "n": 4601, "d": 57, "classes": 2, "source": "UCI id=94 via ucimlrepo"}
