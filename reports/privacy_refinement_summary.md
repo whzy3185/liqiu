@@ -2,14 +2,16 @@
 
 ## A: refinement-release membership leakage
 
-Status: `SYNTHETIC_ONLY_HOLD_REAL_TRANSFER`.
+Status: `A3_CROSS_RELEASE_VALIDATED_SYNTHETIC_ONLY`.
 
 A reproducible conditional phenomenon was discovered and confirmed in controlled
 Gaussian mixtures: high dimensionality, low redundancy, nonzero label noise,
 locally heterogeneous multimodal minority structure, and fine purity refinement
 produce a GB-minus-matched-KMeans membership AUC contrast. Held-out synthetic
 points and seeds give a fine-refinement mean contrast of +0.078; Release 2/3
-logistic contrasts exceed +0.10.
+logistic contrasts exceed +0.10. A later strict shadow-to-independent-target
+cross-release attack retains a mean contrast of +0.067, including a fixed-noise
+control; the result is therefore not limited to same-release CV separability.
 
 Mechanism audit attributes the highest vulnerability to small local regions and
 near-centre samples. However, the synthetic result does **not** transfer to the

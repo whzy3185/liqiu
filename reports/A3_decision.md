@@ -1,6 +1,6 @@
 # A3 Decision
 
-Decision: `SYNTHETIC_ONLY_HOLD_REAL_TRANSFER`.
+Decision: `A3_CROSS_RELEASE_VALIDATED_SYNTHETIC_ONLY`.
 
 The broad question remains deliberately unanswered: first-round synthetic
 results show matched KMeans often explains or exceeds GB leakage. However, a
@@ -14,7 +14,8 @@ GB-specific membership-leakage contrast under a defined structural regime:
 - fine purity refinement.
 
 The synthetic result survives new seeds, nearby held-out parameter combinations,
-release levels, and both simple attack models. However, targeted natural and
+release levels, both simple attack models, strict independent-pool cross-release
+attack, and a fixed-noise control. However, targeted natural and
 semi-synthetic real-feature tests on Sonar, Spambase, Digits, and molecule-group
 split Musk1 do not transfer the GB-specific contrast. Keep the mechanism as a
 controlled-distribution finding; do not claim a real-data privacy risk or
