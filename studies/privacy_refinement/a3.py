@@ -140,8 +140,8 @@ def trajectory_rows(release: Release, dataset: str, seed: int, threshold: float)
     return rows
 
 
-def run_seed(dataset: str, seed: int, cache: Path) -> tuple[list[dict[str, object]], list[dict[str, object]], dict[str, object]]:
-    x, y, source = load_dataset(dataset, cache)
+def run_arrays(dataset: str, x: np.ndarray, y: np.ndarray, source: str, seed: int, context: dict[str, object] | None = None) -> tuple[list[dict[str, object]], list[dict[str, object]], dict[str, object]]:
+    context = {} if context is None else context
     x_member, y_member, x_nonmember, _ = split_standardize(x, y, seed)
     tree = GranulationTree(random_state=211 + seed, split_method="kmeans").fit(x_member, y_member)
     results: list[dict[str, object]] = []
@@ -157,5 +157,39 @@ def run_seed(dataset: str, seed: int, cache: Path) -> tuple[list[dict[str, objec
                 for attack in ("logistic", "random_forest"):
                     metric, _, _ = attack_metrics(release, x_member, x_nonmember, seed, attack)
                     sizes = release.sizes
-                    results.append({"dataset": dataset, "source": source, "seed": seed, "threshold": threshold, "release": level, "method": release.method, "attack": attack, "n": len(x), "d": x.shape[1], "classes": len(np.unique(y)), "number_of_balls": len(sizes), "mean_ball_size": float(sizes.mean()), "median_ball_size": float(np.median(sizes)), "min_ball_size": int(sizes.min()), "max_ball_size": int(sizes.max()), "singleton_count": int((sizes == 1).sum()), "fraction_size_le_2": float((sizes <= 2).mean()), "fraction_size_le_5": float((sizes <= 5).mean()), "mean_radius": float(release.radii.mean()), "median_radius": float(np.median(release.radii)), "purity_mean": float(release.purities.mean()), "purity_median": float(np.median(release.purities)), "purity_q25": float(np.quantile(release.purities, .25)), "purity_q75": float(np.quantile(release.purities, .75)), **metric})
-    return results, balls, {"dataset": dataset, "seed": seed, "n": len(x), "d": x.shape[1], "classes": len(np.unique(y)), "source": source}
+                    results.append({"dataset": dataset, "source": source, "seed": seed, "threshold": threshold, "release": level, "method": release.method, "attack": attack, "n": len(x), "d": x.shape[1], "classes": len(np.unique(y)), "number_of_balls": len(sizes), "mean_ball_size": float(sizes.mean()), "median_ball_size": float(np.median(sizes)), "min_ball_size": int(sizes.min()), "max_ball_size": int(sizes.max()), "singleton_count": int((sizes == 1).sum()), "fraction_size_le_2": float((sizes <= 2).mean()), "fraction_size_le_5": float((sizes <= 5).mean()), "mean_radius": float(release.radii.mean()), "median_radius": float(np.median(release.radii)), "purity_mean": float(release.purities.mean()), "purity_median": float(np.median(release.purities)), "purity_q25": float(np.quantile(release.purities, .25)), "purity_q75": float(np.quantile(release.purities, .75)), **context, **metric})
+    return results, balls, {"dataset": dataset, "seed": seed, "n": len(x), "d": x.shape[1], "classes": len(np.unique(y)), "source": source, **context}
+
+
+def run_seed(dataset: str, seed: int, cache: Path) -> tuple[list[dict[str, object]], list[dict[str, object]], dict[str, object]]:
+    x, y, source = load_dataset(dataset, cache)
+    return run_arrays(dataset, x, y, source, seed)
+
+
+def synthetic_regime(*, n: int, dimension: int, separation: float, density_ratio: float, minority_fraction: float, modes: int, redundant_fraction: float, label_noise: float, seed: int) -> tuple[np.ndarray, np.ndarray]:
+    """Controlled Gaussian-mixture regime; labels are the only generated target."""
+    rng = np.random.default_rng(seed)
+    n_minority = int(round(n * minority_fraction))
+    n_majority = n - n_minority
+    signal_dimensions = max(2, int(round(dimension * (1 - redundant_fraction))))
+    majority = rng.normal(0, 1.0, size=(n_majority, signal_dimensions))
+    minority_parts = np.array_split(np.arange(n_minority), modes)
+    minority = np.empty((n_minority, signal_dimensions))
+    for mode_id, positions in enumerate(minority_parts):
+        center = np.zeros(signal_dimensions)
+        center[0] = separation
+        if signal_dimensions > 1:
+            center[1] = (mode_id - (modes - 1) / 2) * separation * 0.75
+        minority[positions] = rng.normal(center, 1 / density_ratio, size=(len(positions), signal_dimensions))
+    x = np.vstack([majority, minority])
+    y = np.r_[np.zeros(n_majority, dtype=int), np.ones(n_minority, dtype=int)]
+    redundant_dimensions = dimension - signal_dimensions
+    if redundant_dimensions:
+        source_columns = rng.integers(0, signal_dimensions, size=redundant_dimensions)
+        redundant = x[:, source_columns] + rng.normal(0, 0.02, size=(n, redundant_dimensions))
+        x = np.column_stack([x, redundant])
+    if label_noise:
+        flip = rng.choice(n, size=int(round(n * label_noise)), replace=False)
+        y[flip] = 1 - y[flip]
+    order = rng.permutation(n)
+    return x[order], y[order]
