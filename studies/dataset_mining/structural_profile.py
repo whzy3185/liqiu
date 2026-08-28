@@ -20,8 +20,11 @@ def _safe_cv(values: np.ndarray) -> float:
 
 
 def _effective_rank(x: np.ndarray) -> tuple[float, float]:
-    covariance = np.cov(x, rowvar=False)
-    values = np.clip(np.linalg.eigvalsh(covariance), 0, None)
+    # The nonzero covariance eigenvalues are proportional to squared singular
+    # values of the centered data. Economy SVD avoids a d-by-d covariance matrix
+    # for wide omics/spectral candidates while preserving effective rank.
+    singular_values = np.linalg.svd(x, full_matrices=False, compute_uv=False)
+    values = np.clip(singular_values ** 2, 0, None)
     if values.sum() <= 0:
         return 0.0, 0.0
     probabilities = values / values.sum()
@@ -33,7 +36,8 @@ def _effective_rank(x: np.ndarray) -> tuple[float, float]:
 def _correlation_stats(x: np.ndarray) -> tuple[float, float]:
     if x.shape[1] < 2:
         return 0.0, 0.0
-    corr = np.nan_to_num(np.corrcoef(x, rowvar=False), nan=0.0)
+    with np.errstate(divide="ignore", invalid="ignore"):
+        corr = np.nan_to_num(np.corrcoef(x, rowvar=False), nan=0.0)
     upper = np.abs(corr[np.triu_indices_from(corr, 1)])
     return float(upper.mean()), float((upper >= .90).mean())
 
@@ -58,13 +62,19 @@ def _local_labels(y: np.ndarray, neighbour_indices: np.ndarray, n_classes: int) 
     return disagreement, entropy, proportions
 
 
+def prepare_numeric(x: np.ndarray) -> np.ndarray:
+    """Frozen pre-MIA numeric imputation and standardization for structural work."""
+    x = np.asarray(x, dtype=float)
+    x = SimpleImputer(strategy="median").fit_transform(x)
+    return StandardScaler().fit_transform(x)
+
+
 def profile_numeric(x: np.ndarray, y: np.ndarray) -> dict[str, object]:
     """Return v1 diagnostics; intended only before any membership experiment."""
-    x = np.asarray(x, dtype=float)
+    raw_x = np.asarray(x, dtype=float)
     y = np.asarray(y)
-    missing_rate = float(np.isnan(x).mean())
-    x = SimpleImputer(strategy="median").fit_transform(x)
-    x = StandardScaler().fit_transform(x)
+    missing_rate = float(np.isnan(raw_x).mean())
+    x = prepare_numeric(raw_x)
     _, encoded = np.unique(y, return_inverse=True)
     classes, counts = np.unique(encoded, return_counts=True)
     n, d = x.shape

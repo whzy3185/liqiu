@@ -1,0 +1,32 @@
+{
+  "protocol": "pre_MIA_discovery_pool_v1",
+  "frozen_at": "2026-08-28",
+  "selection_basis": "Individual frozen structural metrics, GB structure probe, provenance, saturation, and comparability. No composite A-score and no membership outcome was used.",
+  "tasks": [
+    {
+      "source_dataset_id": "uci-602",
+      "role": "high_structural_interest",
+      "reason": "multiclass independent visual-measurement task with high 0.99/0.70 fragmentation (303x) and nonzero geometry-label conflict"
+    },
+    {
+      "source_dataset_id": "uci-372",
+      "role": "near_boundary_low_conflict_control",
+      "reason": "independent, human-checked astronomical candidate task with extreme fragmentation (977x) but low geometry-label conflict"
+    },
+    {
+      "source_dataset_id": "uci-171",
+      "role": "synthetic_negative_control",
+      "reason": "external benchmark with high conflict but moderate fragmentation and known redundant/probe feature design"
+    }
+  ],
+  "excluded_after_hard_filter": [
+    {
+      "source_dataset_id": "uci-167",
+      "reason": "only 200 labeled official train/validation rows; insufficient for independent reference, shadow, and target release attack"
+    }
+  ],
+  "primary_protocol": "strict independent-pool cross-release attack",
+  "attack_models": ["logistic", "random_forest"],
+  "refinement_thresholds": [0.9, 0.95, 0.99],
+  "outer_seeds": [1, 7, 21]
+}

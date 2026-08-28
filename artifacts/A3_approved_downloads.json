@@ -1,0 +1,15 @@
+{
+  "source": "official UCI static archives",
+  "artifacts": {
+    "arcene.zip": {
+      "sha256": "c7a40e39edf23a9b744eb570592d6e917fd9a1976aaf20ad581e09afd47d5220",
+      "bytes": 8648477,
+      "archive_test": "passed"
+    },
+    "madelon.zip": {
+      "sha256": "eb99a0153ebe7d9f4e74551b4b10c54a958b2990b156ce7d76b4e8d71a6f6e82",
+      "bytes": 3040503,
+      "archive_test": "passed"
+    }
+  }
+}
