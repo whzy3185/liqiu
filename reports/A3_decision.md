@@ -28,3 +28,9 @@ Bean) has no material positive GB-minus-KMeans effect. This blocks selection
 rule freezing and confirmation, but does not yet trigger `KILL_A`: the metadata
 catalogue is being extended with additional source/target/license/group-complete
 candidates before any further MIA.
+
+The first group-complete extension, UCI MicroMass pure spectra, also produces
+no material effect under a strain-disjoint strict protocol (mean ΔAUC +0.0053,
+only 14.4% of retained combinations >= +0.04).  Its full result is retained;
+the decision is now
+`A3_CROSS_RELEASE_VALIDATED_SYNTHETIC_ONLY_REAL_DISCOVERY_V1_AND_MICROMASS_EXTENSION_NEGATIVE`.
