@@ -20,7 +20,7 @@ def existing_ids(path: Path) -> set[str]:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ids", nargs="+", default=["uci-171", "uci-167", "uci-372", "uci-602"])
+    parser.add_argument("--ids", nargs="+", default=["uci-171", "uci-167", "uci-372", "uci-602", "uci-253"])
     parser.add_argument("--output", type=Path, default=Path("results/dataset_gb_structure_probes.csv"))
     parser.add_argument("--resume", action="store_true")
     args = parser.parse_args()
