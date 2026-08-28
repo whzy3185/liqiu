@@ -1,6 +1,6 @@
 # A3 Decision
 
-Decision: `A3_CROSS_RELEASE_VALIDATED_SYNTHETIC_ONLY_REAL_DISCOVERY_V1_NEGATIVE`.
+Decision: `A3_CROSS_RELEASE_VALIDATED_SYNTHETIC_ONLY_KILL_A_REAL_TRANSFER`.
 
 The broad question remains deliberately unanswered: first-round synthetic
 results show matched KMeans often explains or exceeds GB leakage. However, a
@@ -24,13 +24,14 @@ KMeans contrast in singleton/two-sample regions, but that explanation remains
 synthetic-only and has limited matched-bin support. All negative regimes remain
 retained.
 The first strict metadata-selected real Discovery pool (Madelon, HTRU2, Dry
-Bean) has no material positive GB-minus-KMeans effect. This blocks selection
-rule freezing and confirmation, but does not yet trigger `KILL_A`: the metadata
-catalogue is being extended with additional source/target/license/group-complete
-candidates before any further MIA.
+Bean) has no material positive GB-minus-KMeans effect.  The subsequent frozen
+MicroMass strain-disjoint and Internet Advertisements high-fragmentation
+extensions are also negative for a material effect.  This satisfies the A3
+real-transfer kill condition: no selection rule or real confirmation may be
+created from post-hoc source or seed mining.
 
 The first group-complete extension, UCI MicroMass pure spectra, also produces
 no material effect under a strain-disjoint strict protocol (mean ΔAUC +0.0053,
 only 14.4% of retained combinations >= +0.04).  Its full result is retained;
 the decision is now
-`A3_CROSS_RELEASE_VALIDATED_SYNTHETIC_ONLY_REAL_DISCOVERY_V1_AND_MICROMASS_EXTENSION_NEGATIVE`.
+`A3_CROSS_RELEASE_VALIDATED_SYNTHETIC_ONLY_KILL_A_REAL_TRANSFER`.

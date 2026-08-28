@@ -37,3 +37,14 @@ negative result for a material real GB-specific effect, not a candidate for
 seed selection or confirmation.  The detailed protocol and full result are in
 `artifacts/A3_micromass_group_discovery_protocol.json` and
 `reports/A3_micromass_group_discovery.md`.
+
+## Internet Advertisements near-boundary extension
+
+The next frozen extension tested Internet Advertisements, selected before MIA
+as a high-fragmentation / low-conflict control.  Its complete strict grid gives
+mean ΔAUC -0.0075 (standard deviation 0.0223), only 1.1% of combinations at
+least +0.04, and seed means -0.0064, +0.0015, and -0.0174.  This is another
+negative result, despite 50x pre-MIA 0.99/0.70 fragmentation.  Together with
+the original pool and the MicroMass extension, no real positive regime exists
+on which to freeze a selection rule.  `KILL_A_REAL_TRANSFER` is therefore
+recorded in `reports/A3_kill_decision.md`.
