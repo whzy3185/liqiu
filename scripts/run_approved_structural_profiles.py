@@ -13,7 +13,7 @@ def main() -> None:
     root = Path("datasets/real/a3_approved")
     output = Path("results/dataset_structural_profiles.csv")
     rows = []
-    for source_dataset_id in ("uci-171", "uci-167", "uci-372", "uci-602", "uci-253"):
+    for source_dataset_id in ("uci-171", "uci-167", "uci-372", "uci-602", "uci-253", "uci-51"):
         x, y, note = load_approved(root, source_dataset_id)
         profile = profile_numeric(x, y)
         group_fields = {"group_identifier": "", "n_groups": "", "group_disjoint_split_required": "NO"}

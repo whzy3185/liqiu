@@ -38,6 +38,15 @@ def load_approved(root: Path, source_dataset_id: str) -> tuple[np.ndarray, np.nd
     if source_dataset_id == "uci-253":
         x, y, _groups, note = load_approved_grouped(root, source_dataset_id)
         return x, y, note
+    if source_dataset_id == "uci-51":
+        raw = np.genfromtxt(root / "internet_ads" / "ad.data", delimiter=",", dtype=str, autostrip=True)
+        if raw.shape != (3279, 1559):
+            raise ValueError(f"Unexpected Internet Advertisements shape: {raw.shape}")
+        x_text = raw[:, :-1].astype(object)
+        x_text[x_text == "?"] = np.nan
+        x = x_text.astype(float)
+        y = LabelEncoder().fit_transform(raw[:, -1])
+        return x, y, "official UCI ad.data; all 1,558 documented numeric fields retained; '?' is unknown and handled only by per-scope median imputation"
     if source_dataset_id in {"uci-372", "uci-602"}:
         if source_dataset_id == "uci-372":
             data = np.loadtxt(root / "htru2" / "HTRU_2.csv", delimiter=",")
