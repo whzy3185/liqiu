@@ -26,6 +26,11 @@
       "bytes": 845020,
       "archive_test": "passed",
       "nested_unanonymized_archive_sha256": "103859c6eb3fa441f59b903f25e796be8a135440b30b867887e509eebfbd1396"
+    },
+    "internet_ads.zip": {
+      "sha256": "ec24f1b9285079146dad6af5edb1f9c1bde3811576cc53368e60708d2165e47c",
+      "bytes": 138610,
+      "archive_test": "passed"
     }
   }
 }

@@ -12,6 +12,7 @@ feature, score, ROC-AUC, PR-AUC, or privacy statistic was calculated.
 | HTRU2 | 17,898 × 8 | 0.462 | 0.013 | 0.018 | 977× | 0.573 |
 | Dry Bean | 13,611 × 16 | 0.216 | 0.061 | 0.072 | 303× | 0.706 |
 | MicroMass pure species | 571 × 1,300 | 0.148 | 0.146 | 0.571 | 1.12× | 0.772 |
+| Internet Advertisements | 3,279 × 1,558 | 0.148 | 0.047 | 0.041 | 50× | 0.220 |
 
 The table is deliberately not reduced to a weighted A-score. Arcene is excluded
 after the hard filter because its 200 labeled rows cannot support a credible
@@ -31,3 +32,9 @@ official strain field provides 213 groups, requiring group-disjoint release
 construction if the pre-MIA gate is passed.  The resulting admission decision
 and fixed protocol are in `reports/A3_micromass_pre_mia_gate.md` and
 `artifacts/A3_micromass_group_discovery_protocol.json`.
+
+Internet Advertisements is a further, separately frozen metadata extension.
+Its official representation has only 0.053% unknown numeric cells.  Its
+pre-MIA admission is specifically a high-fragmentation / low-conflict control,
+documented in `reports/A3_internet_ads_pre_mia_gate.md`; no result was used for
+the decision.
