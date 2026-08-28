@@ -133,7 +133,18 @@ def kmeans_release(x: np.ndarray, y: np.ndarray, k: int, seed: int, level: str) 
     return Release("matched_kmeans", level, np.asarray(centers), np.asarray(radii), np.array([len(m) for m in members]), np.asarray(purity), np.asarray(majority), members, np.full(k, -1, dtype=int), np.full(k, -1, dtype=int))
 
 
-def attack_features(release: Release, queries: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
+def attack_features(
+    release: Release,
+    queries: np.ndarray,
+    label_vocabulary: np.ndarray | None = None,
+) -> tuple[np.ndarray, np.ndarray]:
+    """Construct release-observable attack features.
+
+    ``label_vocabulary`` is optional for backward compatibility.  Strict
+    group-disjoint experiments pass a fixed public task vocabulary so release-3
+    label fields retain the same width even when a small group split lacks a
+    class in its member training portion.
+    """
     distances = pairwise_distances(queries, release.centers)
     order = np.argsort(distances, axis=1)
     nearest = order[:, 0]
@@ -146,7 +157,8 @@ def attack_features(release: Release, queries: np.ndarray) -> tuple[np.ndarray, 
         features.extend([first / radius, release.radii[nearest], (distances <= release.radii[None, :]).sum(axis=1)])
     if release.level == "release_3":
         features.extend([np.log1p(release.sizes[nearest]), release.purities[nearest]])
-        one_hot = (release.labels[nearest, None] == np.unique(release.labels)[None, :]).astype(float)
+        vocabulary = np.unique(release.labels) if label_vocabulary is None else np.asarray(label_vocabulary)
+        one_hot = (release.labels[nearest, None] == vocabulary[None, :]).astype(float)
         features.append(one_hot)
     return np.column_stack(features), nearest
 

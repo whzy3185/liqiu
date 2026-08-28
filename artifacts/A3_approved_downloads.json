@@ -10,6 +10,22 @@
       "sha256": "eb99a0153ebe7d9f4e74551b4b10c54a958b2990b156ce7d76b4e8d71a6f6e82",
       "bytes": 3040503,
       "archive_test": "passed"
+    },
+    "htru2.zip": {
+      "sha256": "ba442c076dd22a8952700f26e38499fc1806037dcf7bea0e125e6bfba393f379",
+      "bytes": 1563015,
+      "archive_test": "passed"
+    },
+    "dry_bean.zip": {
+      "sha256": "0a64eff5be87f48c3dbbfc0a12a56c5d5b5167ef8e61cd45d69b3e7c7130c06f",
+      "bytes": 4738776,
+      "archive_test": "passed"
+    },
+    "micromass.zip": {
+      "sha256": "0d6557922e0a58163fbdfef61539cb46a620b0b59081449bc4fb70ff13434b40",
+      "bytes": 845020,
+      "archive_test": "passed",
+      "nested_unanonymized_archive_sha256": "103859c6eb3fa441f59b903f25e796be8a135440b30b867887e509eebfbd1396"
     }
   }
 }

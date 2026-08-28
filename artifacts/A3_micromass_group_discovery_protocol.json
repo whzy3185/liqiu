@@ -1,0 +1,22 @@
+{
+  "protocol": "A3_MicroMass_group_disjoint_discovery_v1",
+  "frozen_at": "2026-08-28",
+  "source_dataset_id": "uci-253",
+  "task": "pure-reference bacterial species classification only",
+  "excluded_data": "All 360 mixture spectra are excluded.",
+  "group": "bacterial strain",
+  "pre_mia_hard_filter_basis": "Official parser reports 571 pure spectra, 20 species, and 213 strains. Each species has 7 to 20 strains, allowing a species-preserving five-way strain allocation before outcomes are read.",
+  "outer_seeds": [1, 7, 21],
+  "outer_partition": "Within each species, randomly allocate about 20% of strains to an external reference pool and divide all remaining strains between independent shadow and target pools. No strain is shared between the three pools.",
+  "membership_partition": "For every shadow or target release, randomly divide strains within each species into member and nonmember groups. No strain is shared across membership labels.",
+  "transform": "Median imputer and StandardScaler fit exclusively to the external reference pool; no target-pool information enters fitting.",
+  "releases": ["release_1", "release_2", "release_3"],
+  "release_3_label_encoding": "Fixed public 20-species task vocabulary, so release feature widths are identical across group splits.",
+  "thresholds": [0.9, 0.95, 0.99],
+  "shadow_release_count": 6,
+  "target_release_count": 5,
+  "attacks": ["logistic", "random_forest"],
+  "control": "Matched-k KMeans fitted to exactly the member spectra of each corresponding GB release.",
+  "primary_contrast": "GB minus matched-k KMeans at the same outer seed, target release, threshold, release level, and attack.",
+  "forbidden": ["same-release CV as evidence", "mixed spectra", "row-level split that crosses strains", "post-outcome seed or dataset deletion"]
+}

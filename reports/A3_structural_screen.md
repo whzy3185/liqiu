@@ -11,6 +11,7 @@ feature, score, ROC-AUC, PR-AUC, or privacy statistic was calculated.
 | Arcene | 200 × 10,000 | 0.006 | 0.087 | 0.230 | 4.14× | 0.782 |
 | HTRU2 | 17,898 × 8 | 0.462 | 0.013 | 0.018 | 977× | 0.573 |
 | Dry Bean | 13,611 × 16 | 0.216 | 0.061 | 0.072 | 303× | 0.706 |
+| MicroMass pure species | 571 × 1,300 | 0.148 | 0.146 | 0.571 | 1.12× | 0.772 |
 
 The table is deliberately not reduced to a weighted A-score. Arcene is excluded
 after the hard filter because its 200 labeled rows cannot support a credible
@@ -22,3 +23,11 @@ All data came from verified UCI CC-BY archives. SHA-256 and archive test status
 are in `artifacts/A3_approved_downloads.json`; the raw pre-MIA profiles and
 probes are in `results/dataset_structural_profiles.csv` and
 `results/dataset_gb_structure_probes.csv`.
+
+MicroMass was added after the original pool was completed under the separately
+frozen v2 metadata extension.  Only its 571 pure-reference spectra and
+species labels are screened; its 360 mixture spectra are excluded.  The
+official strain field provides 213 groups, requiring group-disjoint release
+construction if the pre-MIA gate is passed.  The resulting admission decision
+and fixed protocol are in `reports/A3_micromass_pre_mia_gate.md` and
+`artifacts/A3_micromass_group_discovery_protocol.json`.
