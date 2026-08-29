@@ -1,0 +1,7 @@
+{
+  "balanced_max_candidate_failures": [],
+  "max_balanced_height": 4,
+  "max_general_leaves": 7,
+  "single_flip_exact_formula_failures": [],
+  "tau_example_count": 476
+}
