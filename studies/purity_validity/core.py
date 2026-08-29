@@ -52,7 +52,7 @@ def sample_family(name: str, n: int, seed: int) -> tuple[np.ndarray, np.ndarray]
     modes = rng.integers(0, 4, n)
     centers = np.array([[-2, -2], [-2, 2], [2, -2], [2, 2]], float)
     x = centers[modes] + rng.normal(0, .9, (n, 2))
-    if name == "null":
+    if name == "null_label":
         probability = np.full(n, .5)
     elif name == "smooth_weak":
         probability = 1 / (1 + np.exp(-.55 * x[:, 0]))
@@ -117,7 +117,7 @@ def evaluate_gbc(family: str, n: int, seed: int, oracle_n: int = 100000) -> list
     return rows
 
 
-def evaluate(families=("null","smooth_weak","smooth_moderate","piecewise"), sizes=(400,1000), seeds=(1,7,21,42,2026), oracle_n=100000) -> pd.DataFrame:
+def evaluate(families=("null_label","smooth_weak","smooth_moderate","piecewise"), sizes=(400,1000), seeds=(1,7,21,42,2026), oracle_n=100000) -> pd.DataFrame:
     rows=[]
     for family in families:
         for n in sizes:
