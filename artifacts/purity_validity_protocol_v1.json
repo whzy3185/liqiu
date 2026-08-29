@@ -1,0 +1,15 @@
+{
+  "protocol": "adaptive_purity_validity_cheap_test_v1",
+  "frozen_at": "2026-08-29",
+  "target": "granule-quality optimism, not generic classifier-probability calibration",
+  "primary_generators": ["tree_kmeans_binary_exact_hierarchical", "gbc_multiclass_cleanroom_native_terminal"],
+  "routing": {"tree_kmeans_binary": "EXACT_HIERARCHICAL_ROUTING using stored child centers", "gbc_multiclass_cleanroom": "NATIVE_TERMINAL_ROUTING using boundary distance"},
+  "families": ["null_label_nontrivial_geometry", "smooth_known_eta_weak", "smooth_known_eta_moderate", "piecewise_multiscale_known_eta"],
+  "structure_sizes": [400, 1000],
+  "seeds": [1, 7, 21, 42, 2026],
+  "thresholds": [0.7, 0.8, 0.9, 0.95, 0.99, 1.0],
+  "oracle_size": 100000,
+  "primary_metrics": ["unweighted_ball_optimism", "train_support_weighted_optimism", "fresh_query_weighted_optimism", "false_high_purity_mass", "false_high_purity_rate"],
+  "controls": ["independent_reestimation", "x_only_fixed_depth_frontier", "support_depth_stratification", "min_support_2_5_10_20", "CART_probability_leaf"],
+  "restriction": "No real data, new thresholds, correction method, or downstream method before this gate passes."
+}
