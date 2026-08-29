@@ -197,10 +197,24 @@ def _predictions(structure: Structure, x_test: np.ndarray, y_test: np.ndarray) -
 
 
 def _delete_indices(ids: np.ndarray, y: np.ndarray, fraction: float, seed: int) -> np.ndarray:
-    keep_size = max(len(np.unique(y)) * 2, int(round(len(ids) * (1 - fraction))))
-    splitter = StratifiedShuffleSplit(n_splits=1, train_size=keep_size, random_state=seed)
-    keep, _ = next(splitter.split(np.zeros((len(ids), 1)), y))
-    return ids[keep]
+    """Delete a fixed small random sample while retaining two rows per class.
+
+    At 1% on small multiclass training sets there can be fewer deletions than
+    classes, making a stratified *test* split mathematically impossible.  This
+    is a sample perturbation, not a class-proportion experiment: sample from
+    all removable rows and protect a two-row-per-class minimum instead.
+    """
+    n_delete = max(1, int(round(len(ids) * fraction)))
+    rng = np.random.default_rng(seed)
+    removable: list[int] = []
+    for label in np.unique(y):
+        positions = np.flatnonzero(y == label)
+        if len(positions) > 2:
+            removable.extend(rng.permutation(positions)[: len(positions) - 2].tolist())
+    if n_delete > len(removable):
+        raise ValueError("requested sample deletion would violate the two-per-class minimum")
+    deleted = rng.choice(np.asarray(removable), size=n_delete, replace=False)
+    return ids[~np.isin(np.arange(len(ids)), deleted)]
 
 
 def _flip_labels(y: np.ndarray, fraction: float, seed: int) -> np.ndarray:
