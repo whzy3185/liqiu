@@ -1,0 +1,21 @@
+{
+  "protocol": "structural_stability_confirmation_v1",
+  "frozen_at": "2026-08-29",
+  "entry_condition": "STRUCTURAL_STABILITY_PAPER_TRACK and component-sensitive result",
+  "datasets": ["iris", "sonar", "spambase"],
+  "dataset_rule": "None was included in structural_stability_cheap_test_v1. Sonar and Spambase may appear in previous A3 work but are new to this structural-stability discovery/confirmation sequence.",
+  "split_seed": 314,
+  "training_cap": 500,
+  "test_cap": 500,
+  "generators": ["tree_kmeans_binary", "tree_class_means_binary", "gbc_multiclass_cleanroom", "gbc_confidence_bound_control"],
+  "decision_rule": "nearest_center",
+  "purity_threshold": 0.85,
+  "perturbations": [
+    {"type": "label_flip", "strength": 0.05},
+    {"type": "sample_deletion", "strength": 0.01}
+  ],
+  "perturbation_seeds": [101, 313, 911],
+  "primary_metrics": ["ARI", "NMI", "VI", "prediction_agreement", "absolute_accuracy_change"],
+  "confirmation_signal": "At least four prediction_agreement >= 0.95 and ARI <= 0.70 cases under data perturbation, spanning at least two datasets and two generators; all rows retained regardless of outcome.",
+  "restrictions": ["no perturbation escalation", "no selected seed rerun", "no new decision rule", "no author-code claim"]
+}
