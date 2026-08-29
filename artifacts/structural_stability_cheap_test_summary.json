@@ -1,0 +1,147 @@
+{
+  "active_rows": 1248,
+  "by_generator": [
+    {
+      "accuracy_change": 0.031852,
+      "ari": 0.582581,
+      "ball_count_ratio": 10.313291,
+      "generator": "gbc_confidence_bound_control",
+      "nmi": 0.803332,
+      "prediction_agreement": 0.906779,
+      "vi": 1.035984
+    },
+    {
+      "accuracy_change": 0.025561,
+      "ari": 0.721313,
+      "ball_count_ratio": 10.26967,
+      "generator": "gbc_multiclass_cleanroom",
+      "nmi": 0.84383,
+      "prediction_agreement": 0.914069,
+      "vi": 0.78764
+    },
+    {
+      "accuracy_change": 0.028365,
+      "ari": 0.75759,
+      "ball_count_ratio": 3.639734,
+      "generator": "tree_class_means_binary",
+      "nmi": 0.822573,
+      "prediction_agreement": 0.8999,
+      "vi": 0.716102
+    },
+    {
+      "accuracy_change": 0.030649,
+      "ari": 0.72262,
+      "ball_count_ratio": 6.241778,
+      "generator": "tree_kmeans_binary",
+      "nmi": 0.809675,
+      "prediction_agreement": 0.880238,
+      "vi": 0.840255
+    }
+  ],
+  "by_perturbation": [
+    {
+      "accuracy_change": 0.011729,
+      "ari": 0.812756,
+      "ball_count_ratio": 1.042686,
+      "nmi": 0.914063,
+      "perturbation_type": "feature_gaussian",
+      "prediction_agreement": 0.920987,
+      "vi": 0.554416
+    },
+    {
+      "accuracy_change": 0.024923,
+      "ari": 0.653871,
+      "ball_count_ratio": 8.288068,
+      "nmi": 0.768593,
+      "perturbation_type": "label_flip",
+      "prediction_agreement": 0.909076,
+      "vi": 0.788302
+    },
+    {
+      "accuracy_change": 0.059795,
+      "ari": 0.618585,
+      "ball_count_ratio": 15.789796,
+      "nmi": 0.777281,
+      "perturbation_type": "sample_deletion",
+      "prediction_agreement": 0.853543,
+      "vi": 1.301252
+    },
+    {
+      "accuracy_change": 0.011522,
+      "ari": 0.755889,
+      "ball_count_ratio": 1.095695,
+      "nmi": 0.88298,
+      "perturbation_type": "seed",
+      "prediction_agreement": 0.93204,
+      "vi": 0.643404
+    }
+  ],
+  "data_perturbation_decoupling_cases": 19,
+  "data_perturbation_decoupling_datasets": [
+    "digits",
+    "dry_bean",
+    "htru2",
+    "internet_ads",
+    "micromass_pure_species",
+    "wine"
+  ],
+  "data_perturbation_decoupling_generators": [
+    "gbc_confidence_bound_control",
+    "gbc_multiclass_cleanroom",
+    "tree_kmeans_binary"
+  ],
+  "datasets": [
+    "a3_geometry_label_conflict_synthetic",
+    "breast_cancer",
+    "digits",
+    "dry_bean",
+    "htru2",
+    "internet_ads",
+    "micromass_pure_species",
+    "wine"
+  ],
+  "decoupling_cases": 27,
+  "generators": [
+    "gbc_confidence_bound_control",
+    "gbc_multiclass_cleanroom",
+    "tree_class_means_binary",
+    "tree_kmeans_binary"
+  ],
+  "overall_means": {
+    "accuracy_change": 0.029106881188611933,
+    "ari": 0.6960263019773095,
+    "nmi": 0.8198525804886067,
+    "prediction_agreement": 0.9002463490925029,
+    "vi": 0.8449953694033511
+  },
+  "predictive_stability_rank": [
+    "gbc_multiclass_cleanroom",
+    "gbc_confidence_bound_control",
+    "tree_class_means_binary",
+    "tree_kmeans_binary"
+  ],
+  "protocol": "structural_stability_cheap_test_v1",
+  "rankings_agree": false,
+  "rows": 1280,
+  "status": "STRUCTURAL_STABILITY_PAPER_TRACK",
+  "strongest_decoupling_case": {
+    "accuracy_change": 0.022,
+    "ari": 0.0,
+    "ball_count_original": 1,
+    "ball_count_perturbed": 5,
+    "dataset": "internet_ads",
+    "generator": "tree_kmeans_binary",
+    "nmi": 0.0,
+    "perturbation_strength": "0.05",
+    "perturbation_type": "label_flip",
+    "prediction_agreement": 0.978,
+    "seed": 2026,
+    "vi": 0.2251038499625544
+  },
+  "structural_stability_rank": [
+    "tree_class_means_binary",
+    "tree_kmeans_binary",
+    "gbc_multiclass_cleanroom",
+    "gbc_confidence_bound_control"
+  ]
+}
