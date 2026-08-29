@@ -14,7 +14,15 @@ class GranulationTree:
   if node.purity>=1 or len(idx)<=self.min_samples or depth>=self.max_depth:return node
   if self.split_method=='kmeans':labels=KMeans(2,random_state=self.random_state+depth,n_init='auto').fit_predict(self.X[idx])
   elif self.split_method=='class_means':
-   classes=np.unique(self.y[idx]);init=np.vstack([self.X[idx][self.y[idx]==c].mean(0) for c in classes]);labels=KMeans(2,init=init,n_init=1,random_state=self.random_state+depth).fit_predict(self.X[idx])
+   classes=np.unique(self.y[idx]);means=np.vstack([self.X[idx][self.y[idx]==c].mean(0) for c in classes])
+   # This tree is binary.  For multiclass nodes retain a deterministic
+   # class-informed two-center initialization rather than passing an invalid
+   # c-by-d array to KMeans(n_clusters=2).  Binary nodes preserve the prior
+   # exact two-class-means behavior.
+   if len(classes)>2:
+    distances=np.linalg.norm(means[:,None,:]-means[None,:,:],axis=2);left,right=np.unravel_index(np.argmax(distances),distances.shape);init=means[[left,right]]
+   else:init=means
+   labels=KMeans(2,init=init,n_init=1,random_state=self.random_state+depth).fit_predict(self.X[idx])
   else:raise ValueError(self.split_method)
   if len(np.unique(labels))<2:return node
   node.children=[self._grow(idx[labels==k],depth+1) for k in (0,1)];return node
