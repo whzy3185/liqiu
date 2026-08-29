@@ -1,0 +1,67 @@
+{
+  "decision_means": [
+    {
+      "accuracy_original": 0.720256,
+      "accuracy_perturbed": 0.670831,
+      "decision_accuracy_gain_original_vs_nearest": -0.066236,
+      "decision_accuracy_gain_perturbed_vs_nearest": -0.125095,
+      "decision_rule": "native_radius_aware",
+      "prediction_agreement": 0.708439
+    },
+    {
+      "accuracy_original": 0.786492,
+      "accuracy_perturbed": 0.795926,
+      "decision_accuracy_gain_original_vs_nearest": 0.0,
+      "decision_accuracy_gain_perturbed_vs_nearest": 0.0,
+      "decision_rule": "nearest_center",
+      "prediction_agreement": 0.898319
+    },
+    {
+      "accuracy_original": 0.720256,
+      "accuracy_perturbed": 0.670831,
+      "decision_accuracy_gain_original_vs_nearest": -0.066236,
+      "decision_accuracy_gain_perturbed_vs_nearest": -0.125095,
+      "decision_rule": "radius_aware_distance",
+      "prediction_agreement": 0.708439
+    },
+    {
+      "accuracy_original": 0.78693,
+      "accuracy_perturbed": 0.785751,
+      "decision_accuracy_gain_original_vs_nearest": 0.000438,
+      "decision_accuracy_gain_perturbed_vs_nearest": -0.010175,
+      "decision_rule": "three_center_inverse_distance_vote",
+      "prediction_agreement": 0.878845
+    }
+  ],
+  "native_equals_radius_aware": true,
+  "protocol": "structural_stability_component_attribution_v1",
+  "rank_means": [
+    {
+      "best_generator_retained": 0.35,
+      "decision_rule": "native_radius_aware",
+      "kendall_tau_vs_nearest": 0.298673,
+      "pairwise_rank_reversal_rate": 0.335
+    },
+    {
+      "best_generator_retained": 1.0,
+      "decision_rule": "nearest_center",
+      "kendall_tau_vs_nearest": 1.0,
+      "pairwise_rank_reversal_rate": 0.0
+    },
+    {
+      "best_generator_retained": 0.35,
+      "decision_rule": "radius_aware_distance",
+      "kendall_tau_vs_nearest": 0.298673,
+      "pairwise_rank_reversal_rate": 0.335
+    },
+    {
+      "best_generator_retained": 0.65,
+      "decision_rule": "three_center_inverse_distance_vote",
+      "kendall_tau_vs_nearest": 0.875868,
+      "pairwise_rank_reversal_rate": 0.043333
+    }
+  ],
+  "rows": 320,
+  "scenario_count": 4,
+  "status": "STRUCTURAL_STABILITY_COMPONENT_SENSITIVE"
+}
