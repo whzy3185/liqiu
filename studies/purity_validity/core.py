@@ -22,15 +22,25 @@ class GeometryNode:
     children: list["GeometryNode"] = field(default_factory=list)
 
 
-def _geometry_tree(x: np.ndarray, indices: np.ndarray, seed: int, depth: int = 0, max_depth: int = 12) -> GeometryNode:
+class XOnlyMaximalGranulationTree:
+    """Audited geometry-only hierarchy; labels are attached only after fitting."""
+    def __init__(self, min_leaf_support: int = 2, max_depth: int = 30, random_state: int = 1):
+        self.min_leaf_support, self.max_depth, self.random_state = min_leaf_support, max_depth, random_state
+    def fit(self, x: np.ndarray):
+        self.x_ = np.asarray(x, float)
+        self.root = _geometry_tree(self.x_, np.arange(len(self.x_)), self.random_state, max_depth=self.max_depth, min_leaf_support=self.min_leaf_support)
+        return self
+
+
+def _geometry_tree(x: np.ndarray, indices: np.ndarray, seed: int, depth: int = 0, max_depth: int = 30, min_leaf_support: int = 2) -> GeometryNode:
     values = x[indices]
     node = GeometryNode(indices, values.mean(axis=0), depth)
-    if len(indices) <= 2 or depth >= max_depth:
+    if len(indices) <= min_leaf_support or depth >= max_depth:
         return node
     assignment = KMeans(2, random_state=seed + depth, n_init="auto").fit_predict(values)
     if len(np.unique(assignment)) < 2:
         return node
-    node.children = [_geometry_tree(x, indices[assignment == part], seed, depth + 1, max_depth) for part in (0, 1)]
+    node.children = [_geometry_tree(x, indices[assignment == part], seed, depth + 1, max_depth, min_leaf_support) for part in (0, 1)]
     return node
 
 
@@ -92,7 +102,7 @@ def evaluate_tree(family: str, n: int, seed: int, oracle_n: int = 100000) -> lis
     x, y = sample_family(family, n, seed)
     oracle_x, oracle_y = sample_family(family, oracle_n, 100000 + seed)
     rows = []
-    tree = _geometry_tree(x, np.arange(len(y)), seed)
+    tree = XOnlyMaximalGranulationTree(random_state=seed).fit(x).root
     for tau in THRESHOLDS:
         leaves = _cut_geometry(tree, y, tau)
         oracle_route = _route_tree(tree, leaves, oracle_x)

@@ -1,0 +1,8 @@
+{
+  "protocol": "adaptive_purity_validity_cheap_test_v1_1",
+  "amendment_reason": "pre-outcome methodological validity correction; no complete Cheap Test result was accepted before this amendment",
+  "supersedes_for_execution": "purity_validity_protocol_v1",
+  "retained": {"families": ["null_label", "smooth_weak", "smooth_moderate", "piecewise"], "structure_sizes": [400, 1000], "seeds": [1, 7, 21, 42, 2026], "thresholds": [0.7, 0.8, 0.9, 0.95, 0.99, 1.0], "oracle_size": 100000},
+  "corrections": ["label-invariant X-only maximal hierarchy with min_leaf_support=2 and max_depth=30", "node depth and complete candidate-node table", "separate GBC construction-hierarchical and native-decision routing", "probability-based oracle reliability plus sampled-label sanity check", "independent A structure, B estimation, C oracle samples", "selected-versus-candidate and X-only control frontiers", "CART generic adaptive-leaf control"],
+  "pre_run_gate_required": ["x_only_label_invariance", "x_only_train_routing", "gbc_reproduction", "gbc_construction_self_routing", "probability_oracle_sanity", "abc_independence", "depth_populated", "candidate_table_complete"]
+}
