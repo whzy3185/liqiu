@@ -84,6 +84,18 @@ def exact_balanced_upper(n: int, m: int) -> int:
     return sum(min(2 ** depth, m) for depth in range(height))
 
 
+def _complete_mixed_count(height: int, mask: int) -> int:
+    """Count mixed internal ranges directly from a local marked-leaf bitmask."""
+    width = 2 ** height
+    full = (1 << width) - 1
+    if mask == 0 or mask == full or height == 0:
+        return 0
+    half = width // 2
+    low_mask = mask & ((1 << half) - 1)
+    high_mask = mask >> half
+    return 1 + _complete_mixed_count(height - 1, low_mask) + _complete_mixed_count(height - 1, high_mask)
+
+
 def verify_single_flip(max_leaves: int = 7) -> list[dict[str, object]]:
     failures = []
     for n in range(2, max_leaves + 1):
@@ -102,24 +114,18 @@ def verify_single_flip(max_leaves: int = 7) -> list[dict[str, object]]:
 def verify_balanced_max(max_height: int = 5) -> list[dict[str, object]]:
     failures = []
     for height in range(1, max_height + 1):
-        tree = complete_tree(height)
         n = 2 ** height
-        base = (0,) * n
         for m in range(1, n // 2 + 1):
             observed = -1
-            witnesses = []
+            witness = None
             for marked in combinations(range(n), m):
-                labels = list(base)
-                for index in marked:
-                    labels[index] = 1
-                value = ball_count(tree, tuple(labels), Fraction(1)) - 1
+                mask = sum(1 << index for index in marked)
+                value = _complete_mixed_count(height, mask)
                 if value > observed:
-                    observed, witnesses = value, [marked]
-                elif value == observed:
-                    witnesses.append(marked)
+                    observed, witness = value, marked
             expected = exact_balanced_upper(n, m)
             if observed != expected:
-                failures.append({"height": height, "n": n, "m": m, "expected_amplification": expected, "observed_amplification": observed, "witness": witnesses[0] if witnesses else None})
+                failures.append({"height": height, "n": n, "m": m, "expected_amplification": expected, "observed_amplification": observed, "witness": witness})
     return failures
 
 

@@ -1,0 +1,12 @@
+{
+  "balanced_max_failures": [],
+  "coverage": {
+    "all_binary_labellings_through_leaves": 7,
+    "complete_tree_through_leaves": 16,
+    "local_support_through": 32,
+    "ordered_full_binary_trees_through_leaves": 7
+  },
+  "frontier_identity_failures": [],
+  "local_budget_failures": [],
+  "single_flip_failures": []
+}
