@@ -20,6 +20,7 @@ class GeometryNode:
     center: np.ndarray
     depth: int
     children: list["GeometryNode"] = field(default_factory=list)
+    split_centers: np.ndarray | None = None
 
 
 class XOnlyMaximalGranulationTree:
@@ -37,9 +38,11 @@ def _geometry_tree(x: np.ndarray, indices: np.ndarray, seed: int, depth: int = 0
     node = GeometryNode(indices, values.mean(axis=0), depth)
     if len(indices) <= min_leaf_support or depth >= max_depth:
         return node
-    assignment = KMeans(2, random_state=seed + depth, n_init="auto").fit_predict(values)
+    model = KMeans(2, random_state=seed + depth, n_init="auto").fit(values)
+    assignment = model.labels_
     if len(np.unique(assignment)) < 2:
         return node
+    node.split_centers = model.cluster_centers_.copy()
     node.children = [_geometry_tree(x, indices[assignment == part], seed, depth + 1, max_depth, min_leaf_support) for part in (0, 1)]
     return node
 
@@ -82,7 +85,7 @@ def _route_tree(root: GeometryNode, leaves: list[GeometryNode], x: np.ndarray) -
         if id(node) in ids:
             output[positions] = ids[id(node)]
             return
-        distances = np.column_stack([np.linalg.norm(x[positions] - child.center, axis=1) for child in node.children])
+        distances = np.linalg.norm(x[positions, None, :] - node.split_centers[None, :, :], axis=2)
         choice = np.argmin(distances, axis=1)
         for child_id, child in enumerate(node.children):
             visit(child, positions[choice == child_id])
