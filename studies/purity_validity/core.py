@@ -81,8 +81,11 @@ def _route_tree(root: GeometryNode, leaves: list[GeometryNode], x: np.ndarray) -
 
 
 def _route_gbc(model, x: np.ndarray) -> tuple[np.ndarray, list]:
-    distances = model._boundary_distances(x)
-    return np.argmin(distances, axis=1), model.balls_
+    # Keep the frozen 100k oracle while bounding memory for fine frontiers.
+    routed = []
+    for start in range(0, len(x), 4096):
+        routed.append(np.argmin(model._boundary_distances(x[start:start + 4096]), axis=1))
+    return np.concatenate(routed), model.balls_
 
 
 def evaluate_tree(family: str, n: int, seed: int, oracle_n: int = 100000) -> list[dict[str, object]]:
