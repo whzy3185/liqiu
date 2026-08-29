@@ -1,0 +1,24 @@
+{
+  "protocol": "structural_stability_component_attribution_v1",
+  "frozen_at": "2026-08-29",
+  "entry_condition": "STRUCTURAL_STABILITY_PAPER_TRACK from structural_stability_cheap_test_v1",
+  "selection_rule": "Select whole perturbation seed grids, never individual favorable seeds. Internet Ads 5% label flip is the repeated strongest discovery condition; HTRU2 10% label flip, Dry Bean 1% label flip, and MicroMass 1% sample deletion are retained as near-boundary or contrasting conditions. Every listed seed and all four generators are included.",
+  "datasets_and_perturbations": [
+    {"dataset": "internet_ads", "perturbation_type": "label_flip", "strength": 0.05},
+    {"dataset": "htru2", "perturbation_type": "label_flip", "strength": 0.1},
+    {"dataset": "dry_bean", "perturbation_type": "label_flip", "strength": 0.01},
+    {"dataset": "micromass_pure_species", "perturbation_type": "sample_deletion", "strength": 0.01}
+  ],
+  "perturbation_seeds": [1, 7, 21, 42, 2026],
+  "generators": ["tree_kmeans_binary", "tree_class_means_binary", "gbc_multiclass_cleanroom", "gbc_confidence_bound_control"],
+  "structures": "Each original/perturbed representation is fitted once, with the primary v1 preprocessing and generator random state fixed at 1. Structures are then held fixed while decisions change.",
+  "decision_rules": [
+    "nearest_center",
+    "radius_aware_distance",
+    "three_center_inverse_distance_vote",
+    "native_radius_aware"
+  ],
+  "native_rule_scope": "For all v1 repository implementations the available native prediction is the radius-aware boundary-distance rule. Its equality to the common radius-aware rule is reported, not hidden.",
+  "metrics": ["prediction_agreement", "accuracy", "balanced_accuracy", "macro_f1", "Kendall_tau_generator_ranks", "pairwise_rank_reversal_rate", "best_generator_retention", "native_decision_gain"],
+  "restrictions": ["no new generator", "no new dataset", "no perturbation-level change", "no post-hoc removal of seeds", "no author-code claim"]
+}
