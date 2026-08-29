@@ -1,0 +1,43 @@
+{
+  "protocol": "structural_stability_cheap_test_v1",
+  "frozen_at": "2026-08-29",
+  "scope": "Compare granular representations after controlled minor training-data perturbations, separately from fixed-test predictive stability.",
+  "primary_decision_rule": "nearest_center",
+  "native_decision_rule": "saved but excluded from the primary v1 outcome",
+  "purity_threshold": 0.85,
+  "generators": [
+    "tree_kmeans_binary",
+    "tree_class_means_binary",
+    "gbc_multiclass_cleanroom",
+    "gbc_confidence_bound_control"
+  ],
+  "implementation_rule": "All four implementations are repository clean-room or internal controls; no result may be labelled author-code reproduction.",
+  "datasets": [
+    "breast_cancer",
+    "wine",
+    "digits",
+    "dry_bean",
+    "htru2",
+    "internet_ads",
+    "micromass_pure_species",
+    "a3_geometry_label_conflict_synthetic"
+  ],
+  "training_cap": 500,
+  "test_cap": 500,
+  "test_split": "fixed 25% stratified held-out split by dataset seed 2026",
+  "preprocessing": {
+    "sample_and_label": "median imputation and StandardScaler fit independently on each training variant; fixed test transformed with that variant's fitted transform",
+    "feature": "baseline training data standardized once; Gaussian noise is added only in that standardized feature space and the same fixed standardized test set is used"
+  },
+  "seed_perturbation": [1, 7, 21, 42, 2026],
+  "sample_deletion_fraction": [0.01, 0.05],
+  "label_flip_fraction": [0.01, 0.05, 0.1],
+  "feature_noise_sigma": [0.01, 0.05],
+  "perturbation_seeds": [1, 7, 21, 42, 2026],
+  "partition_metrics": ["adjusted_rand_index", "normalized_mutual_information", "variation_of_information"],
+  "structural_statistics": ["ball_count", "ball_count_ratio", "median_ball_size", "singleton_ratio", "radius_distribution_wasserstein", "purity_distribution_wasserstein", "mean_refinement_depth"],
+  "prediction_metrics": ["prediction_agreement", "accuracy", "balanced_accuracy", "macro_f1", "absolute_accuracy_change"],
+  "matching": "No center matching is used in v1; center/radius displacement is omitted rather than post-hoc matched.",
+  "go_signal": "material frequency of prediction_agreement >= 0.95 with ARI <= 0.70, or a stable ranking inversion between structural and predictive stability",
+  "kill_rule": "Do not increase perturbation severity, search datasets, or invent metrics if structure and prediction remain synchronously stable."
+}
