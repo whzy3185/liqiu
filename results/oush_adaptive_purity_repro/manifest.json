@@ -1,0 +1,23 @@
+{
+  "seeds": [
+    1,
+    7,
+    21
+  ],
+  "split": "60/20/20 structure/calibration/test",
+  "fixed_purity": 0.9,
+  "datasets": [
+    "iris",
+    "wine",
+    "breast_cancer",
+    "digits",
+    "dry_bean"
+  ],
+  "methods": [
+    "gb_fixed_p090",
+    "gb_adaptive_parameter_free",
+    "kmeans_matched_fixed_gb",
+    "cart_matched_leaf_count"
+  ],
+  "routing": "native terminal boundary distance for GB; native leaf routing for CART; nearest center for KMeans"
+}

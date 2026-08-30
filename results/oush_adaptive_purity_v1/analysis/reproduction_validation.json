@@ -1,0 +1,20 @@
+{
+  "verdict_first": {
+    "positive_adaptive_optimism_datasets": 5,
+    "high_purity_small_gap_ge_5pp_datasets": 3,
+    "adaptive_exceeds_cart_by_2pp_datasets": 0,
+    "all_real_datasets": 5,
+    "go_conditions_met": false,
+    "verdict": "KILL_OR_DOWNGRADE_GB_SPECIFIC_CLAIM"
+  },
+  "verdict_repro": {
+    "positive_adaptive_optimism_datasets": 5,
+    "high_purity_small_gap_ge_5pp_datasets": 3,
+    "adaptive_exceeds_cart_by_2pp_datasets": 0,
+    "all_real_datasets": 5,
+    "go_conditions_met": false,
+    "verdict": "KILL_OR_DOWNGRADE_GB_SPECIFIC_CLAIM"
+  },
+  "adaptive_vs_cart_byte_identical": true,
+  "verification_status": "VERIFIED"
+}
